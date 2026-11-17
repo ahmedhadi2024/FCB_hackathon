@@ -1,0 +1,95 @@
+{
+  "all_scenario_mean_spellF1": {
+    "10/10": 0.6344213267056252,
+    "10/30": 0.6340952454382798,
+    "10/5": 0.6334455197949757,
+    "10/60": 0.6338569254716326,
+    "20/10": 0.6220282263585063,
+    "20/30": 0.6214594978405302,
+    "20/5": 0.6243276012096235,
+    "20/60": 0.6210645995684663,
+    "5/10": 0.6412995290155926,
+    "5/30": 0.6410389028492659,
+    "5/5": 0.6403877835949678,
+    "5/60": 0.6408268217650983
+  },
+  "caveat": "v2 trained or was selected on every match except the comparator matches, so only those are a fair paired comparison. Costs were chosen on the same CV cells, which is mildly optimistic. External provider labels; no competition score is implied.",
+  "config_sha256": "4af708d55f52b92481c761a03dffccdb8dc7853a847e2cc6f8749351778d8205",
+  "promote": true,
+  "runtime": {
+    "numpy": "2.4.4",
+    "python": "3.14.2",
+    "torch": "2.11.0+cpu"
+  },
+  "selected_at_grid_edge": {
+    "dead_live_at_grid_maximum": false,
+    "dead_live_at_grid_minimum": false,
+    "owner_at_grid_maximum": false,
+    "owner_at_grid_minimum": true
+  },
+  "selected_costs": [
+    5.0,
+    10.0
+  ],
+  "selection_mean_spellF1": {
+    "10/10": 0.6103432275870656,
+    "10/30": 0.6099504833559363,
+    "10/5": 0.6092976535908861,
+    "10/60": 0.6097814035336123,
+    "20/10": 0.5970574779474996,
+    "20/30": 0.59637510195419,
+    "20/5": 0.5998091198093303,
+    "20/60": 0.5960222749167745,
+    "5/10": 0.6172353038567933,
+    "5/30": 0.6169189776038968,
+    "5/5": 0.6162637033481334,
+    "5/60": 0.6167765381058169
+  },
+  "source_sha256": {
+    "__init__.py": "c254f549383ba9ed74abb88817a3bc3f2739f317a979335dff316c430f1aa819",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "atd.py": "1421c1d469039efeba6403a5469eaeb87cfd3a390bf40d14b4b0d612b24cbcfb",
+    "baseline.py": "de9cdeaccdbfd38e911540f25f524544fa1f1b1e5463d6be374a841f96b37abd",
+    "bounded_experiment.py": "6873f2c469460efeee7db87c06d41c7633ed006a4cbf444e946896a4f87237d0",
+    "cli.py": "2913f67f35c8c3c919f15052bc17accfb28f08d8385141bc2a3c5779f01e6664",
+    "decoder_experiment.py": "4c877f63683af699db1f4f63c44e2b1ee13604ac7234b2714030cb22d79af038",
+    "diagnostics.py": "e6157943cd9d1f555a21b3d1c7ebdd913b90f3087674bacfa968372d079f99b1",
+    "error_analysis.py": "d91e38123a71c2f44e728b2f50ca6434529871556d1f47bebed7dad1e80d4c29",
+    "experiment.py": "483763d58e607e88a1ed6169037bf87f6876c23cf59a6bed92ca8463ca20ca71",
+    "feature_recovery_experiment.py": "cc46a5acdf705cbd6155f91460452358a1cc76c5cdba237ee184ac2e111ada48",
+    "features.py": "6b725491fdc451be7004b83614439933db7914f3ba8dc66d2231a93a9eb8da50",
+    "final_evaluation.py": "424837d930f16d92edcc37ae0adb942aa6ba1ac5a53e2c400f4950d1a6ae4d94",
+    "gap_evidence.py": "547227c2f53b982c5897fa53b27517715aeff0653ed3d66e9a773de94f0c9d3b",
+    "idsse.py": "b22217f91768829ff2e02d3281309de864a6bb32c18737b957c576c3090956b1",
+    "metrica_sample.py": "b4f2323cae68fc519735ef4d3aaa2faa651544a9b8df43c74a4b93c193ee6899",
+    "metrics.py": "850913ade36a8fccd0954a321f2f105ad9663e8e555bbe825f9817ab659feda0",
+    "model.py": "8031c0aa816d724d969473f9ccac93b2b310c42d8848e79906ab5bb8848a5802",
+    "possession_convention.py": "1bfb7e9db64e4700a8b7217c17cf20499acfe10ca81d056d92e08f004ae9b85e",
+    "possession_duration.py": "540f942cd2fbbb78a92ab5aba47c5ac621ea48cf285b93b57a5492f412f6619d",
+    "retrain_v4.py": "1b35e4aa2cfc1caffa591812ddab28d1fc65575bfcc83532c9b80f70597b4ff2",
+    "robustness.py": "74761107a2a11481d650eeb5f90ad773518b38c48db51313c915257c9fb13484",
+    "schema.py": "6392e9f9cf5d49388471cfa759fb16a81380d1d8ef6e6733ffb4d36fbdd86048",
+    "smart_tagging.py": "cc61fc1103471e628fc808f0ad5c00b938563b6c607dfe5685ca9c0eeed44c84",
+    "state_decoder.py": "78fb61531b16a84fcaba96dab586ba831310f2cdcd45dbfde2edec6a3095c314",
+    "submission.py": "e2d8098d3bf70ed668c2265fcca54a9d31a471f45f5d01ff58c0b0e84a6b308c",
+    "team_features.py": "2584cca64302507efc0bbdd3c4cda6d01aed7503b157a28830731841d60bb059",
+    "team_features_v3.py": "9a0d0ad40ac8a6db4ebc1fcfd469dd8eebee67841a920569d6bd9203eb450204",
+    "team_features_v4.py": "2e16e3441ee668f1a2bdb3082b1253ea00d6dc631d7b4c4bf6f394e14fe0c87e",
+    "team_features_v6.py": "8f1be4474f1871a6fcb3fce5db2ef43ecebcf674ebc56189a691ce6e00f1d2fc",
+    "temporal.py": "33454abf6a7b16dcd23c38bab38f20f1dfeadeaa262d7e8414b2ff0115cdcadd",
+    "temporal_experiment.py": "ea0edc6c7fc4363138cdd854f59f480ce68c3bf85f8a1fe0e59de287c722f3b7",
+    "xmlio.py": "095932aaef702e84c279ee3a0b558d8f53934872dd83907bc85b6e932fc1029e"
+  },
+  "unseen_clean_delta_vs_v2": 0.2254257632804208,
+  "unseen_match_selection_scores": {
+    "J03WN1": {
+      "v2": 0.36248187237083795,
+      "v4": 0.5584926877676196
+    },
+    "J03WR9": {
+      "v2": 0.40566460920327685,
+      "v4": 0.6517712703693814
+    }
+  },
+  "unseen_mean_gain_vs_v2": 0.22105873828144312
+}

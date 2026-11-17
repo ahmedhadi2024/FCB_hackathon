@@ -1,0 +1,201 @@
+{
+  "version": 5,
+  "output_name": "temporal_v5",
+  "purpose": "v4 features and budget, with external targets and predictions rewritten to the published controlled-possession rule, plus a kickoff dead-ball rule at export.",
+  "matches": [
+    "J03WMX",
+    "J03WOH",
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ",
+    "J03WN1",
+    "J03WR9"
+  ],
+  "match_policy": "J03WN1/J03WR9 were consumed as final tests for v2 and are development data here. No untouched external test remains.",
+  "folds": [
+    {
+      "name": "A",
+      "seed": 5101,
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ"
+      ],
+      "validation": [
+        "J03WN1",
+        "J03WR9"
+      ]
+    },
+    {
+      "name": "B",
+      "seed": 5102,
+      "train": [
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ",
+        "J03WN1",
+        "J03WR9"
+      ],
+      "validation": [
+        "J03WMX",
+        "J03WOH"
+      ]
+    },
+    {
+      "name": "C",
+      "seed": 5103,
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WQQ",
+        "J03WN1",
+        "J03WR9"
+      ],
+      "validation": [
+        "J03WOY",
+        "J03WPY"
+      ]
+    },
+    {
+      "name": "D",
+      "seed": 5104,
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY",
+        "J03WN1",
+        "J03WR9"
+      ],
+      "validation": [
+        "J03WQQ"
+      ]
+    }
+  ],
+  "final_refit_seed": 5105,
+  "network": {
+    "channels": 64,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "kernel_size": 3
+  },
+  "training": {
+    "epochs": 40,
+    "steps_per_epoch": 400,
+    "batch_size": 16,
+    "core_frames": 256,
+    "learning_rate": 0.002,
+    "final_lr_fraction": 0.05,
+    "weight_decay": 0.001,
+    "gradient_clip": 1.0,
+    "scaling_sample_frames_per_condition": 10000,
+    "cpu_threads": 4,
+    "team_exchange_probability": 0.5
+  },
+  "scenarios": [
+    {
+      "name": "clean"
+    },
+    {
+      "name": "short_occlusion",
+      "ball_gap_frames": 25,
+      "ball_gap_period_frames": 250
+    },
+    {
+      "name": "irregular40",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375
+    },
+    {
+      "name": "irregular60",
+      "missing_fraction": 0.6,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375
+    },
+    {
+      "name": "crowded40",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 125,
+      "crowd_weight": 9,
+      "crowd_radius_m": 10,
+      "crowd_min_players": 4
+    },
+    {
+      "name": "mixed_stress",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375,
+      "duplicate_fraction": 0.25,
+      "player_drop_probability": 0.1,
+      "coordinate_noise_std_m": 0.5
+    }
+  ],
+  "seed_policy": "Corruption seeds are derived per role/fold/match/scenario, so training and validation masks never share a seed.",
+  "training_scenarios": [
+    "clean",
+    "short_occlusion",
+    "irregular40",
+    "irregular60",
+    "crowded40",
+    "mixed_stress"
+  ],
+  "evaluation_scenarios": [
+    "clean",
+    "irregular40",
+    "irregular60",
+    "crowded40",
+    "mixed_stress"
+  ],
+  "selection_scenarios": [
+    "irregular40",
+    "crowded40",
+    "mixed_stress"
+  ],
+  "selection_reason": "Organiser documentation states the ball is absent on 41% of graded frames; selection therefore uses the ~40%-missing scenarios rather than the clean ones.",
+  "decoder_grid": {
+    "owner": [
+      2,
+      5,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "dead_live": [
+      10,
+      20,
+      30,
+      40,
+      60
+    ]
+  },
+  "comparator": {
+    "model": "models/temporal_v2.pt",
+    "model_sha256": "85f2006b010672063758259d367428f8e4a73706251e8842ac0f993f0b7782d7",
+    "unseen_matches": [
+      "J03WN1",
+      "J03WR9"
+    ],
+    "minimum_mean_gain": 0.02,
+    "maximum_clean_loss": 0.02
+  },
+  "submission_template": "submission_selected.json",
+  "competition_policy": "No competition data, public answers or competition feedback are read by this experiment.",
+  "controlled_possession": {
+    "min_frames": 50,
+    "reason": "CHALLENGE.md: possession changes only on controlled possession; a touch, deflection or aerial duel without control is not a change, and a loose ball stays with the last team. Its proxy is a player keeping the ball for a few seconds; 50 frames is 2 s at 25 fps. Chosen from the rule text, not from any competition answer."
+  },
+  "kickoff_dead_rule": true
+}

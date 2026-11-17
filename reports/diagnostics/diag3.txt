@@ -1,0 +1,21 @@
+hidden share 0.410
+rep 0 recovered 0%: spellF1 0.7186   with perfect boundaries 0.9378
+rep 0 recovered 30%: spellF1 0.7128   with perfect boundaries 0.9315
+rep 0 recovered 50%: spellF1 0.7281   with perfect boundaries 0.9292
+rep 0 recovered 100%: spellF1 0.7134   with perfect boundaries 0.9388
+hidden share 0.410
+rep 1 recovered 0%: spellF1 0.7175   with perfect boundaries 0.9430
+rep 1 recovered 30%: spellF1 0.7128   with perfect boundaries 0.9311
+rep 1 recovered 50%: spellF1 0.7113   with perfect boundaries 0.9355
+rep 1 recovered 100%: spellF1 0.7690   with perfect boundaries 0.9327
+hidden share 0.410
+rep 2 recovered 0%: spellF1 0.7068   with perfect boundaries 0.9375
+rep 2 recovered 30%: spellF1 0.6823   with perfect boundaries 0.9317
+rep 2 recovered 50%: spellF1 0.6986   with perfect boundaries 0.9269
+rep 2 recovered 100%: spellF1 0.7317   with perfect boundaries 0.9304
+
+mean over 3 masks
+recovered   0%: spellF1 0.7143   perfect-boundary ceiling 0.9394
+recovered  30%: spellF1 0.7026   perfect-boundary ceiling 0.9314
+recovered  50%: spellF1 0.7127   perfect-boundary ceiling 0.9305
+recovered 100%: spellF1 0.7380   perfect-boundary ceiling 0.9340

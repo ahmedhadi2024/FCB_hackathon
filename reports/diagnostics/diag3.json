@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "boundary_ceiling": 0.937844611528822,
+      "recovered_share": 0,
+      "rep": 0,
+      "spellF1": 0.7185595567867036
+    },
+    {
+      "boundary_ceiling": 0.9315403422982884,
+      "recovered_share": 0.3,
+      "rep": 0,
+      "spellF1": 0.7128205128205128
+    },
+    {
+      "boundary_ceiling": 0.9291566265060242,
+      "recovered_share": 0.5,
+      "rep": 0,
+      "spellF1": 0.7280898876404494
+    },
+    {
+      "boundary_ceiling": 0.938755980861244,
+      "recovered_share": 1.0,
+      "rep": 0,
+      "spellF1": 0.713422007255139
+    },
+    {
+      "boundary_ceiling": 0.942997542997543,
+      "recovered_share": 0,
+      "rep": 1,
+      "spellF1": 0.7175487465181059
+    },
+    {
+      "boundary_ceiling": 0.9310679611650485,
+      "recovered_share": 0.3,
+      "rep": 1,
+      "spellF1": 0.712793733681462
+    },
+    {
+      "boundary_ceiling": 0.9354523227383863,
+      "recovered_share": 0.5,
+      "rep": 1,
+      "spellF1": 0.7112781954887218
+    },
+    {
+      "boundary_ceiling": 0.9326923076923077,
+      "recovered_share": 1.0,
+      "rep": 1,
+      "spellF1": 0.7690036900369004
+    },
+    {
+      "boundary_ceiling": 0.9375,
+      "recovered_share": 0,
+      "rep": 2,
+      "spellF1": 0.7067625899280576
+    },
+    {
+      "boundary_ceiling": 0.9317073170731709,
+      "recovered_share": 0.3,
+      "rep": 2,
+      "spellF1": 0.6822601839684627
+    },
+    {
+      "boundary_ceiling": 0.9268765133171912,
+      "recovered_share": 0.5,
+      "rep": 2,
+      "spellF1": 0.6985842985842986
+    },
+    {
+      "boundary_ceiling": 0.9304136253041364,
+      "recovered_share": 1.0,
+      "rep": 2,
+      "spellF1": 0.7316582914572866
+    }
+  ]
+}

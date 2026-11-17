@@ -1,0 +1,272 @@
+{
+  "network": {
+    "channels": 32,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "kernel_size": 3
+  },
+  "training": {
+    "epochs": 8,
+    "steps_per_epoch": 128,
+    "batch_size": 8,
+    "core_frames": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.001,
+    "gradient_clip": 1.0,
+    "scaling_sample_frames_per_condition": 10000,
+    "cpu_threads": 4,
+    "team_exchange_probability": 0.5
+  },
+  "scenarios": [
+    {
+      "name": "clean",
+      "seed": 100
+    },
+    {
+      "name": "short_occlusion",
+      "seed": 101,
+      "ball_gap_frames": 25,
+      "ball_gap_period_frames": 250
+    },
+    {
+      "name": "long_occlusion",
+      "seed": 102,
+      "ball_gap_frames": 125,
+      "ball_gap_period_frames": 500
+    },
+    {
+      "name": "mixed_noise",
+      "seed": 103,
+      "ball_gap_frames": 50,
+      "ball_gap_period_frames": 250,
+      "player_drop_probability": 0.1,
+      "coordinate_noise_std_m": 0.5,
+      "permute_slots_within_team": true
+    },
+    {
+      "name": "irregular40",
+      "seed": 201,
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375
+    },
+    {
+      "name": "irregular60",
+      "seed": 202,
+      "missing_fraction": 0.6,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375
+    },
+    {
+      "name": "crowded40",
+      "seed": 203,
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 125,
+      "crowd_weight": 9,
+      "crowd_radius_m": 10,
+      "crowd_min_players": 4
+    },
+    {
+      "name": "duplicates",
+      "seed": 204,
+      "duplicate_fraction": 0.25
+    },
+    {
+      "name": "mixed_stress",
+      "seed": 205,
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375,
+      "duplicate_fraction": 0.25,
+      "player_drop_probability": 0.1,
+      "coordinate_noise_std_m": 0.5
+    }
+  ],
+  "primary": [
+    "clean",
+    "short_occlusion",
+    "long_occlusion",
+    "mixed_noise"
+  ],
+  "matches": [
+    "J03WMX",
+    "J03WOH",
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ"
+  ],
+  "folds": [
+    {
+      "name": "A",
+      "train": [
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ"
+      ],
+      "validation": [
+        "J03WMX",
+        "J03WOH"
+      ],
+      "seed": 1701
+    },
+    {
+      "name": "B",
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WQQ"
+      ],
+      "validation": [
+        "J03WOY",
+        "J03WPY"
+      ],
+      "seed": 1702
+    },
+    {
+      "name": "C",
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY"
+      ],
+      "validation": [
+        "J03WQQ"
+      ],
+      "seed": 1703
+    }
+  ],
+  "penalty": 10,
+  "status": "development comparison; old final matches excluded",
+  "final_refit_seed": 1704,
+  "previous_protocol_sha256": "562e8ef16f9dfaa2bfa739b56f8627aed3f1fbf074cb02faae71d060723e2e00",
+  "extra_evaluation_seeds": [
+    {
+      "base": "irregular40",
+      "seed": 301,
+      "name": "irregular40_seed301"
+    },
+    {
+      "base": "irregular40",
+      "seed": 302,
+      "name": "irregular40_seed302"
+    },
+    {
+      "base": "irregular60",
+      "seed": 303,
+      "name": "irregular60_seed303"
+    },
+    {
+      "base": "mixed_stress",
+      "seed": 304,
+      "name": "mixed_stress_seed304"
+    }
+  ],
+  "audit_scenarios": [
+    "false_stationary_ball",
+    "ball_offset_3m",
+    "home_extra_tracks",
+    "home_visibility_loss",
+    "no_ball_first_period"
+  ],
+  "evaluation_order": [
+    "clean",
+    "short_occlusion",
+    "long_occlusion",
+    "mixed_noise",
+    "irregular40",
+    "irregular60",
+    "crowded40",
+    "duplicates",
+    "mixed_stress",
+    "false_stationary_ball",
+    "ball_offset_3m",
+    "home_extra_tracks",
+    "home_visibility_loss",
+    "no_ball_first_period",
+    "irregular40_seed301",
+    "irregular40_seed302",
+    "irregular60_seed303",
+    "mixed_stress_seed304"
+  ],
+  "missing_ball_family": [
+    "irregular40",
+    "irregular60",
+    "no_ball_first_period",
+    "irregular40_seed301",
+    "irregular40_seed302",
+    "irregular60_seed303"
+  ],
+  "stress_families": {
+    "clean": [
+      "clean"
+    ],
+    "short_occlusion": [
+      "short_occlusion"
+    ],
+    "long_occlusion": [
+      "long_occlusion"
+    ],
+    "mixed_noise": [
+      "mixed_noise"
+    ],
+    "irregular40": [
+      "irregular40"
+    ],
+    "irregular60": [
+      "irregular60"
+    ],
+    "crowded40": [
+      "crowded40"
+    ],
+    "duplicates": [
+      "duplicates"
+    ],
+    "mixed_stress": [
+      "mixed_stress"
+    ],
+    "false_stationary_ball": [
+      "false_stationary_ball"
+    ],
+    "ball_offset_3m": [
+      "ball_offset_3m"
+    ],
+    "home_extra_tracks": [
+      "home_extra_tracks"
+    ],
+    "home_visibility_loss": [
+      "home_visibility_loss"
+    ],
+    "no_ball_first_period": [
+      "no_ball_first_period"
+    ],
+    "irregular40_seed301": [
+      "irregular40_seed301"
+    ],
+    "irregular40_seed302": [
+      "irregular40_seed302"
+    ],
+    "irregular60_seed303": [
+      "irregular60_seed303"
+    ],
+    "mixed_stress_seed304": [
+      "mixed_stress_seed304"
+    ]
+  },
+  "gates": {
+    "minimum_mean_gain": 0.01,
+    "minimum_improved_matches": 4,
+    "maximum_match_loss": 0.02,
+    "maximum_family_loss": 0.02,
+    "maximum_cell_loss": 0.05,
+    "minimum_missing_improved_matches": 4
+  },
+  "aggregation": "Equal match weight; primary and family scenarios averaged within match; strict positive improvements, unrounded deltas"
+}

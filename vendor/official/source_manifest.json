@@ -1,0 +1,9 @@
+{
+  "origin": "https://github.com/metrica-sports/more-than-a-hack-2027",
+  "files": {
+    "evaluation/possession_metrics.py": "341bad48904b489d6e875397b27687f5d6a4d22a397f3dc8af3a00d48f16874d",
+    "starter/baseline.py": "84d8a414fb1bdf8c7e1fbe4a8789fe6f9cc0c2cccec4685201285b75dbc0cfe6",
+    "games.py": "3b2122794e9e0476e2b3a871d14880e5fa47c4feaeacf99caef054c2309076ce",
+    "LICENSE": "b1f93728571a232a0e158abdd869891f2efd51894134fb20678292c2468ff3ec"
+  }
+}

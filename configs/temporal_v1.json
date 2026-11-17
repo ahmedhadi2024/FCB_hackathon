@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "split_protocol": "experiment_v1.json",
+  "seed": 20261108,
+  "features": "symmetric_live_dead_v1_plus_team_nearest3_and_counts_v1",
+  "network": {"channels": 32, "dilations": [1, 2, 4, 8, 16, 32], "kernel_size": 3},
+  "training": {"epochs": 8, "steps_per_epoch": 128, "batch_size": 8,
+               "core_frames": 256, "learning_rate": 0.001, "weight_decay": 0.001,
+               "gradient_clip": 1.0, "scaling_sample_frames_per_condition": 10000,
+               "cpu_threads": 4, "team_exchange_probability": 0.5},
+  "selection": {"metric": "mean_spellF1_across_four_predefined_validation_conditions",
+                "checkpoints": "final_epoch_only", "transition_penalties": [0, 2, 5, 10],
+                "tie_break": "clean_spellF1_then_lower_transition_penalty",
+                "promotion": "mean_spellF1_exceeds_pilot_and_no_condition_regresses_by_more_than_0.02"},
+  "inference_chunk_frames": 4096,
+  "test_policy": "No sealed-test acquisition, transformation or evaluation",
+  "competition_policy": "No competition-based training, tuning, feedback or model selection"
+}

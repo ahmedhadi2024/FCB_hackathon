@@ -1,0 +1,28 @@
+{
+  "active_blocks": [
+    [
+      1,
+      11185,
+      90651
+    ],
+    [
+      2,
+      110808,
+      190197
+    ]
+  ],
+  "kickoff_dead_rule": true,
+  "match_id": "BAR-ATH",
+  "metadata_team_policy": "epts_first_team_is_home",
+  "min_controlled_frames": 25,
+  "model": "../models/temporal_v7.pt",
+  "model_kind": "pytorch_temporal_conv_v4",
+  "model_sha256": "30c905fd7f5dadcb99629a06e8cb3eeb5b778e27f0222958d53cb3bc34068292",
+  "n_frames": 199319,
+  "pitch_m": [
+    105.3,
+    68.0
+  ],
+  "source": "tactical",
+  "stem": "BAR-ATH_tactical"
+}

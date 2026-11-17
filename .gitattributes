@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.pt -text
+*.npy -text
+*.zip -text
+models/*.json text eol=crlf
+vendor/official/** -text

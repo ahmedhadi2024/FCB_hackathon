@@ -1,0 +1,2742 @@
+{
+  "clean": {
+    "away_centre_x": {
+      "external_mean": 0.029749486595392227,
+      "external_p90": 0.3248800039291382,
+      "ks": 0.053781020775519384,
+      "target_mean": -0.0025085629895329475,
+      "target_p90": 0.27737200260162354
+    },
+    "away_centre_y": {
+      "external_mean": -0.011950765736401081,
+      "external_p90": 0.1592646986246109,
+      "ks": 0.08656162279056978,
+      "target_mean": -0.03696754574775696,
+      "target_p90": 0.11579149961471558
+    },
+    "away_distance_1": {
+      "external_mean": 0.7183891534805298,
+      "external_p90": 1.5449401140213013,
+      "ks": 0.40212498812470315,
+      "target_mean": 0.3655385673046112,
+      "target_p90": 1.0248756408691406
+    },
+    "away_distance_1_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.4026,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_2": {
+      "external_mean": 1.3347816467285156,
+      "external_p90": 2.387829065322876,
+      "ks": 0.4026,
+      "target_mean": 0.715300440788269,
+      "target_p90": 1.670594573020935
+    },
+    "away_distance_2_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.4026,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_3": {
+      "external_mean": 1.7127379179000854,
+      "external_p90": 2.882770538330078,
+      "ks": 0.402975,
+      "target_mean": 0.9513546824455261,
+      "target_p90": 2.142385721206665
+    },
+    "away_distance_3_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.402925,
+      "target_mean": 0.5970749855041504,
+      "target_p90": 1.0
+    },
+    "away_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.006075,
+      "target_mean": 0.9939249753952026,
+      "target_p90": 1.0
+    },
+    "away_motion_valid": {
+      "external_mean": 0.9999499917030334,
+      "external_p90": 1.0,
+      "ks": 0.006274998749968749,
+      "target_mean": 0.9936749935150146,
+      "target_p90": 1.0
+    },
+    "away_next_distance_1": {
+      "external_mean": 0.7183891534805298,
+      "external_p90": 1.5449401140213013,
+      "ks": 0.08866936548413709,
+      "target_mean": 0.7763090133666992,
+      "target_p90": 1.5798531770706177
+    },
+    "away_next_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.00325,
+      "target_mean": 0.996749997138977,
+      "target_p90": 1.0
+    },
+    "away_observed_players": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.344275,
+      "target_mean": 0.9346954822540283,
+      "target_p90": 1.0
+    },
+    "away_pace_median": {
+      "external_mean": 0.32729002833366394,
+      "external_p90": 0.6163398027420044,
+      "ks": 0.06128742093552342,
+      "target_mean": 0.3097434937953949,
+      "target_p90": 0.6294110417366028
+    },
+    "away_pace_valid": {
+      "external_mean": 0.9996249675750732,
+      "external_p90": 1.0,
+      "ks": 0.007199990624765619,
+      "target_mean": 0.9924250245094299,
+      "target_p90": 1.0
+    },
+    "away_prev_distance_1": {
+      "external_mean": 0.7183891534805298,
+      "external_p90": 1.5449401140213013,
+      "ks": 0.09999220168004197,
+      "target_mean": 0.6497035026550293,
+      "target_p90": 1.4230964183807373
+    },
+    "away_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 5e-05,
+      "target_mean": 0.9999499917030334,
+      "target_p90": 1.0
+    },
+    "away_speed": {
+      "external_mean": 0.18750187754631042,
+      "external_p90": 0.3847077488899231,
+      "ks": 0.05116653103827595,
+      "target_mean": 0.21156024932861328,
+      "target_p90": 0.40959659218788147
+    },
+    "away_spread": {
+      "external_mean": 0.12650634348392487,
+      "external_p90": 0.17330068349838257,
+      "ks": 0.13511298719967996,
+      "target_mean": 0.11330509930849075,
+      "target_p90": 0.15919411182403564
+    },
+    "away_within_10m": {
+      "external_mean": 0.39425987005233765,
+      "external_p90": 0.75,
+      "ks": 0.2883945048626215,
+      "target_mean": 0.2437250018119812,
+      "target_p90": 0.75
+    },
+    "away_within_2m": {
+      "external_mean": 0.06383909285068512,
+      "external_p90": 0.25,
+      "ks": 0.10230614890372258,
+      "target_mean": 0.037056248635053635,
+      "target_p90": 0.25
+    },
+    "away_within_5m": {
+      "external_mean": 0.16154779493808746,
+      "external_p90": 0.5,
+      "ks": 0.19413775281882045,
+      "target_mean": 0.10025624930858612,
+      "target_p90": 0.25
+    },
+    "ball_abs_x": {
+      "external_mean": 0.5164310336112976,
+      "external_p90": 1.0152000188827515,
+      "ks": 0.4036748987474687,
+      "target_mean": 0.25179752707481384,
+      "target_p90": 0.7325699925422668
+    },
+    "ball_abs_y": {
+      "external_mean": 0.5069597959518433,
+      "external_p90": 1.0029411315917969,
+      "ks": 0.40342490937273434,
+      "target_mean": 0.3009427785873413,
+      "target_p90": 0.8472559452056885
+    },
+    "ball_accel": {
+      "external_mean": 0.0767941027879715,
+      "external_p90": 0.18320727348327637,
+      "ks": 0.09991664729118233,
+      "target_mean": 0.04889194294810295,
+      "target_p90": 0.14404809474945068
+    },
+    "ball_filled": {
+      "external_mean": 0.0,
+      "external_p90": 0.0,
+      "ks": 0.00039999999999995595,
+      "target_mean": 0.00039999998989515007,
+      "target_p90": 0.0
+    },
+    "ball_observed": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.4026,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "ball_raw_observed": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.403,
+      "target_mean": 0.597000002861023,
+      "target_p90": 1.0
+    },
+    "ball_seen_1s": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.444575,
+      "target_mean": 0.5976418852806091,
+      "target_p90": 1.0
+    },
+    "ball_seen_5s": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.5741,
+      "target_mean": 0.5956330299377441,
+      "target_p90": 1.0
+    },
+    "ball_speed_mean_1s": {
+      "external_mean": 0.22127877175807953,
+      "external_p90": 0.5998363494873047,
+      "ks": 0.0629099564989124,
+      "target_mean": 0.199785053730011,
+      "target_p90": 0.561654269695282
+    },
+    "distance_to_boundary": {
+      "external_mean": 1.0343778133392334,
+      "external_p90": 2.5290000438690186,
+      "ks": 0.23525653766344157,
+      "target_mean": 0.8267824053764343,
+      "target_p90": 2.457322835922241
+    },
+    "farther_team_distance": {
+      "external_mean": 1.011011004447937,
+      "external_p90": 2.01214861869812,
+      "ks": 0.4039,
+      "target_mean": 0.49546322226524353,
+      "target_p90": 1.241925597190857
+    },
+    "gap_length": {
+      "external_mean": 0.0,
+      "external_p90": 0.0,
+      "ks": 0.40259999999999996,
+      "target_mean": 0.3872469961643219,
+      "target_p90": 1.0
+    },
+    "gap_since": {
+      "external_mean": 0.0,
+      "external_p90": 0.0,
+      "ks": 0.40259999999999996,
+      "target_mean": 0.30399569869041443,
+      "target_p90": 1.0
+    },
+    "gap_until": {
+      "external_mean": 0.0,
+      "external_p90": 0.0,
+      "ks": 0.40259999999999996,
+      "target_mean": 0.3054569959640503,
+      "target_p90": 1.0
+    },
+    "home_centre_x": {
+      "external_mean": 0.03174971416592598,
+      "external_p90": 0.30644723773002625,
+      "ks": 0.08948910285257133,
+      "target_mean": 3.4983158911927603e-06,
+      "target_p90": 0.2733110189437866
+    },
+    "home_centre_y": {
+      "external_mean": -0.01822916604578495,
+      "external_p90": 0.15426470339298248,
+      "ks": 0.08336168529213228,
+      "target_mean": -0.028546826913952827,
+      "target_p90": 0.11553999781608582
+    },
+    "home_distance_1": {
+      "external_mean": 0.664372444152832,
+      "external_p90": 1.4513421058654785,
+      "ks": 0.40259996749918747,
+      "target_mean": 0.31612470746040344,
+      "target_p90": 0.9113419055938721
+    },
+    "home_distance_1_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.4039,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_2": {
+      "external_mean": 1.3131853342056274,
+      "external_p90": 2.383791923522949,
+      "ks": 0.4039,
+      "target_mean": 0.6906847953796387,
+      "target_p90": 1.6238691806793213
+    },
+    "home_distance_2_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.4039,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_3": {
+      "external_mean": 1.7096731662750244,
+      "external_p90": 2.873004913330078,
+      "ks": 0.4039,
+      "target_mean": 0.9269222617149353,
+      "target_p90": 2.0943243503570557
+    },
+    "home_distance_3_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.4039,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.008825,
+      "target_mean": 0.9911749958992004,
+      "target_p90": 1.0
+    },
+    "home_motion_valid": {
+      "external_mean": 0.9999499917030334,
+      "external_p90": 1.0,
+      "ks": 0.00907499874996875,
+      "target_mean": 0.9908750057220459,
+      "target_p90": 1.0
+    },
+    "home_next_distance_1": {
+      "external_mean": 0.664372444152832,
+      "external_p90": 1.4513421058654785,
+      "ks": 0.05151529850746267,
+      "target_mean": 0.6780943274497986,
+      "target_p90": 1.6934633255004883
+    },
+    "home_next_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.0094,
+      "target_mean": 0.9905999898910522,
+      "target_p90": 1.0
+    },
+    "home_observed_players": {
+      "external_mean": 1.0000022649765015,
+      "external_p90": 1.0,
+      "ks": 0.37345,
+      "target_mean": 0.9281545877456665,
+      "target_p90": 1.0
+    },
+    "home_pace_median": {
+      "external_mean": 0.3266904056072235,
+      "external_p90": 0.6224196553230286,
+      "ks": 0.05545918960474017,
+      "target_mean": 0.3041185438632965,
+      "target_p90": 0.6050055027008057
+    },
+    "home_pace_valid": {
+      "external_mean": 0.9996249675750732,
+      "external_p90": 1.0,
+      "ks": 0.01047499062476562,
+      "target_mean": 0.9891499876976013,
+      "target_p90": 1.0
+    },
+    "home_prev_distance_1": {
+      "external_mean": 0.664372444152832,
+      "external_p90": 1.4513421058654785,
+      "ks": 0.09343912597814946,
+      "target_mean": 0.5894891619682312,
+      "target_p90": 1.4183461666107178
+    },
+    "home_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.00395,
+      "target_mean": 0.9960500001907349,
+      "target_p90": 1.0
+    },
+    "home_speed": {
+      "external_mean": 0.18559615314006805,
+      "external_p90": 0.38127952814102173,
+      "ks": 0.045718895472386806,
+      "target_mean": 0.2143668234348297,
+      "target_p90": 0.40752607583999634
+    },
+    "home_spread": {
+      "external_mean": 0.13102063536643982,
+      "external_p90": 0.17882271111011505,
+      "ks": 0.13558865909147727,
+      "target_mean": 0.1180282011628151,
+      "target_p90": 0.17010517418384552
+    },
+    "home_within_10m": {
+      "external_mean": 0.3881722092628479,
+      "external_p90": 0.75,
+      "ks": 0.27921978299457484,
+      "target_mean": 0.2431812435388565,
+      "target_p90": 0.75
+    },
+    "home_within_2m": {
+      "external_mean": 0.07020800560712814,
+      "external_p90": 0.25,
+      "ks": 0.07555682642066053,
+      "target_mean": 0.04995625093579292,
+      "target_p90": 0.25
+    },
+    "home_within_5m": {
+      "external_mean": 0.16462285816669464,
+      "external_p90": 0.25,
+      "ks": 0.1619133290832271,
+      "target_mean": 0.10949374735355377,
+      "target_p90": 0.25
+    },
+    "kinematics_valid": {
+      "external_mean": 0.999875009059906,
+      "external_p90": 1.0,
+      "ks": 0.41082499687492186,
+      "target_mean": 0.5890499949455261,
+      "target_p90": 1.0
+    },
+    "max_team_players_per_11": {
+      "external_mean": 1.0000022649765015,
+      "external_p90": 1.0,
+      "ks": 0.1589,
+      "target_mean": 0.975902259349823,
+      "target_p90": 1.0909091234207153
+    },
+    "min_team_players_per_11": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.558825,
+      "target_mean": 0.886947751045227,
+      "target_p90": 1.0
+    },
+    "nearest_team_distance": {
+      "external_mean": 0.37175068259239197,
+      "external_p90": 0.8927329182624817,
+      "ks": 0.4008249556238906,
+      "target_mean": 0.18620002269744873,
+      "target_p90": 0.5304833650588989
+    },
+    "pace_median": {
+      "external_mean": 0.3155065178871155,
+      "external_p90": 0.5920427441596985,
+      "ks": 0.038259792119803016,
+      "target_mean": 0.3069450259208679,
+      "target_p90": 0.5932433009147644
+    },
+    "pace_median_1s": {
+      "external_mean": 0.3154740035533905,
+      "external_p90": 0.5875794291496277,
+      "ks": 0.03745919960499011,
+      "target_mean": 0.3068763017654419,
+      "target_p90": 0.5884151458740234
+    },
+    "pace_median_3s": {
+      "external_mean": 0.31554436683654785,
+      "external_p90": 0.5718809962272644,
+      "ks": 0.03868508837720941,
+      "target_mean": 0.30666083097457886,
+      "target_p90": 0.5649848580360413
+    },
+    "pace_p75": {
+      "external_mean": 0.4561202824115753,
+      "external_p90": 0.7866991758346558,
+      "ks": 0.045415352258806496,
+      "target_mean": 0.4478645920753479,
+      "target_p90": 0.80406254529953
+    },
+    "pace_valid": {
+      "external_mean": 0.9996249675750732,
+      "external_p90": 1.0,
+      "ks": 0.0015999906247656194,
+      "target_mean": 0.9980250000953674,
+      "target_p90": 1.0
+    },
+    "pace_walking_fraction": {
+      "external_mean": 0.6849300265312195,
+      "external_p90": 1.0,
+      "ks": 0.06971818982974576,
+      "target_mean": 0.7150369882583618,
+      "target_p90": 1.0
+    },
+    "player_centroid_speed": {
+      "external_mean": 0.1316731870174408,
+      "external_p90": 0.27309468388557434,
+      "ks": 0.03014803557588941,
+      "target_mean": 0.15283402800559998,
+      "target_p90": 0.3020284175872803
+    },
+    "players_present_per_22": {
+      "external_mean": 1.0000011920928955,
+      "external_p90": 1.0,
+      "ks": 0.480325,
+      "target_mean": 0.9314249753952026,
+      "target_p90": 1.0
+    },
+    "players_within_5m_per_4": {
+      "external_mean": 0.3261706531047821,
+      "external_p90": 0.75,
+      "ks": 0.2507434673366834,
+      "target_mean": 0.2097499966621399,
+      "target_p90": 0.5
+    },
+    "speed_1": {
+      "external_mean": 0.2202412486076355,
+      "external_p90": 0.6601366996765137,
+      "ks": 0.03623004700117505,
+      "target_mean": 0.19937670230865479,
+      "target_p90": 0.5932319164276123
+    },
+    "speed_1_valid": {
+      "external_mean": 0.9999750256538391,
+      "external_p90": 1.0,
+      "ks": 0.4034499993749843,
+      "target_mean": 0.5965250134468079,
+      "target_p90": 1.0
+    },
+    "speed_25": {
+      "external_mean": 0.2046690136194229,
+      "external_p90": 0.5717072486877441,
+      "ks": 0.05896172154303858,
+      "target_mean": 0.18404065072536469,
+      "target_p90": 0.548664391040802
+    },
+    "speed_25_valid": {
+      "external_mean": 0.9995999932289124,
+      "external_p90": 1.0,
+      "ks": 0.42307498999974996,
+      "target_mean": 0.5765249729156494,
+      "target_p90": 1.0
+    },
+    "speed_5": {
+      "external_mean": 0.21929050981998444,
+      "external_p90": 0.6459729075431824,
+      "ks": 0.03270488762219059,
+      "target_mean": 0.19794784486293793,
+      "target_p90": 0.5903764963150024
+    },
+    "speed_5_valid": {
+      "external_mean": 0.9999499917030334,
+      "external_p90": 1.0,
+      "ks": 0.40672499874996876,
+      "target_mean": 0.5932250022888184,
+      "target_p90": 1.0
+    },
+    "turn_cos": {
+      "external_mean": 0.9367057681083679,
+      "external_p90": 1.0,
+      "ks": 0.46146286344658616,
+      "target_mean": 0.5587878227233887,
+      "target_p90": 0.999986469745636
+    }
+  },
+  "irregular40": {
+    "away_centre_x": {
+      "external_mean": 0.029670724645256996,
+      "external_p90": 0.32685714960098267,
+      "ks": 0.053581349533738276,
+      "target_mean": -0.0025085629895329475,
+      "target_p90": 0.27737200260162354
+    },
+    "away_centre_y": {
+      "external_mean": -0.010972627438604832,
+      "external_p90": 0.1642647087574005,
+      "ks": 0.0876866302907573,
+      "target_mean": -0.03696754574775696,
+      "target_p90": 0.11579149961471558
+    },
+    "away_distance_1": {
+      "external_mean": 0.4365696907043457,
+      "external_p90": 1.1661075353622437,
+      "ks": 0.03035162754068854,
+      "target_mean": 0.3655385673046112,
+      "target_p90": 1.0248756408691406
+    },
+    "away_distance_1_valid": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.010615200380009515,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_2": {
+      "external_mean": 0.8116763234138489,
+      "external_p90": 1.8857938051223755,
+      "ks": 0.03715346008650222,
+      "target_mean": 0.715300440788269,
+      "target_p90": 1.670594573020935
+    },
+    "away_distance_2_valid": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.010615200380009515,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_3": {
+      "external_mean": 1.0419611930847168,
+      "external_p90": 2.383014440536499,
+      "ks": 0.03597950511262782,
+      "target_mean": 0.9513546824455261,
+      "target_p90": 2.142385721206665
+    },
+    "away_distance_3_valid": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.01094020038000948,
+      "target_mean": 0.5970749855041504,
+      "target_p90": 1.0
+    },
+    "away_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.006075,
+      "target_mean": 0.9939249753952026,
+      "target_p90": 1.0
+    },
+    "away_motion_valid": {
+      "external_mean": 0.9998499751091003,
+      "external_p90": 1.0,
+      "ks": 0.006174996249906248,
+      "target_mean": 0.9936749935150146,
+      "target_p90": 1.0
+    },
+    "away_next_distance_1": {
+      "external_mean": 0.7255989909172058,
+      "external_p90": 1.532110571861267,
+      "ks": 0.09916687354683867,
+      "target_mean": 0.7763090133666992,
+      "target_p90": 1.5798531770706177
+    },
+    "away_next_valid": {
+      "external_mean": 0.9995250105857849,
+      "external_p90": 1.0,
+      "ks": 0.0027749881247031176,
+      "target_mean": 0.996749997138977,
+      "target_p90": 1.0
+    },
+    "away_observed_players": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.344275,
+      "target_mean": 0.9346954822540283,
+      "target_p90": 1.0
+    },
+    "away_pace_median": {
+      "external_mean": 0.32510608434677124,
+      "external_p90": 0.6122380495071411,
+      "ks": 0.05803733530838273,
+      "target_mean": 0.3097434937953949,
+      "target_p90": 0.6294110417366028
+    },
+    "away_pace_valid": {
+      "external_mean": 0.9995750188827515,
+      "external_p90": 1.0,
+      "ks": 0.007149989374734368,
+      "target_mean": 0.9924250245094299,
+      "target_p90": 1.0
+    },
+    "away_prev_distance_1": {
+      "external_mean": 0.710588276386261,
+      "external_p90": 1.5720317363739014,
+      "ks": 0.09766704667616688,
+      "target_mean": 0.6497035026550293,
+      "target_p90": 1.4230964183807373
+    },
+    "away_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 5e-05,
+      "target_mean": 0.9999499917030334,
+      "target_p90": 1.0
+    },
+    "away_speed": {
+      "external_mean": 0.18615391850471497,
+      "external_p90": 0.38160833716392517,
+      "ks": 0.04906647853696344,
+      "target_mean": 0.21156024932861328,
+      "target_p90": 0.40959659218788147
+    },
+    "away_spread": {
+      "external_mean": 0.12638124823570251,
+      "external_p90": 0.17320221662521362,
+      "ks": 0.13471297719942998,
+      "target_mean": 0.11330509930849075,
+      "target_p90": 0.15919411182403564
+    },
+    "away_within_10m": {
+      "external_mean": 0.24109353125095367,
+      "external_p90": 0.75,
+      "ks": 0.015063081577039394,
+      "target_mean": 0.2437250018119812,
+      "target_p90": 0.75
+    },
+    "away_within_2m": {
+      "external_mean": 0.03947598859667778,
+      "external_p90": 0.25,
+      "ks": 0.008053792594814868,
+      "target_mean": 0.037056248635053635,
+      "target_p90": 0.25
+    },
+    "away_within_5m": {
+      "external_mean": 0.09969624131917953,
+      "external_p90": 0.25,
+      "ks": 0.0022671573039325654,
+      "target_mean": 0.10025624930858612,
+      "target_p90": 0.25
+    },
+    "ball_abs_x": {
+      "external_mean": 0.3126535415649414,
+      "external_p90": 0.9996190667152405,
+      "ks": 0.10440321445536149,
+      "target_mean": 0.25179752707481384,
+      "target_p90": 0.7325699925422668
+    },
+    "ball_abs_y": {
+      "external_mean": 0.3073413372039795,
+      "external_p90": 0.9138879776000977,
+      "ks": 0.04562683504587617,
+      "target_mean": 0.3009427785873413,
+      "target_p90": 0.8472559452056885
+    },
+    "ball_accel": {
+      "external_mean": 0.04366180673241615,
+      "external_p90": 0.08514953404664993,
+      "ks": 0.280842318557964,
+      "target_mean": 0.04889194294810295,
+      "target_p90": 0.14404809474945068
+    },
+    "ball_filled": {
+      "external_mean": 0.006125153042376041,
+      "external_p90": 0.0,
+      "ks": 0.005725153128828264,
+      "target_mean": 0.00039999998989515007,
+      "target_p90": 0.0
+    },
+    "ball_observed": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.010615200380009515,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "ball_raw_observed": {
+      "external_mean": 0.6018900275230408,
+      "external_p90": 1.0,
+      "ks": 0.0048900472511813065,
+      "target_mean": 0.597000002861023,
+      "target_p90": 1.0
+    },
+    "ball_seen_1s": {
+      "external_mean": 0.6075282692909241,
+      "external_p90": 1.0,
+      "ks": 0.04851720605515142,
+      "target_mean": 0.5976418852806091,
+      "target_p90": 1.0
+    },
+    "ball_seen_5s": {
+      "external_mean": 0.6066027879714966,
+      "external_p90": 1.0,
+      "ks": 0.15019819682992075,
+      "target_mean": 0.5956330299377441,
+      "target_p90": 1.0
+    },
+    "ball_speed_mean_1s": {
+      "external_mean": 0.13187424838542938,
+      "external_p90": 0.477931946516037,
+      "ks": 0.23284052163804098,
+      "target_mean": 0.199785053730011,
+      "target_p90": 0.561654269695282
+    },
+    "distance_to_boundary": {
+      "external_mean": 0.6354386210441589,
+      "external_p90": 2.2209999561309814,
+      "ks": 0.1350040219755494,
+      "target_mean": 0.8267824053764343,
+      "target_p90": 2.457322835922241
+    },
+    "farther_team_distance": {
+      "external_mean": 0.6131925582885742,
+      "external_p90": 1.543748140335083,
+      "ks": 0.049904168229205736,
+      "target_mean": 0.49546322226524353,
+      "target_p90": 1.241925597190857
+    },
+    "gap_length": {
+      "external_mean": 0.35201379656791687,
+      "external_p90": 1.0,
+      "ks": 0.0878685867146679,
+      "target_mean": 0.3872469961643219,
+      "target_p90": 1.0
+    },
+    "gap_since": {
+      "external_mean": 0.2113196849822998,
+      "external_p90": 0.8600000143051147,
+      "ks": 0.14907318745468634,
+      "target_mean": 0.30399569869041443,
+      "target_p90": 1.0
+    },
+    "gap_until": {
+      "external_mean": 0.21374393999576569,
+      "external_p90": 0.8679999709129333,
+      "ks": 0.14919816620415516,
+      "target_mean": 0.3054569959640503,
+      "target_p90": 1.0
+    },
+    "home_centre_x": {
+      "external_mean": 0.032298143953084946,
+      "external_p90": 0.30539771914482117,
+      "ks": 0.09326419722993079,
+      "target_mean": 3.4983158911927603e-06,
+      "target_p90": 0.2733110189437866
+    },
+    "home_centre_y": {
+      "external_mean": -0.01741046831011772,
+      "external_p90": 0.15779411792755127,
+      "ks": 0.0846367171679292,
+      "target_mean": -0.028546826913952827,
+      "target_p90": 0.11553999781608582
+    },
+    "home_distance_1": {
+      "external_mean": 0.4015779197216034,
+      "external_p90": 1.1465681791305542,
+      "ks": 0.060183687717192846,
+      "target_mean": 0.31612470746040344,
+      "target_p90": 0.9113419055938721
+    },
+    "home_distance_1_valid": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.011915200380009483,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_2": {
+      "external_mean": 0.7954772114753723,
+      "external_p90": 1.8785666227340698,
+      "ks": 0.042027181304532646,
+      "target_mean": 0.6906847953796387,
+      "target_p90": 1.6238691806793213
+    },
+    "home_distance_2_valid": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.011915200380009483,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_3": {
+      "external_mean": 1.0353519916534424,
+      "external_p90": 2.4181814193725586,
+      "ks": 0.05017771694292361,
+      "target_mean": 0.9269222617149353,
+      "target_p90": 2.0943243503570557
+    },
+    "home_distance_3_valid": {
+      "external_mean": 0.6080151796340942,
+      "external_p90": 1.0,
+      "ks": 0.011915200380009483,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.008825,
+      "target_mean": 0.9911749958992004,
+      "target_p90": 1.0
+    },
+    "home_motion_valid": {
+      "external_mean": 0.9998499751091003,
+      "external_p90": 1.0,
+      "ks": 0.008974996249906247,
+      "target_mean": 0.9908750057220459,
+      "target_p90": 1.0
+    },
+    "home_next_distance_1": {
+      "external_mean": 0.6561062335968018,
+      "external_p90": 1.4104355573654175,
+      "ks": 0.059190467261681534,
+      "target_mean": 0.6780943274497986,
+      "target_p90": 1.6934633255004883
+    },
+    "home_next_valid": {
+      "external_mean": 0.9995250105857849,
+      "external_p90": 1.0,
+      "ks": 0.008924988124703118,
+      "target_mean": 0.9905999898910522,
+      "target_p90": 1.0
+    },
+    "home_observed_players": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.37345,
+      "target_mean": 0.9281545877456665,
+      "target_p90": 1.0
+    },
+    "home_pace_median": {
+      "external_mean": 0.32617995142936707,
+      "external_p90": 0.622398853302002,
+      "ks": 0.054143954223855595,
+      "target_mean": 0.3041185438632965,
+      "target_p90": 0.6050055027008057
+    },
+    "home_pace_valid": {
+      "external_mean": 0.9995750188827515,
+      "external_p90": 1.0,
+      "ks": 0.01042498937473437,
+      "target_mean": 0.9891499876976013,
+      "target_p90": 1.0
+    },
+    "home_prev_distance_1": {
+      "external_mean": 0.6627779006958008,
+      "external_p90": 1.4488366842269897,
+      "ks": 0.09718921973049327,
+      "target_mean": 0.5894891619682312,
+      "target_p90": 1.4183461666107178
+    },
+    "home_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.00395,
+      "target_mean": 0.9960500001907349,
+      "target_p90": 1.0
+    },
+    "home_speed": {
+      "external_mean": 0.18508920073509216,
+      "external_p90": 0.38062217831611633,
+      "ks": 0.044845282382059565,
+      "target_mean": 0.2143668234348297,
+      "target_p90": 0.40752607583999634
+    },
+    "home_spread": {
+      "external_mean": 0.13111968338489532,
+      "external_p90": 0.17871136963367462,
+      "ks": 0.13676449723743095,
+      "target_mean": 0.1180282011628151,
+      "target_p90": 0.17010517418384552
+    },
+    "home_within_10m": {
+      "external_mean": 0.2396559864282608,
+      "external_p90": 0.75,
+      "ks": 0.0320129978249456,
+      "target_mean": 0.2431812435388565,
+      "target_p90": 0.75
+    },
+    "home_within_2m": {
+      "external_mean": 0.0417635440826416,
+      "external_p90": 0.25,
+      "ks": 0.03399591239780997,
+      "target_mean": 0.04995625093579292,
+      "target_p90": 0.25
+    },
+    "home_within_5m": {
+      "external_mean": 0.10194005072116852,
+      "external_p90": 0.25,
+      "ks": 0.04391681667041669,
+      "target_mean": 0.10949374735355377,
+      "target_p90": 0.25
+    },
+    "kinematics_valid": {
+      "external_mean": 0.5915398001670837,
+      "external_p90": 1.0,
+      "ks": 0.002489788494712375,
+      "target_mean": 0.5890499949455261,
+      "target_p90": 1.0
+    },
+    "max_team_players_per_11": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.1589,
+      "target_mean": 0.975902259349823,
+      "target_p90": 1.0909091234207153
+    },
+    "min_team_players_per_11": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.558825,
+      "target_mean": 0.886947751045227,
+      "target_p90": 1.0
+    },
+    "nearest_team_distance": {
+      "external_mean": 0.2249549925327301,
+      "external_p90": 0.6693480014801025,
+      "ks": 0.05670670329258232,
+      "target_mean": 0.18620002269744873,
+      "target_p90": 0.5304833650588989
+    },
+    "pace_median": {
+      "external_mean": 0.31413230299949646,
+      "external_p90": 0.5900211334228516,
+      "ks": 0.03353437210930266,
+      "target_mean": 0.3069450259208679,
+      "target_p90": 0.5932433009147644
+    },
+    "pace_median_1s": {
+      "external_mean": 0.31410637497901917,
+      "external_p90": 0.5847190022468567,
+      "ks": 0.034184094602365045,
+      "target_mean": 0.3068763017654419,
+      "target_p90": 0.5884151458740234
+    },
+    "pace_median_3s": {
+      "external_mean": 0.31424593925476074,
+      "external_p90": 0.567245602607727,
+      "ks": 0.035485357758944014,
+      "target_mean": 0.30666083097457886,
+      "target_p90": 0.5649848580360413
+    },
+    "pace_p75": {
+      "external_mean": 0.4531467854976654,
+      "external_p90": 0.7829374074935913,
+      "ks": 0.04129024913122831,
+      "target_mean": 0.4478645920753479,
+      "target_p90": 0.80406254529953
+    },
+    "pace_valid": {
+      "external_mean": 0.9995750188827515,
+      "external_p90": 1.0,
+      "ks": 0.0015499893747343686,
+      "target_mean": 0.9980250000953674,
+      "target_p90": 1.0
+    },
+    "pace_walking_fraction": {
+      "external_mean": 0.6875977516174316,
+      "external_p90": 1.0,
+      "ks": 0.06844315795394884,
+      "target_mean": 0.7150369882583618,
+      "target_p90": 1.0
+    },
+    "player_centroid_speed": {
+      "external_mean": 0.13109122216701508,
+      "external_p90": 0.27220943570137024,
+      "ks": 0.032196551163779064,
+      "target_mean": 0.15283402800559998,
+      "target_p90": 0.3020284175872803
+    },
+    "players_present_per_22": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.480325,
+      "target_mean": 0.9314249753952026,
+      "target_p90": 1.0
+    },
+    "players_within_5m_per_4": {
+      "external_mean": 0.20163628458976746,
+      "external_p90": 0.5,
+      "ks": 0.03661371659291479,
+      "target_mean": 0.2097499966621399,
+      "target_p90": 0.5
+    },
+    "speed_1": {
+      "external_mean": 0.13186496496200562,
+      "external_p90": 0.5129565000534058,
+      "ks": 0.24454134978374464,
+      "target_mean": 0.19937670230865479,
+      "target_p90": 0.5932319164276123
+    },
+    "speed_1_valid": {
+      "external_mean": 0.6064151525497437,
+      "external_p90": 1.0,
+      "ks": 0.009890160379009472,
+      "target_mean": 0.5965250134468079,
+      "target_p90": 1.0
+    },
+    "speed_25": {
+      "external_mean": 0.1153230220079422,
+      "external_p90": 0.4337255656719208,
+      "ks": 0.23666665854146357,
+      "target_mean": 0.18404065072536469,
+      "target_p90": 0.548664391040802
+    },
+    "speed_25_valid": {
+      "external_mean": 0.5685892105102539,
+      "external_p90": 1.0,
+      "ks": 0.007935785269631734,
+      "target_mean": 0.5765249729156494,
+      "target_p90": 1.0
+    },
+    "speed_5": {
+      "external_mean": 0.12964102625846863,
+      "external_p90": 0.49818938970565796,
+      "ks": 0.24364140478511964,
+      "target_mean": 0.19794784486293793,
+      "target_p90": 0.5903764963150024
+    },
+    "speed_5_valid": {
+      "external_mean": 0.6000400185585022,
+      "external_p90": 1.0,
+      "ks": 0.006815001000025023,
+      "target_mean": 0.5932250022888184,
+      "target_p90": 1.0
+    },
+    "turn_cos": {
+      "external_mean": 0.5567378401756287,
+      "external_p90": 1.0,
+      "ks": 0.25710769456736415,
+      "target_mean": 0.5587878227233887,
+      "target_p90": 0.999986469745636
+    }
+  },
+  "mixed_stress": {
+    "away_centre_x": {
+      "external_mean": 0.02784605510532856,
+      "external_p90": 0.3190901577472687,
+      "ks": 0.054006503287582164,
+      "target_mean": -0.0025085629895329475,
+      "target_p90": 0.27737200260162354
+    },
+    "away_centre_y": {
+      "external_mean": -0.005283493082970381,
+      "external_p90": 0.16503554582595825,
+      "ks": 0.11148665654141354,
+      "target_mean": -0.03696754574775696,
+      "target_p90": 0.11579149961471558
+    },
+    "away_distance_1": {
+      "external_mean": 0.47977137565612793,
+      "external_p90": 1.2983088493347168,
+      "ks": 0.053328725718142955,
+      "target_mean": 0.3655385673046112,
+      "target_p90": 1.0248756408691406
+    },
+    "away_distance_1_valid": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.008765154128853259,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_2": {
+      "external_mean": 0.750757098197937,
+      "external_p90": 1.826415777206421,
+      "ks": 0.029611716542913558,
+      "target_mean": 0.715300440788269,
+      "target_p90": 1.670594573020935
+    },
+    "away_distance_2_valid": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.008765154128853259,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_3": {
+      "external_mean": 1.0177332162857056,
+      "external_p90": 2.388329029083252,
+      "ks": 0.03312904072601819,
+      "target_mean": 0.9513546824455261,
+      "target_p90": 2.142385721206665
+    },
+    "away_distance_3_valid": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.009090154128853223,
+      "target_mean": 0.5970749855041504,
+      "target_p90": 1.0
+    },
+    "away_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.006075,
+      "target_mean": 0.9939249753952026,
+      "target_p90": 1.0
+    },
+    "away_motion_valid": {
+      "external_mean": 0.9999499917030334,
+      "external_p90": 1.0,
+      "ks": 0.006274998749968749,
+      "target_mean": 0.9936749935150146,
+      "target_p90": 1.0
+    },
+    "away_next_distance_1": {
+      "external_mean": 0.7593337297439575,
+      "external_p90": 1.5978516340255737,
+      "ks": 0.13507366871671792,
+      "target_mean": 0.7763090133666992,
+      "target_p90": 1.5798531770706177
+    },
+    "away_next_valid": {
+      "external_mean": 0.9986249804496765,
+      "external_p90": 1.0,
+      "ks": 0.0018749656241406033,
+      "target_mean": 0.996749997138977,
+      "target_p90": 1.0
+    },
+    "away_observed_players": {
+      "external_mean": 1.1057913303375244,
+      "external_p90": 1.2727272510528564,
+      "ks": 0.6787681235780895,
+      "target_mean": 0.9346954822540283,
+      "target_p90": 1.0
+    },
+    "away_pace_median": {
+      "external_mean": 0.36483192443847656,
+      "external_p90": 0.6126084923744202,
+      "ks": 0.1860727249431236,
+      "target_mean": 0.3097434937953949,
+      "target_p90": 0.6294110417366028
+    },
+    "away_pace_valid": {
+      "external_mean": 0.9995750188827515,
+      "external_p90": 1.0,
+      "ks": 0.007149989374734368,
+      "target_mean": 0.9924250245094299,
+      "target_p90": 1.0
+    },
+    "away_prev_distance_1": {
+      "external_mean": 0.7754526734352112,
+      "external_p90": 1.6693109273910522,
+      "ks": 0.13381804420110505,
+      "target_mean": 0.6497035026550293,
+      "target_p90": 1.4230964183807373
+    },
+    "away_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 5e-05,
+      "target_mean": 0.9999499917030334,
+      "target_p90": 1.0
+    },
+    "away_speed": {
+      "external_mean": 1.6321132183074951,
+      "external_p90": 3.589358329772949,
+      "ks": 0.7250204792619817,
+      "target_mean": 0.21156024932861328,
+      "target_p90": 0.40959659218788147
+    },
+    "away_spread": {
+      "external_mean": 0.13100339472293854,
+      "external_p90": 0.1796412169933319,
+      "ks": 0.18228921660541514,
+      "target_mean": 0.11330509930849075,
+      "target_p90": 0.15919411182403564
+    },
+    "away_within_10m": {
+      "external_mean": 0.2519000470638275,
+      "external_p90": 0.75,
+      "ks": 0.043188784719617956,
+      "target_mean": 0.2437250018119812,
+      "target_p90": 0.75
+    },
+    "away_within_2m": {
+      "external_mean": 0.03963848948478699,
+      "external_p90": 0.25,
+      "ks": 0.023625696267406626,
+      "target_mean": 0.037056248635053635,
+      "target_p90": 0.25
+    },
+    "away_within_5m": {
+      "external_mean": 0.1041838526725769,
+      "external_p90": 0.5,
+      "ks": 0.03502759568989222,
+      "target_mean": 0.10025624930858612,
+      "target_p90": 0.25
+    },
+    "ball_abs_x": {
+      "external_mean": 0.3157671093940735,
+      "external_p90": 0.9971561431884766,
+      "ks": 0.10855326195654891,
+      "target_mean": 0.25179752707481384,
+      "target_p90": 0.7325699925422668
+    },
+    "ball_abs_y": {
+      "external_mean": 0.3098067343235016,
+      "external_p90": 0.9283591508865356,
+      "ks": 0.051952723193079864,
+      "target_mean": 0.3009427785873413,
+      "target_p90": 0.8472559452056885
+    },
+    "ball_accel": {
+      "external_mean": 0.2453528344631195,
+      "external_p90": 0.6104589700698853,
+      "ks": 0.439362461561539,
+      "target_mean": 0.04889194294810295,
+      "target_p90": 0.14404809474945068
+    },
+    "ball_filled": {
+      "external_mean": 0.004975124262273312,
+      "external_p90": 0.0,
+      "ks": 0.004575124378109474,
+      "target_mean": 0.00039999998989515007,
+      "target_p90": 0.0
+    },
+    "ball_observed": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.008765154128853259,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "ball_raw_observed": {
+      "external_mean": 0.6011900305747986,
+      "external_p90": 1.0,
+      "ks": 0.0041900297507437845,
+      "target_mean": 0.597000002861023,
+      "target_p90": 1.0
+    },
+    "ball_seen_1s": {
+      "external_mean": 0.6056060791015625,
+      "external_p90": 1.0,
+      "ks": 0.047167172304307614,
+      "target_mean": 0.5976418852806091,
+      "target_p90": 1.0
+    },
+    "ball_seen_5s": {
+      "external_mean": 0.6053770780563354,
+      "external_p90": 1.0,
+      "ks": 0.1472731237030926,
+      "target_mean": 0.5956330299377441,
+      "target_p90": 1.0
+    },
+    "ball_speed_mean_1s": {
+      "external_mean": 0.6918596029281616,
+      "external_p90": 1.2923932075500488,
+      "ks": 0.5469895109877747,
+      "target_mean": 0.199785053730011,
+      "target_p90": 0.561654269695282
+    },
+    "distance_to_boundary": {
+      "external_mean": 0.6047550439834595,
+      "external_p90": 2.219071388244629,
+      "ks": 0.14341490037250926,
+      "target_mean": 0.8267824053764343,
+      "target_p90": 2.457322835922241
+    },
+    "farther_team_distance": {
+      "external_mean": 0.6670478582382202,
+      "external_p90": 1.6692414283752441,
+      "ks": 0.08183085327133177,
+      "target_mean": 0.49546322226524353,
+      "target_p90": 1.241925597190857
+    },
+    "gap_length": {
+      "external_mean": 0.3531465232372284,
+      "external_p90": 1.0,
+      "ks": 0.08291846296157412,
+      "target_mean": 0.3872469961643219,
+      "target_p90": 1.0
+    },
+    "gap_since": {
+      "external_mean": 0.2159159928560257,
+      "external_p90": 0.8840000033378601,
+      "ks": 0.1441480643266081,
+      "target_mean": 0.30399569869041443,
+      "target_p90": 1.0
+    },
+    "gap_until": {
+      "external_mean": 0.2143326848745346,
+      "external_p90": 0.8799999952316284,
+      "ks": 0.14692310932773323,
+      "target_mean": 0.3054569959640503,
+      "target_p90": 1.0
+    },
+    "home_centre_x": {
+      "external_mean": 0.027538157999515533,
+      "external_p90": 0.30292725563049316,
+      "ks": 0.08168895159878997,
+      "target_mean": 3.4983158911927603e-06,
+      "target_p90": 0.2733110189437866
+    },
+    "home_centre_y": {
+      "external_mean": -0.017460281029343605,
+      "external_p90": 0.16098913550376892,
+      "ks": 0.08128613277831942,
+      "target_mean": -0.028546826913952827,
+      "target_p90": 0.11553999781608582
+    },
+    "home_distance_1": {
+      "external_mean": 0.45578864216804504,
+      "external_p90": 1.2434266805648804,
+      "ks": 0.08943269706742663,
+      "target_mean": 0.31612470746040344,
+      "target_p90": 0.9113419055938721
+    },
+    "home_distance_1_valid": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.010065154128853226,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_2": {
+      "external_mean": 0.8032903075218201,
+      "external_p90": 1.9518202543258667,
+      "ks": 0.051103658841471056,
+      "target_mean": 0.6906847953796387,
+      "target_p90": 1.6238691806793213
+    },
+    "home_distance_2_valid": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.010065154128853226,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_3": {
+      "external_mean": 1.0407121181488037,
+      "external_p90": 2.4707295894622803,
+      "ks": 0.057127863821595626,
+      "target_mean": 0.9269222617149353,
+      "target_p90": 2.0943243503570557
+    },
+    "home_distance_3_valid": {
+      "external_mean": 0.6061651706695557,
+      "external_p90": 1.0,
+      "ks": 0.010065154128853226,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.008825,
+      "target_mean": 0.9911749958992004,
+      "target_p90": 1.0
+    },
+    "home_motion_valid": {
+      "external_mean": 0.9999499917030334,
+      "external_p90": 1.0,
+      "ks": 0.00907499874996875,
+      "target_mean": 0.9908750057220459,
+      "target_p90": 1.0
+    },
+    "home_next_distance_1": {
+      "external_mean": 0.7423233985900879,
+      "external_p90": 1.6049890518188477,
+      "ks": 0.10214728555713892,
+      "target_mean": 0.6780943274497986,
+      "target_p90": 1.6934633255004883
+    },
+    "home_next_valid": {
+      "external_mean": 0.9986249804496765,
+      "external_p90": 1.0,
+      "ks": 0.008024965624140604,
+      "target_mean": 0.9905999898910522,
+      "target_p90": 1.0
+    },
+    "home_observed_players": {
+      "external_mean": 1.0460920333862305,
+      "external_p90": 1.1818181276321411,
+      "ks": 0.43141285032125803,
+      "target_mean": 0.9281545877456665,
+      "target_p90": 1.0
+    },
+    "home_pace_median": {
+      "external_mean": 0.3726712167263031,
+      "external_p90": 0.6324519515037537,
+      "ks": 0.19824720055501385,
+      "target_mean": 0.3041185438632965,
+      "target_p90": 0.6050055027008057
+    },
+    "home_pace_valid": {
+      "external_mean": 0.9995750188827515,
+      "external_p90": 1.0,
+      "ks": 0.01042498937473437,
+      "target_mean": 0.9891499876976013,
+      "target_p90": 1.0
+    },
+    "home_prev_distance_1": {
+      "external_mean": 0.7380772233009338,
+      "external_p90": 1.601061463356018,
+      "ks": 0.13729022225555637,
+      "target_mean": 0.5894891619682312,
+      "target_p90": 1.4183461666107178
+    },
+    "home_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.00395,
+      "target_mean": 0.9960500001907349,
+      "target_p90": 1.0
+    },
+    "home_speed": {
+      "external_mean": 1.675209403038025,
+      "external_p90": 3.6315054893493652,
+      "ks": 0.7302702086302157,
+      "target_mean": 0.2143668234348297,
+      "target_p90": 0.40752607583999634
+    },
+    "home_spread": {
+      "external_mean": 0.12999776005744934,
+      "external_p90": 0.177620068192482,
+      "ks": 0.1267132334558364,
+      "target_mean": 0.1180282011628151,
+      "target_p90": 0.17010517418384552
+    },
+    "home_within_10m": {
+      "external_mean": 0.240168496966362,
+      "external_p90": 0.75,
+      "ks": 0.054813567839196,
+      "target_mean": 0.2431812435388565,
+      "target_p90": 0.75
+    },
+    "home_within_2m": {
+      "external_mean": 0.04016350582242012,
+      "external_p90": 0.25,
+      "ks": 0.05772150553763844,
+      "target_mean": 0.04995625093579292,
+      "target_p90": 0.25
+    },
+    "home_within_5m": {
+      "external_mean": 0.10189630091190338,
+      "external_p90": 0.25,
+      "ks": 0.07871768669216728,
+      "target_mean": 0.10949374735355377,
+      "target_p90": 0.25
+    },
+    "kinematics_valid": {
+      "external_mean": 0.588539719581604,
+      "external_p90": 1.0,
+      "ks": 0.0005102865071626717,
+      "target_mean": 0.5890499949455261,
+      "target_p90": 1.0
+    },
+    "max_team_players_per_11": {
+      "external_mean": 1.1405329704284668,
+      "external_p90": 1.2727272510528564,
+      "ks": 0.7271713942848571,
+      "target_mean": 0.975902259349823,
+      "target_p90": 1.0909091234207153
+    },
+    "min_team_players_per_11": {
+      "external_mean": 1.0113502740859985,
+      "external_p90": 1.1818181276321411,
+      "ks": 0.38300957961449034,
+      "target_mean": 0.886947751045227,
+      "target_p90": 1.0
+    },
+    "nearest_team_distance": {
+      "external_mean": 0.2685120701789856,
+      "external_p90": 0.7790883779525757,
+      "ks": 0.08533219455486385,
+      "target_mean": 0.18620002269744873,
+      "target_p90": 0.5304833650588989
+    },
+    "pace_median": {
+      "external_mean": 0.37202632427215576,
+      "external_p90": 0.6131501197814941,
+      "ks": 0.2156233605840146,
+      "target_mean": 0.3069450259208679,
+      "target_p90": 0.5932433009147644
+    },
+    "pace_median_1s": {
+      "external_mean": 0.37220534682273865,
+      "external_p90": 0.6021844744682312,
+      "ks": 0.2501744318607965,
+      "target_mean": 0.3068763017654419,
+      "target_p90": 0.5884151458740234
+    },
+    "pace_median_3s": {
+      "external_mean": 0.3722881078720093,
+      "external_p90": 0.58872389793396,
+      "ks": 0.24379960686517163,
+      "target_mean": 0.30666083097457886,
+      "target_p90": 0.5649848580360413
+    },
+    "pace_p75": {
+      "external_mean": 0.5351415276527405,
+      "external_p90": 0.8430030941963196,
+      "ks": 0.30479639553488835,
+      "target_mean": 0.4478645920753479,
+      "target_p90": 0.80406254529953
+    },
+    "pace_valid": {
+      "external_mean": 0.9995750188827515,
+      "external_p90": 1.0,
+      "ks": 0.0015499893747343686,
+      "target_mean": 0.9980250000953674,
+      "target_p90": 1.0
+    },
+    "pace_walking_fraction": {
+      "external_mean": 0.5972115993499756,
+      "external_p90": 0.9047619104385376,
+      "ks": 0.2818472543063577,
+      "target_mean": 0.7150369882583618,
+      "target_p90": 1.0
+    },
+    "player_centroid_speed": {
+      "external_mean": 0.884146511554718,
+      "external_p90": 1.6338090896606445,
+      "ks": 0.7837217061676542,
+      "target_mean": 0.15283402800559998,
+      "target_p90": 0.3020284175872803
+    },
+    "players_present_per_22": {
+      "external_mean": 1.0759416818618774,
+      "external_p90": 1.1818181276321411,
+      "ks": 0.7120183835845896,
+      "target_mean": 0.9314249753952026,
+      "target_p90": 1.0
+    },
+    "players_within_5m_per_4": {
+      "external_mean": 0.20608015358448029,
+      "external_p90": 0.75,
+      "ks": 0.06606445286132157,
+      "target_mean": 0.2097499966621399,
+      "target_p90": 0.5
+    },
+    "speed_1": {
+      "external_mean": 0.6928274035453796,
+      "external_p90": 1.7410649061203003,
+      "ks": 0.3867617315432885,
+      "target_mean": 0.19937670230865479,
+      "target_p90": 0.5932319164276123
+    },
+    "speed_1_valid": {
+      "external_mean": 0.6039651036262512,
+      "external_p90": 1.0,
+      "ks": 0.0074400991274781725,
+      "target_mean": 0.5965250134468079,
+      "target_p90": 1.0
+    },
+    "speed_25": {
+      "external_mean": 0.1246870905160904,
+      "external_p90": 0.4251372814178467,
+      "ks": 0.17321755793894844,
+      "target_mean": 0.18404065072536469,
+      "target_p90": 0.548664391040802
+    },
+    "speed_25_valid": {
+      "external_mean": 0.5660141706466675,
+      "external_p90": 1.0,
+      "ks": 0.01051084964624116,
+      "target_mean": 0.5765249729156494,
+      "target_p90": 1.0
+    },
+    "speed_5": {
+      "external_mean": 0.20958682894706726,
+      "external_p90": 0.5568493604660034,
+      "ks": 0.07463775344383611,
+      "target_mean": 0.19794784486293793,
+      "target_p90": 0.5903764963150024
+    },
+    "speed_5_valid": {
+      "external_mean": 0.597589910030365,
+      "external_p90": 1.0,
+      "ks": 0.004364939748493724,
+      "target_mean": 0.5932250022888184,
+      "target_p90": 1.0
+    },
+    "turn_cos": {
+      "external_mean": 0.01774219051003456,
+      "external_p90": 0.9487648010253906,
+      "ks": 0.4137974293107328,
+      "target_mean": 0.5587878227233887,
+      "target_p90": 0.999986469745636
+    }
+  },
+  "slow40": {
+    "away_centre_x": {
+      "external_mean": 0.02689434215426445,
+      "external_p90": 0.3235238194465637,
+      "ks": 0.05145646016150407,
+      "target_mean": -0.0025085629895329475,
+      "target_p90": 0.27737200260162354
+    },
+    "away_centre_y": {
+      "external_mean": -0.010305015370249748,
+      "external_p90": 0.16308823227882385,
+      "ks": 0.08731162029050732,
+      "target_mean": -0.03696754574775696,
+      "target_p90": 0.11579149961471558
+    },
+    "away_distance_1": {
+      "external_mean": 0.4030924141407013,
+      "external_p90": 1.1075135469436646,
+      "ks": 0.029261074026850686,
+      "target_mean": 0.3655385673046112,
+      "target_p90": 1.0248756408691406
+    },
+    "away_distance_1_valid": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.004840056001400028,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_2": {
+      "external_mean": 0.7749535441398621,
+      "external_p90": 1.80617356300354,
+      "ks": 0.024976963799094976,
+      "target_mean": 0.715300440788269,
+      "target_p90": 1.670594573020935
+    },
+    "away_distance_2_valid": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.004840056001400028,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_3": {
+      "external_mean": 1.0086039304733276,
+      "external_p90": 2.2859420776367188,
+      "ks": 0.027979681367034104,
+      "target_mean": 0.9513546824455261,
+      "target_p90": 2.142385721206665
+    },
+    "away_distance_3_valid": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.0051650560013999924,
+      "target_mean": 0.5970749855041504,
+      "target_p90": 1.0
+    },
+    "away_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.006075,
+      "target_mean": 0.9939249753952026,
+      "target_p90": 1.0
+    },
+    "away_motion_valid": {
+      "external_mean": 0.9999250173568726,
+      "external_p90": 1.0,
+      "ks": 0.006249998124953124,
+      "target_mean": 0.9936749935150146,
+      "target_p90": 1.0
+    },
+    "away_next_distance_1": {
+      "external_mean": 0.7027129530906677,
+      "external_p90": 1.522088885307312,
+      "ks": 0.09386888547213679,
+      "target_mean": 0.7763090133666992,
+      "target_p90": 1.5798531770706177
+    },
+    "away_next_valid": {
+      "external_mean": 0.9988499879837036,
+      "external_p90": 1.0,
+      "ks": 0.002099971249281232,
+      "target_mean": 0.996749997138977,
+      "target_p90": 1.0
+    },
+    "away_observed_players": {
+      "external_mean": 1.000004529953003,
+      "external_p90": 1.0,
+      "ks": 0.344275,
+      "target_mean": 0.9346954822540283,
+      "target_p90": 1.0
+    },
+    "away_pace_median": {
+      "external_mean": 0.32614222168922424,
+      "external_p90": 0.6158064603805542,
+      "ks": 0.05903736093402334,
+      "target_mean": 0.3097434937953949,
+      "target_p90": 0.6294110417366028
+    },
+    "away_pace_valid": {
+      "external_mean": 0.9995499849319458,
+      "external_p90": 1.0,
+      "ks": 0.007124988749718743,
+      "target_mean": 0.9924250245094299,
+      "target_p90": 1.0
+    },
+    "away_prev_distance_1": {
+      "external_mean": 0.7237568497657776,
+      "external_p90": 1.5998141765594482,
+      "ks": 0.10171704105102625,
+      "target_mean": 0.6497035026550293,
+      "target_p90": 1.4230964183807373
+    },
+    "away_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 5e-05,
+      "target_mean": 0.9999499917030334,
+      "target_p90": 1.0
+    },
+    "away_speed": {
+      "external_mean": 0.1865827441215515,
+      "external_p90": 0.3839211165904999,
+      "ks": 0.04984197792444811,
+      "target_mean": 0.21156024932861328,
+      "target_p90": 0.40959659218788147
+    },
+    "away_spread": {
+      "external_mean": 0.12625117599964142,
+      "external_p90": 0.17272070050239563,
+      "ks": 0.13246394972374304,
+      "target_mean": 0.11330509930849075,
+      "target_p90": 0.15919411182403564
+    },
+    "away_within_10m": {
+      "external_mean": 0.23668716847896576,
+      "external_p90": 0.75,
+      "ks": 0.011568500462511566,
+      "target_mean": 0.2437250018119812,
+      "target_p90": 0.75
+    },
+    "away_within_2m": {
+      "external_mean": 0.04158229008316994,
+      "external_p90": 0.25,
+      "ks": 0.017054017600440008,
+      "target_mean": 0.037056248635053635,
+      "target_p90": 0.25
+    },
+    "away_within_5m": {
+      "external_mean": 0.10070876777172089,
+      "external_p90": 0.25,
+      "ks": 0.008608114577864479,
+      "target_mean": 0.10025624930858612,
+      "target_p90": 0.25
+    },
+    "ball_abs_x": {
+      "external_mean": 0.2993854284286499,
+      "external_p90": 0.9432380795478821,
+      "ks": 0.08895269756743918,
+      "target_mean": 0.25179752707481384,
+      "target_p90": 0.7325699925422668
+    },
+    "ball_abs_y": {
+      "external_mean": 0.30944207310676575,
+      "external_p90": 0.9097058773040771,
+      "ks": 0.044527796319908,
+      "target_mean": 0.3009427785873413,
+      "target_p90": 0.8472559452056885
+    },
+    "ball_accel": {
+      "external_mean": 0.04925162345170975,
+      "external_p90": 0.10254257172346115,
+      "ks": 0.2363162047801195,
+      "target_mean": 0.04889194294810295,
+      "target_p90": 0.14404809474945068
+    },
+    "ball_filled": {
+      "external_mean": 0.004350108560174704,
+      "external_p90": 0.0,
+      "ks": 0.003950108752718839,
+      "target_mean": 0.00039999998989515007,
+      "target_p90": 0.0
+    },
+    "ball_observed": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.004840056001400028,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "ball_raw_observed": {
+      "external_mean": 0.5978899598121643,
+      "external_p90": 1.0,
+      "ks": 0.0008899472486812443,
+      "target_mean": 0.597000002861023,
+      "target_p90": 1.0
+    },
+    "ball_seen_1s": {
+      "external_mean": 0.6023741364479065,
+      "external_p90": 1.0,
+      "ks": 0.04176703730093251,
+      "target_mean": 0.5976418852806091,
+      "target_p90": 1.0
+    },
+    "ball_seen_5s": {
+      "external_mean": 0.6030791401863098,
+      "external_p90": 1.0,
+      "ks": 0.14137297619940498,
+      "target_mean": 0.5956330299377441,
+      "target_p90": 1.0
+    },
+    "ball_speed_mean_1s": {
+      "external_mean": 0.1476607769727707,
+      "external_p90": 0.5012595057487488,
+      "ks": 0.19338953536338405,
+      "target_mean": 0.199785053730011,
+      "target_p90": 0.561654269695282
+    },
+    "distance_to_boundary": {
+      "external_mean": 0.6528688669204712,
+      "external_p90": 2.2750000953674316,
+      "ks": 0.11663981037025922,
+      "target_mean": 0.8267824053764343,
+      "target_p90": 2.457322835922241
+    },
+    "farther_team_distance": {
+      "external_mean": 0.5672904253005981,
+      "external_p90": 1.4291218519210815,
+      "ks": 0.03170374446861168,
+      "target_mean": 0.49546322226524353,
+      "target_p90": 1.241925597190857
+    },
+    "gap_length": {
+      "external_mean": 0.357814759016037,
+      "external_p90": 1.0,
+      "ks": 0.07494326358158954,
+      "target_mean": 0.3872469961643219,
+      "target_p90": 1.0
+    },
+    "gap_since": {
+      "external_mean": 0.2197836935520172,
+      "external_p90": 0.9079999923706055,
+      "ks": 0.14092298369959244,
+      "target_mean": 0.30399569869041443,
+      "target_p90": 1.0
+    },
+    "gap_until": {
+      "external_mean": 0.21918287873268127,
+      "external_p90": 0.8960000276565552,
+      "ks": 0.14307301307532694,
+      "target_mean": 0.3054569959640503,
+      "target_p90": 1.0
+    },
+    "home_centre_x": {
+      "external_mean": 0.030170010402798653,
+      "external_p90": 0.3024761974811554,
+      "ks": 0.0898389878496963,
+      "target_mean": 3.4983158911927603e-06,
+      "target_p90": 0.2733110189437866
+    },
+    "home_centre_y": {
+      "external_mean": -0.01757011003792286,
+      "external_p90": 0.15811258554458618,
+      "ks": 0.08428670841771047,
+      "target_mean": -0.028546826913952827,
+      "target_p90": 0.11553999781608582
+    },
+    "home_distance_1": {
+      "external_mean": 0.3714536726474762,
+      "external_p90": 1.0539908409118652,
+      "ks": 0.04218317957948947,
+      "target_mean": 0.31612470746040344,
+      "target_p90": 0.9113419055938721
+    },
+    "home_distance_1_valid": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.006140056001399996,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_2": {
+      "external_mean": 0.7574278712272644,
+      "external_p90": 1.7434762716293335,
+      "ks": 0.027126358783969517,
+      "target_mean": 0.6906847953796387,
+      "target_p90": 1.6238691806793213
+    },
+    "home_distance_2_valid": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.006140056001399996,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_3": {
+      "external_mean": 0.9980267286300659,
+      "external_p90": 2.309598207473755,
+      "ks": 0.03762722318057954,
+      "target_mean": 0.9269222617149353,
+      "target_p90": 2.0943243503570557
+    },
+    "home_distance_3_valid": {
+      "external_mean": 0.6022400856018066,
+      "external_p90": 1.0,
+      "ks": 0.006140056001399996,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.008825,
+      "target_mean": 0.9911749958992004,
+      "target_p90": 1.0
+    },
+    "home_motion_valid": {
+      "external_mean": 0.9999250173568726,
+      "external_p90": 1.0,
+      "ks": 0.009049998124953123,
+      "target_mean": 0.9908750057220459,
+      "target_p90": 1.0
+    },
+    "home_next_distance_1": {
+      "external_mean": 0.6464233994483948,
+      "external_p90": 1.3821382522583008,
+      "ks": 0.044990153503837615,
+      "target_mean": 0.6780943274497986,
+      "target_p90": 1.6934633255004883
+    },
+    "home_next_valid": {
+      "external_mean": 0.9988499879837036,
+      "external_p90": 1.0,
+      "ks": 0.008249971249281233,
+      "target_mean": 0.9905999898910522,
+      "target_p90": 1.0
+    },
+    "home_observed_players": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.37345,
+      "target_mean": 0.9281545877456665,
+      "target_p90": 1.0
+    },
+    "home_pace_median": {
+      "external_mean": 0.32630982995033264,
+      "external_p90": 0.6190894246101379,
+      "ks": 0.05736778294457362,
+      "target_mean": 0.3041185438632965,
+      "target_p90": 0.6050055027008057
+    },
+    "home_pace_valid": {
+      "external_mean": 0.9995499849319458,
+      "external_p90": 1.0,
+      "ks": 0.010399988749718743,
+      "target_mean": 0.9891499876976013,
+      "target_p90": 1.0
+    },
+    "home_prev_distance_1": {
+      "external_mean": 0.6584160923957825,
+      "external_p90": 1.4472236633300781,
+      "ks": 0.08908901722543061,
+      "target_mean": 0.5894891619682312,
+      "target_p90": 1.4183461666107178
+    },
+    "home_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.00395,
+      "target_mean": 0.9960500001907349,
+      "target_p90": 1.0
+    },
+    "home_speed": {
+      "external_mean": 0.18547958135604858,
+      "external_p90": 0.3810877799987793,
+      "ks": 0.048943976099402486,
+      "target_mean": 0.2143668234348297,
+      "target_p90": 0.40752607583999634
+    },
+    "home_spread": {
+      "external_mean": 0.13118314743041992,
+      "external_p90": 0.17874276638031006,
+      "ks": 0.1402135759643991,
+      "target_mean": 0.1180282011628151,
+      "target_p90": 0.17010517418384552
+    },
+    "home_within_10m": {
+      "external_mean": 0.23864346742630005,
+      "external_p90": 0.75,
+      "ks": 0.020862719067976654,
+      "target_mean": 0.2431812435388565,
+      "target_p90": 0.75
+    },
+    "home_within_2m": {
+      "external_mean": 0.045751143246889114,
+      "external_p90": 0.25,
+      "ks": 0.01932054551363782,
+      "target_mean": 0.04995625093579292,
+      "target_p90": 0.25
+    },
+    "home_within_5m": {
+      "external_mean": 0.10302132368087769,
+      "external_p90": 0.25,
+      "ks": 0.033891566039151,
+      "target_mean": 0.10949374735355377,
+      "target_p90": 0.25
+    },
+    "kinematics_valid": {
+      "external_mean": 0.5856646299362183,
+      "external_p90": 1.0,
+      "ks": 0.0033853583839595913,
+      "target_mean": 0.5890499949455261,
+      "target_p90": 1.0
+    },
+    "max_team_players_per_11": {
+      "external_mean": 1.000004529953003,
+      "external_p90": 1.0,
+      "ks": 0.1589,
+      "target_mean": 0.975902259349823,
+      "target_p90": 1.0909091234207153
+    },
+    "min_team_players_per_11": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.558825,
+      "target_mean": 0.886947751045227,
+      "target_p90": 1.0
+    },
+    "nearest_team_distance": {
+      "external_mean": 0.20725557208061218,
+      "external_p90": 0.6153583526611328,
+      "ks": 0.057012205305132624,
+      "target_mean": 0.18620002269744873,
+      "target_p90": 0.5304833650588989
+    },
+    "pace_median": {
+      "external_mean": 0.31419944763183594,
+      "external_p90": 0.5892939567565918,
+      "ks": 0.034884772119302965,
+      "target_mean": 0.3069450259208679,
+      "target_p90": 0.5932433009147644
+    },
+    "pace_median_1s": {
+      "external_mean": 0.31435880064964294,
+      "external_p90": 0.5865615010261536,
+      "ks": 0.03533431710792767,
+      "target_mean": 0.3068763017654419,
+      "target_p90": 0.5884151458740234
+    },
+    "pace_median_3s": {
+      "external_mean": 0.31458738446235657,
+      "external_p90": 0.5703776478767395,
+      "ks": 0.03791041276031892,
+      "target_mean": 0.30666083097457886,
+      "target_p90": 0.5649848580360413
+    },
+    "pace_p75": {
+      "external_mean": 0.4548889100551605,
+      "external_p90": 0.7881751656532288,
+      "ks": 0.04494033038325962,
+      "target_mean": 0.4478645920753479,
+      "target_p90": 0.80406254529953
+    },
+    "pace_valid": {
+      "external_mean": 0.9995499849319458,
+      "external_p90": 1.0,
+      "ks": 0.0015249887497187432,
+      "target_mean": 0.9980250000953674,
+      "target_p90": 1.0
+    },
+    "pace_walking_fraction": {
+      "external_mean": 0.6864755749702454,
+      "external_p90": 1.0,
+      "ks": 0.06909317420435512,
+      "target_mean": 0.7150369882583618,
+      "target_p90": 1.0
+    },
+    "player_centroid_speed": {
+      "external_mean": 0.1310780644416809,
+      "external_p90": 0.2723877429962158,
+      "ks": 0.03147394309857743,
+      "target_mean": 0.15283402800559998,
+      "target_p90": 0.3020284175872803
+    },
+    "players_present_per_22": {
+      "external_mean": 1.0000022649765015,
+      "external_p90": 1.0,
+      "ks": 0.480325,
+      "target_mean": 0.9314249753952026,
+      "target_p90": 1.0
+    },
+    "players_within_5m_per_4": {
+      "external_mean": 0.20373009145259857,
+      "external_p90": 0.5,
+      "ks": 0.02506342783569593,
+      "target_mean": 0.2097499966621399,
+      "target_p90": 0.5
+    },
+    "speed_1": {
+      "external_mean": 0.14849431812763214,
+      "external_p90": 0.5431393980979919,
+      "ks": 0.2015151347533688,
+      "target_mean": 0.19937670230865479,
+      "target_p90": 0.5932319164276123
+    },
+    "speed_1_valid": {
+      "external_mean": 0.6004400253295898,
+      "external_p90": 1.0,
+      "ks": 0.0039150110002749705,
+      "target_mean": 0.5965250134468079,
+      "target_p90": 1.0
+    },
+    "speed_25": {
+      "external_mean": 0.13012774288654327,
+      "external_p90": 0.4617641568183899,
+      "ks": 0.18956532600815018,
+      "target_mean": 0.18404065072536469,
+      "target_p90": 0.548664391040802
+    },
+    "speed_25_valid": {
+      "external_mean": 0.5636140704154968,
+      "external_p90": 1.0,
+      "ks": 0.01291090964774122,
+      "target_mean": 0.5765249729156494,
+      "target_p90": 1.0
+    },
+    "speed_5": {
+      "external_mean": 0.14472121000289917,
+      "external_p90": 0.5265291929244995,
+      "ks": 0.19951530163254083,
+      "target_mean": 0.19794784486293793,
+      "target_p90": 0.5903764963150024
+    },
+    "speed_5_valid": {
+      "external_mean": 0.5933148264884949,
+      "external_p90": 1.0,
+      "ks": 8.983287082175995e-05,
+      "target_mean": 0.5932250022888184,
+      "target_p90": 1.0
+    },
+    "turn_cos": {
+      "external_mean": 0.5444714426994324,
+      "external_p90": 1.0,
+      "ks": 0.20958150641266027,
+      "target_mean": 0.5587878227233887,
+      "target_p90": 0.999986469745636
+    }
+  },
+  "target_like40": {
+    "away_centre_x": {
+      "external_mean": 0.02649850770831108,
+      "external_p90": 0.3237859010696411,
+      "ks": 0.05143144203605088,
+      "target_mean": -0.0025085629895329475,
+      "target_p90": 0.27737200260162354
+    },
+    "away_centre_y": {
+      "external_mean": -0.010325886309146881,
+      "external_p90": 0.160848468542099,
+      "ks": 0.08838680279506994,
+      "target_mean": -0.03696754574775696,
+      "target_p90": 0.11579149961471558
+    },
+    "away_distance_1": {
+      "external_mean": 0.4224534332752228,
+      "external_p90": 1.1603518724441528,
+      "ks": 0.03626119215480389,
+      "target_mean": 0.3655385673046112,
+      "target_p90": 1.0248756408691406
+    },
+    "away_distance_1_valid": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.0046851821295532114,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_2": {
+      "external_mean": 0.7852247357368469,
+      "external_p90": 1.8458430767059326,
+      "ks": 0.028803278206955163,
+      "target_mean": 0.715300440788269,
+      "target_p90": 1.670594573020935
+    },
+    "away_distance_2_valid": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.0046851821295532114,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "away_distance_3": {
+      "external_mean": 1.013004183769226,
+      "external_p90": 2.3378844261169434,
+      "ks": 0.0312291513537839,
+      "target_mean": 0.9513546824455261,
+      "target_p90": 2.142385721206665
+    },
+    "away_distance_3_valid": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.004360182129553247,
+      "target_mean": 0.5970749855041504,
+      "target_p90": 1.0
+    },
+    "away_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.006075,
+      "target_mean": 0.9939249753952026,
+      "target_p90": 1.0
+    },
+    "away_motion_valid": {
+      "external_mean": 0.9999250173568726,
+      "external_p90": 1.0,
+      "ks": 0.006249998124953124,
+      "target_mean": 0.9936749935150146,
+      "target_p90": 1.0
+    },
+    "away_next_distance_1": {
+      "external_mean": 0.7148633599281311,
+      "external_p90": 1.5483696460723877,
+      "ks": 0.06961460786519663,
+      "target_mean": 0.7763090133666992,
+      "target_p90": 1.5798531770706177
+    },
+    "away_next_valid": {
+      "external_mean": 0.9912747740745544,
+      "external_p90": 1.0,
+      "ks": 0.0054752181304532615,
+      "target_mean": 0.996749997138977,
+      "target_p90": 1.0
+    },
+    "away_observed_players": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.344275,
+      "target_mean": 0.9346954822540283,
+      "target_p90": 1.0
+    },
+    "away_pace_median": {
+      "external_mean": 0.328832745552063,
+      "external_p90": 0.6213229298591614,
+      "ks": 0.06398748531213283,
+      "target_mean": 0.3097434937953949,
+      "target_p90": 0.6294110417366028
+    },
+    "away_pace_valid": {
+      "external_mean": 0.9995250105857849,
+      "external_p90": 1.0,
+      "ks": 0.007099988124703117,
+      "target_mean": 0.9924250245094299,
+      "target_p90": 1.0
+    },
+    "away_prev_distance_1": {
+      "external_mean": 0.7272635698318481,
+      "external_p90": 1.6764909029006958,
+      "ks": 0.08819189417235429,
+      "target_mean": 0.6497035026550293,
+      "target_p90": 1.4230964183807373
+    },
+    "away_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 5e-05,
+      "target_mean": 0.9999499917030334,
+      "target_p90": 1.0
+    },
+    "away_speed": {
+      "external_mean": 0.18721754848957062,
+      "external_p90": 0.38567468523979187,
+      "ks": 0.05004044101102528,
+      "target_mean": 0.21156024932861328,
+      "target_p90": 0.40959659218788147
+    },
+    "away_spread": {
+      "external_mean": 0.1264808624982834,
+      "external_p90": 0.17346972227096558,
+      "ks": 0.13611375346883675,
+      "target_mean": 0.11330509930849075,
+      "target_p90": 0.15919411182403564
+    },
+    "away_within_10m": {
+      "external_mean": 0.23558713495731354,
+      "external_p90": 0.75,
+      "ks": 0.028088407210180244,
+      "target_mean": 0.2437250018119812,
+      "target_p90": 0.75
+    },
+    "away_within_2m": {
+      "external_mean": 0.039307232946157455,
+      "external_p90": 0.25,
+      "ks": 0.007953790094752278,
+      "target_mean": 0.037056248635053635,
+      "target_p90": 0.25
+    },
+    "away_within_5m": {
+      "external_mean": 0.09863996505737305,
+      "external_p90": 0.25,
+      "ks": 0.008042301682542052,
+      "target_mean": 0.10025624930858612,
+      "target_p90": 0.25
+    },
+    "ball_abs_x": {
+      "external_mean": 0.30293330550193787,
+      "external_p90": 0.9988571405410767,
+      "ks": 0.09870259193979858,
+      "target_mean": 0.25179752707481384,
+      "target_p90": 0.7325699925422668
+    },
+    "ball_abs_y": {
+      "external_mean": 0.2937144637107849,
+      "external_p90": 0.8976470828056335,
+      "ks": 0.03420250068751718,
+      "target_mean": 0.3009427785873413,
+      "target_p90": 0.8472559452056885
+    },
+    "ball_accel": {
+      "external_mean": 0.046412233263254166,
+      "external_p90": 0.09464527666568756,
+      "ks": 0.25499167229180736,
+      "target_mean": 0.04889194294810295,
+      "target_p90": 0.14404809474945068
+    },
+    "ball_filled": {
+      "external_mean": 0.0016000400064513087,
+      "external_p90": 0.0,
+      "ks": 0.0012000400010000467,
+      "target_mean": 0.00039999998989515007,
+      "target_p90": 0.0
+    },
+    "ball_observed": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.0046851821295532114,
+      "target_mean": 0.5974000096321106,
+      "target_p90": 1.0
+    },
+    "ball_raw_observed": {
+      "external_mean": 0.5911147594451904,
+      "external_p90": 1.0,
+      "ks": 0.005885222130553258,
+      "target_mean": 0.597000002861023,
+      "target_p90": 1.0
+    },
+    "ball_seen_1s": {
+      "external_mean": 0.5931776165962219,
+      "external_p90": 1.0,
+      "ks": 0.005985026500662516,
+      "target_mean": 0.5976418852806091,
+      "target_p90": 1.0
+    },
+    "ball_seen_5s": {
+      "external_mean": 0.5924692749977112,
+      "external_p90": 1.0,
+      "ks": 0.011381374534363359,
+      "target_mean": 0.5956330299377441,
+      "target_p90": 1.0
+    },
+    "ball_speed_mean_1s": {
+      "external_mean": 0.13879133760929108,
+      "external_p90": 0.49022409319877625,
+      "ks": 0.2245653153828846,
+      "target_mean": 0.199785053730011,
+      "target_p90": 0.561654269695282
+    },
+    "distance_to_boundary": {
+      "external_mean": 0.6376115679740906,
+      "external_p90": 2.259999990463257,
+      "ks": 0.1316392909822745,
+      "target_mean": 0.8267824053764343,
+      "target_p90": 2.457322835922241
+    },
+    "farther_team_distance": {
+      "external_mean": 0.5919355154037476,
+      "external_p90": 1.4887974262237549,
+      "ks": 0.04132945573639335,
+      "target_mean": 0.49546322226524353,
+      "target_p90": 1.241925597190857
+    },
+    "gap_length": {
+      "external_mean": 0.39028504490852356,
+      "external_p90": 1.0,
+      "ks": 0.010933883347083673,
+      "target_mean": 0.3872469961643219,
+      "target_p90": 1.0
+    },
+    "gap_since": {
+      "external_mean": 0.3067094683647156,
+      "external_p90": 1.0,
+      "ks": 0.0051101158778968925,
+      "target_mean": 0.30399569869041443,
+      "target_p90": 1.0
+    },
+    "gap_until": {
+      "external_mean": 0.30948367714881897,
+      "external_p90": 1.0,
+      "ks": 0.006106138278456963,
+      "target_mean": 0.3054569959640503,
+      "target_p90": 1.0
+    },
+    "home_centre_x": {
+      "external_mean": 0.02964690886437893,
+      "external_p90": 0.3023809492588043,
+      "ks": 0.08741405097627442,
+      "target_mean": 3.4983158911927603e-06,
+      "target_p90": 0.2733110189437866
+    },
+    "home_centre_y": {
+      "external_mean": -0.016623875126242638,
+      "external_p90": 0.1560058891773224,
+      "ks": 0.09021189654741368,
+      "target_mean": -0.028546826913952827,
+      "target_p90": 0.11553999781608582
+    },
+    "home_distance_1": {
+      "external_mean": 0.3853371739387512,
+      "external_p90": 1.1015114784240723,
+      "ks": 0.04375422698067455,
+      "target_mean": 0.31612470746040344,
+      "target_p90": 0.9113419055938721
+    },
+    "home_distance_1_valid": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.0033851821295532436,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_2": {
+      "external_mean": 0.7785261869430542,
+      "external_p90": 1.8148151636123657,
+      "ks": 0.0354016387909698,
+      "target_mean": 0.6906847953796387,
+      "target_p90": 1.6238691806793213
+    },
+    "home_distance_2_valid": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.0033851821295532436,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_distance_3": {
+      "external_mean": 1.0151031017303467,
+      "external_p90": 2.3648717403411865,
+      "ks": 0.044852385684642115,
+      "target_mean": 0.9269222617149353,
+      "target_p90": 2.0943243503570557
+    },
+    "home_distance_3_valid": {
+      "external_mean": 0.5927148461341858,
+      "external_p90": 1.0,
+      "ks": 0.0033851821295532436,
+      "target_mean": 0.5960999727249146,
+      "target_p90": 1.0
+    },
+    "home_geometry_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.008825,
+      "target_mean": 0.9911749958992004,
+      "target_p90": 1.0
+    },
+    "home_motion_valid": {
+      "external_mean": 0.9999250173568726,
+      "external_p90": 1.0,
+      "ks": 0.009049998124953123,
+      "target_mean": 0.9908750057220459,
+      "target_p90": 1.0
+    },
+    "home_next_distance_1": {
+      "external_mean": 0.6466616988182068,
+      "external_p90": 1.370308756828308,
+      "ks": 0.051692362934073366,
+      "target_mean": 0.6780943274497986,
+      "target_p90": 1.6934633255004883
+    },
+    "home_next_valid": {
+      "external_mean": 0.9912747740745544,
+      "external_p90": 1.0,
+      "ks": 0.0006747818695467395,
+      "target_mean": 0.9905999898910522,
+      "target_p90": 1.0
+    },
+    "home_observed_players": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.37345,
+      "target_mean": 0.9281545877456665,
+      "target_p90": 1.0
+    },
+    "home_pace_median": {
+      "external_mean": 0.32905447483062744,
+      "external_p90": 0.6276717185974121,
+      "ks": 0.061709167729193215,
+      "target_mean": 0.3041185438632965,
+      "target_p90": 0.6050055027008057
+    },
+    "home_pace_valid": {
+      "external_mean": 0.9995250105857849,
+      "external_p90": 1.0,
+      "ks": 0.010374988124703118,
+      "target_mean": 0.9891499876976013,
+      "target_p90": 1.0
+    },
+    "home_prev_distance_1": {
+      "external_mean": 0.6679360866546631,
+      "external_p90": 1.441894292831421,
+      "ks": 0.10021762044051097,
+      "target_mean": 0.5894891619682312,
+      "target_p90": 1.4183461666107178
+    },
+    "home_prev_valid": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.00395,
+      "target_mean": 0.9960500001907349,
+      "target_p90": 1.0
+    },
+    "home_speed": {
+      "external_mean": 0.18636372685432434,
+      "external_p90": 0.38275212049484253,
+      "ks": 0.04699437360934025,
+      "target_mean": 0.2143668234348297,
+      "target_p90": 0.40752607583999634
+    },
+    "home_spread": {
+      "external_mean": 0.1311347484588623,
+      "external_p90": 0.17847269773483276,
+      "ks": 0.13831427598189955,
+      "target_mean": 0.1180282011628151,
+      "target_p90": 0.17010517418384552
+    },
+    "home_within_10m": {
+      "external_mean": 0.22784943878650665,
+      "external_p90": 0.75,
+      "ks": 0.03986319407985195,
+      "target_mean": 0.2431812435388565,
+      "target_p90": 0.75
+    },
+    "home_within_2m": {
+      "external_mean": 0.04289482161402702,
+      "external_p90": 0.25,
+      "ks": 0.029620803020075526,
+      "target_mean": 0.04995625093579292,
+      "target_p90": 0.25
+    },
+    "home_within_5m": {
+      "external_mean": 0.09766494482755661,
+      "external_p90": 0.25,
+      "ks": 0.04684188979724491,
+      "target_mean": 0.10949374735355377,
+      "target_p90": 0.25
+    },
+    "kinematics_valid": {
+      "external_mean": 0.5846896171569824,
+      "external_p90": 1.0,
+      "ks": 0.004360382759569015,
+      "target_mean": 0.5890499949455261,
+      "target_p90": 1.0
+    },
+    "max_team_players_per_11": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.1589,
+      "target_mean": 0.975902259349823,
+      "target_p90": 1.0909091234207153
+    },
+    "min_team_players_per_11": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.558825,
+      "target_mean": 0.886947751045227,
+      "target_p90": 1.0
+    },
+    "nearest_team_distance": {
+      "external_mean": 0.21585507690906525,
+      "external_p90": 0.652738630771637,
+      "ks": 0.06268725968149202,
+      "target_mean": 0.18620002269744873,
+      "target_p90": 0.5304833650588989
+    },
+    "pace_median": {
+      "external_mean": 0.3173021376132965,
+      "external_p90": 0.597501277923584,
+      "ks": 0.0408093089827245,
+      "target_mean": 0.3069450259208679,
+      "target_p90": 0.5932433009147644
+    },
+    "pace_median_1s": {
+      "external_mean": 0.3173038363456726,
+      "external_p90": 0.594053328037262,
+      "ks": 0.039633845846146154,
+      "target_mean": 0.3068763017654419,
+      "target_p90": 0.5884151458740234
+    },
+    "pace_median_3s": {
+      "external_mean": 0.31723567843437195,
+      "external_p90": 0.5773153305053711,
+      "ks": 0.041560509012725344,
+      "target_mean": 0.30666083097457886,
+      "target_p90": 0.5649848580360413
+    },
+    "pace_p75": {
+      "external_mean": 0.4576180875301361,
+      "external_p90": 0.7896133661270142,
+      "ks": 0.04739055913897844,
+      "target_mean": 0.4478645920753479,
+      "target_p90": 0.80406254529953
+    },
+    "pace_valid": {
+      "external_mean": 0.9995250105857849,
+      "external_p90": 1.0,
+      "ks": 0.001499988124703118,
+      "target_mean": 0.9980250000953674,
+      "target_p90": 1.0
+    },
+    "pace_walking_fraction": {
+      "external_mean": 0.6826735138893127,
+      "external_p90": 1.0,
+      "ks": 0.07319327670691766,
+      "target_mean": 0.7150369882583618,
+      "target_p90": 1.0
+    },
+    "player_centroid_speed": {
+      "external_mean": 0.1325019896030426,
+      "external_p90": 0.276381254196167,
+      "ks": 0.029198376834420836,
+      "target_mean": 0.15283402800559998,
+      "target_p90": 0.3020284175872803
+    },
+    "players_present_per_22": {
+      "external_mean": 1.0,
+      "external_p90": 1.0,
+      "ks": 0.480325,
+      "target_mean": 0.9314249753952026,
+      "target_p90": 1.0
+    },
+    "players_within_5m_per_4": {
+      "external_mean": 0.19630490243434906,
+      "external_p90": 0.5,
+      "ks": 0.04258886597164924,
+      "target_mean": 0.2097499966621399,
+      "target_p90": 0.5
+    },
+    "speed_1": {
+      "external_mean": 0.13813771307468414,
+      "external_p90": 0.526363730430603,
+      "ks": 0.22521586664666615,
+      "target_mean": 0.19937670230865479,
+      "target_p90": 0.5932319164276123
+    },
+    "speed_1_valid": {
+      "external_mean": 0.5918397903442383,
+      "external_p90": 1.0,
+      "ks": 0.004685204005100141,
+      "target_mean": 0.5965250134468079,
+      "target_p90": 1.0
+    },
+    "speed_25": {
+      "external_mean": 0.12549988925457,
+      "external_p90": 0.45652955770492554,
+      "ks": 0.20536587602190054,
+      "target_mean": 0.18404065072536469,
+      "target_p90": 0.548664391040802
+    },
+    "speed_25_valid": {
+      "external_mean": 0.571439266204834,
+      "external_p90": 1.0,
+      "ks": 0.005085714017850462,
+      "target_mean": 0.5765249729156494,
+      "target_p90": 1.0
+    },
+    "speed_5": {
+      "external_mean": 0.13614143431186676,
+      "external_p90": 0.5111177563667297,
+      "ks": 0.22176585789644743,
+      "target_mean": 0.19794784486293793,
+      "target_p90": 0.5903764963150024
+    },
+    "speed_5_valid": {
+      "external_mean": 0.5882647037506104,
+      "external_p90": 1.0,
+      "ks": 0.004960293382334557,
+      "target_mean": 0.5932250022888184,
+      "target_p90": 1.0
+    },
+    "turn_cos": {
+      "external_mean": 0.5475728511810303,
+      "external_p90": 1.0,
+      "ks": 0.22770699267481687,
+      "target_mean": 0.5587878227233887,
+      "target_p90": 0.999986469745636
+    }
+  }
+}

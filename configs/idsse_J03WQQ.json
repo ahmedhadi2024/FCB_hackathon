@@ -1,0 +1,18 @@
+{
+  "project_root": "..",
+  "match_id": "J03WQQ",
+  "coordinate_system": "dfl-centred-metres",
+  "metadata": "external-data/J03WQQ/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+  "events": "external-data/J03WQQ/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+  "positions": "external-data/J03WQQ/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WQQ.xml",
+  "output": "artifacts/J03WQQ",
+  "source_revision": "a715a38dfbaf5f58e431727c2b78d174101a703c",
+  "source_urls": [
+    "https://huggingface.co/datasets/pysport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c"
+  ],
+  "expected_sha256": {
+    "metadata": "e976aa0c5dba862cfa898ea57ec226efce9d1bc04b23b8d775908db86aa6fa41",
+    "events": "b79ccc1ee3de5ba662546a9a21304784642d00a791ccc1175550eaa463ea0074",
+    "positions": "cbefcb0bd7f39f3b94ee69a7bc97aac0f936425062c1cc1b144733df36804d6f"
+  }
+}

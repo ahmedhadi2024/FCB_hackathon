@@ -1,0 +1,19 @@
+{
+  "artifacts\\J03WMX\\observations\\ball_observed.npy": "611e24e9ee1db4bce4c87696c21a2e1d9df45e234fc4f85b95a172115485eb8a",
+  "artifacts\\J03WMX\\observations\\ball_xy_m.npy": "fae2fd7e55f9f6a801f95f9c71c18ddcc55844ee2991a39479ae14c546a2a00c",
+  "artifacts\\J03WMX\\observations\\frame_id.npy": "a6db3fc352ea00164ba8e0f614e5ba29919c545691917bdaf5a74155a4ccea82",
+  "artifacts\\J03WMX\\observations\\period.npy": "742ad617f164c56a7257dfb5ec4a6ed0ece274934cb18974af0f4043a5cffd52",
+  "artifacts\\J03WMX\\observations\\player_observed.npy": "85bef5c27ae08d27516a305530c0db033376495a9fdd5f582b7c7da18168e0e2",
+  "artifacts\\J03WMX\\observations\\player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+  "artifacts\\J03WMX\\observations\\player_xy_m.npy": "72f5e87b425bdea5effd149846f69135498af5d31897fe1d41fcb574b9c83b90",
+  "artifacts\\J03WMX\\observations\\sequence_id.npy": "198060bf38bb4b3d183cffaed966acdc860fbb079b8ac047f0aa50bd6163c7e6",
+  "artifacts\\J03WMX\\observations\\time_s.npy": "92efa50449f01f7cd7b8b6309b97d4dc4b0739fc36a29726302dfa6b1212906a",
+  "artifacts\\J03WMX\\predictions\\baseline_raw.npy": "b26a8d939546a9970ba43011d0e38d0313ee8e6eafb1989406ae5d55d52be964",
+  "artifacts\\J03WMX\\predictions\\baseline_smooth125.npy": "9b08b2002ffeae4f351ac33bfdbbd64a4adb17813dbb7e6740911a9b1d6482f2",
+  "artifacts\\J03WMX\\predictions\\baseline_smooth25.npy": "c299bd11ce4e262f7009d40b18cc2ef4e02cce7812c41f000e379ea8aa22cfdf",
+  "artifacts\\J03WMX\\predictions\\baseline_smooth50.npy": "21caec35838f62e3132525610742a9dbbf235611cf0fcbbadf73f78a70b52505",
+  "artifacts\\J03WMX\\targets\\label.npy": "cbe47859918c3734600f593e6efdc9157b894442228fbfa1dc74ecb3a347fc3d",
+  "artifacts\\J03WMX\\targets\\valid.npy": "611e24e9ee1db4bce4c87696c21a2e1d9df45e234fc4f85b95a172115485eb8a",
+  "reports\\J03WMX\\benchmark.json": "25c0759aeadf6d73c891e1a3a5fd59f1ee6ed861bcbef69cb7f05d118e13778b",
+  "reports\\J03WMX\\scoreboard.csv": "d3c5c8ab16e9770d816d6875c5dbc23f3b7c089b55dcedfcb26fc129fa2c776f"
+}

@@ -1,0 +1,908 @@
+{
+  "rows": [
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9441349968661311,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.803125
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.9441144856659275,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.803125
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9441291783183262,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.803125
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.943671613377258,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.8020806241872563
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.9440475857442321,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.803125
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.9440553219596873,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.803125
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.9436367290453577,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.8020806241872563
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9440475857442321,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.803125
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.9437662936987546,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.8020806241872563
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9435158544518453,
+      "match": "J03WN1",
+      "scenario": "clean",
+      "spellF1": 0.8020806241872563
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.8908969427918301,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6614958448753463
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.8901767370358749,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6580110497237569
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.8902827246873407,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6580110497237569
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.8901932901816986,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6574585635359116
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.8902291208889683,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6580110497237569
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.8903437113256958,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6585635359116022
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.8898700691838851,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6574585635359116
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.8901595714065546,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6580110497237569
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.8903723098332609,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6591160220994474
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.8885697984676826,
+      "match": "J03WN1",
+      "scenario": "irregular40",
+      "spellF1": 0.6587586206896551
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.8675434170247005,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5997271487039565
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.8676287794259858,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6021798365122615
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.8675312858778383,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6021798365122615
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.8670601421249128,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5994579945799456
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.8677004033651303,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6016348773841962
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.8671922683688978,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6032697547683924
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.8673654837343894,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.8672389326752876,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6021798365122615
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.8671488469799956,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6032697547683924
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.8662838726008139,
+      "match": "J03WN1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6002721088435374
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9030232921398498,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6706214689265536
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.9031535639496827,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.669675599435825
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9030258368085121,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.9028315479470352,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.9028507453337881,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.9029305403406819,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.9027488250147545,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9030236812948726,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.669675599435825
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.9027440965246857,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9024641056554449,
+      "match": "J03WN1",
+      "scenario": "slow40",
+      "spellF1": 0.6691114245416079
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.8800387979997201,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6768809849521203
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.8795857505648951,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6757493188010899
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.8796806664028513,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6764625850340136
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.8784093632234109,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6724559023066486
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.8795256224534613,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6757493188010899
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.8796589522453785,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6764625850340136
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.8779950466003333,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6719131614654004
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.879870451114244,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6768392370572208
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.8783272992176689,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6722826086956524
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.877912137378449,
+      "match": "J03WN1",
+      "scenario": "target_like40",
+      "spellF1": 0.6729986431478969
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9660323209893636,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8121405750798723
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.9662398241077655,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8114832535885167
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9662230510614518,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8114832535885167
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.9657234075802265,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8089171974522292
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.9662316066163218,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8114832535885167
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.966237974040915,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8114832535885167
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.9657048692686946,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8082802547770701
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9662376436505807,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8114832535885167
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.9657273707118611,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8082802547770701
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9657178482417285,
+      "match": "J03WR9",
+      "scenario": "clean",
+      "spellF1": 0.8082802547770701
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9334913237273046,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6901830282861896
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.932886547932429,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.687893864013267
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9326634795813405,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.686092715231788
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.9321096697598126,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6836363636363636
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.9331419228262138,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6890365448504984
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.9325753558277913,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6854304635761589
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.9321614469768829,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6829752066115702
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9331933815248266,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6895174708818634
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.933372973775534,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6895174708818634
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9320919158255103,
+      "match": "J03WR9",
+      "scenario": "irregular40",
+      "spellF1": 0.6823140495867769
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9195273327363314,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.673037542662116
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.9194735418099805,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6723549488054607
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9190983517265012,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6700680272108844
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.9190578390165527,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6675721561969439
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.9195651163276429,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6723549488054609
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.9194856201327727,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6718909710391823
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.9191456741810757,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6689303904923599
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9199986548949212,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6735042735042736
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.9196306082959863,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6735042735042734
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9192234091285436,
+      "match": "J03WR9",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6732876712328768
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9390556675882865,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7142389525368249
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.9392336568595017,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7142389525368249
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9393578962653365,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7142389525368249
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.9387243770369794,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7098039215686274
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.939279114449944,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7142389525368249
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.9393719205618564,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7142389525368249
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.938831169357513,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7098039215686274
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9392967514593812,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7142389525368249
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.9388027054577704,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7124183006535948
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9389740382298492,
+      "match": "J03WR9",
+      "scenario": "slow40",
+      "spellF1": 0.7130718954248366
+    },
+    {
+      "config": "base",
+      "fold": "A",
+      "macroF1": 0.9298070642094719,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7252459016393442
+    },
+    {
+      "config": "k4_g1.25",
+      "fold": "A",
+      "macroF1": 0.929964648383682,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7266775777414076
+    },
+    {
+      "config": "k4_g1.5",
+      "fold": "A",
+      "macroF1": 0.9297503031685802,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7222222222222222
+    },
+    {
+      "config": "k4_g2.0",
+      "fold": "A",
+      "macroF1": 0.9299454166391214,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7243066884176181
+    },
+    {
+      "config": "k8_g1.25",
+      "fold": "A",
+      "macroF1": 0.9298263415917841,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7260229132569559
+    },
+    {
+      "config": "k8_g1.5",
+      "fold": "A",
+      "macroF1": 0.9295363284248541,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7253682487725042
+    },
+    {
+      "config": "k8_g2.0",
+      "fold": "A",
+      "macroF1": 0.9299286504713219,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7248366013071895
+    },
+    {
+      "config": "k16_g1.25",
+      "fold": "A",
+      "macroF1": 0.9299488906391042,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7260229132569559
+    },
+    {
+      "config": "k16_g1.5",
+      "fold": "A",
+      "macroF1": 0.9297347874797818,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7253682487725042
+    },
+    {
+      "config": "k16_g2.0",
+      "fold": "A",
+      "macroF1": 0.9293976043532609,
+      "match": "J03WR9",
+      "scenario": "target_like40",
+      "spellF1": 0.7253682487725042
+    }
+  ],
+  "tops": {
+    "k16_g1.25": [
+      49,
+      29,
+      5,
+      45,
+      7,
+      15,
+      52,
+      24,
+      36,
+      25,
+      60,
+      63,
+      16,
+      12,
+      51,
+      57
+    ],
+    "k16_g1.5": [
+      49,
+      29,
+      5,
+      45,
+      7,
+      15,
+      52,
+      24,
+      36,
+      25,
+      60,
+      63,
+      16,
+      12,
+      51,
+      57
+    ],
+    "k16_g2.0": [
+      49,
+      29,
+      5,
+      45,
+      7,
+      15,
+      52,
+      24,
+      36,
+      25,
+      60,
+      63,
+      16,
+      12,
+      51,
+      57
+    ],
+    "k4_g1.25": [
+      49,
+      29,
+      5,
+      45
+    ],
+    "k4_g1.5": [
+      49,
+      29,
+      5,
+      45
+    ],
+    "k4_g2.0": [
+      49,
+      29,
+      5,
+      45
+    ],
+    "k8_g1.25": [
+      49,
+      29,
+      5,
+      45,
+      7,
+      15,
+      52,
+      24
+    ],
+    "k8_g1.5": [
+      49,
+      29,
+      5,
+      45,
+      7,
+      15,
+      52,
+      24
+    ],
+    "k8_g2.0": [
+      49,
+      29,
+      5,
+      45,
+      7,
+      15,
+      52,
+      24
+    ]
+  }
+}

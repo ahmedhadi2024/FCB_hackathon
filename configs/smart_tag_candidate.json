@@ -1,0 +1,13 @@
+{
+  "status": "synthetic-tested prototype; not selected",
+  "phase_codes": [
+    "build up",
+    "progression"
+  ],
+  "margin_frames": 25,
+  "odds_multiplier": 1.5,
+  "missing_ball_only": true,
+  "preserve_dead_probability": true,
+  "conflict_policy": "unchanged_v2",
+  "selection_basis": "design choice fixed before local audit, not calibrated or performance-validated"
+}

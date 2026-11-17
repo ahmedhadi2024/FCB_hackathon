@@ -1,0 +1,657 @@
+{
+  "cells": [
+    {
+      "ball": "held",
+      "macroF1": 0.9592905492397182,
+      "model": "v7",
+      "scenario": "clean",
+      "spellF1": 0.7976119402985075,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9683407127276037,
+      "model": "v8_w1",
+      "scenario": "clean",
+      "spellF1": 0.8248888888888889,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9719762381539173,
+      "model": "v8_w3",
+      "scenario": "clean",
+      "spellF1": 0.8270588235294116,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.9153487400588934,
+      "model": "v7",
+      "scenario": "clean",
+      "spellF1": 0.7125553914327918,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8847976773621246,
+      "model": "v8_w1",
+      "scenario": "clean",
+      "spellF1": 0.7004392386530014,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8571869116295735,
+      "model": "v8_w3",
+      "scenario": "clean",
+      "spellF1": 0.6854651162790699,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9258921812002591,
+      "model": "v7",
+      "scenario": "irregular40",
+      "spellF1": 0.6662399999999999,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9350850726264573,
+      "model": "v8_w1",
+      "scenario": "irregular40",
+      "spellF1": 0.6933333333333334,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.938357272690958,
+      "model": "v8_w3",
+      "scenario": "irregular40",
+      "spellF1": 0.7153605015673982,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8913138903539082,
+      "model": "v7",
+      "scenario": "irregular40",
+      "spellF1": 0.6056962025316455,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8642114481038838,
+      "model": "v8_w1",
+      "scenario": "irregular40",
+      "spellF1": 0.5830721003134796,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8390703941899321,
+      "model": "v8_w3",
+      "scenario": "irregular40",
+      "spellF1": 0.5975308641975308,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9237122830383679,
+      "model": "v7",
+      "scenario": "crowded40",
+      "spellF1": 0.6370607028753994,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.932641477620486,
+      "model": "v8_w1",
+      "scenario": "crowded40",
+      "spellF1": 0.6721518987341771,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9343405720467302,
+      "model": "v8_w3",
+      "scenario": "crowded40",
+      "spellF1": 0.6889235569422777,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8921441968323002,
+      "model": "v7",
+      "scenario": "crowded40",
+      "spellF1": 0.5694267515923567,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8670316654266946,
+      "model": "v8_w1",
+      "scenario": "crowded40",
+      "spellF1": 0.5648148148148148,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8284701052470549,
+      "model": "v8_w3",
+      "scenario": "crowded40",
+      "spellF1": 0.5683229813664596,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9044683991234704,
+      "model": "v7",
+      "scenario": "mixed_stress",
+      "spellF1": 0.596103896103896,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9127787304800082,
+      "model": "v8_w1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6180064308681671,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9093064664525619,
+      "model": "v8_w3",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6172143974960876,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8646154525647045,
+      "model": "v7",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5237179487179487,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8524241248593326,
+      "model": "v8_w1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5097791798107256,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8239399954146721,
+      "model": "v8_w3",
+      "scenario": "mixed_stress",
+      "spellF1": 0.503405572755418,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.930347031333724,
+      "model": "v7",
+      "scenario": "slow40",
+      "spellF1": 0.6892307692307692,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9377909783855743,
+      "model": "v8_w1",
+      "scenario": "slow40",
+      "spellF1": 0.7215926493108729,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9387212636957155,
+      "model": "v8_w3",
+      "scenario": "slow40",
+      "spellF1": 0.7335384615384615,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.898214395525998,
+      "model": "v7",
+      "scenario": "slow40",
+      "spellF1": 0.6358662613981763,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8771953354745223,
+      "model": "v8_w1",
+      "scenario": "slow40",
+      "spellF1": 0.6404761904761906,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.857518355354137,
+      "model": "v8_w3",
+      "scenario": "slow40",
+      "spellF1": 0.64,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9215021224206975,
+      "model": "v7",
+      "scenario": "target_like40",
+      "spellF1": 0.6666666666666666,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.927782067046286,
+      "model": "v8_w1",
+      "scenario": "target_like40",
+      "spellF1": 0.6869431643625192,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9352368098163927,
+      "model": "v8_w3",
+      "scenario": "target_like40",
+      "spellF1": 0.7029548989113531,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8848413621237384,
+      "model": "v7",
+      "scenario": "target_like40",
+      "spellF1": 0.6156682027649769,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8727643980696729,
+      "model": "v8_w1",
+      "scenario": "target_like40",
+      "spellF1": 0.6063732928679817,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8565933880139066,
+      "model": "v8_w3",
+      "scenario": "target_like40",
+      "spellF1": 0.6064122137404581,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9282206685615441,
+      "model": "v7",
+      "scenario": "clean",
+      "spellF1": 0.8171428571428571,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9412004066638812,
+      "model": "v8_w1",
+      "scenario": "clean",
+      "spellF1": 0.8431205673758864,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9463248508197308,
+      "model": "v8_w3",
+      "scenario": "clean",
+      "spellF1": 0.8605042016806722,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8854317751837316,
+      "model": "v7",
+      "scenario": "clean",
+      "spellF1": 0.7836619718309858,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8931447091015933,
+      "model": "v8_w1",
+      "scenario": "clean",
+      "spellF1": 0.7774964838255978,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8866708785808269,
+      "model": "v8_w3",
+      "scenario": "clean",
+      "spellF1": 0.7762102351313971,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8896230594381459,
+      "model": "v7",
+      "scenario": "irregular40",
+      "spellF1": 0.6998473282442749,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8993789882574053,
+      "model": "v8_w1",
+      "scenario": "irregular40",
+      "spellF1": 0.7135135135135136,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9020479842873351,
+      "model": "v8_w3",
+      "scenario": "irregular40",
+      "spellF1": 0.7195195195195195,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8572378688524566,
+      "model": "v7",
+      "scenario": "irregular40",
+      "spellF1": 0.6724812030075187,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8641185768406769,
+      "model": "v8_w1",
+      "scenario": "irregular40",
+      "spellF1": 0.6688622754491018,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.851867618216151,
+      "model": "v8_w3",
+      "scenario": "irregular40",
+      "spellF1": 0.6331360946745563,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8898365687645514,
+      "model": "v7",
+      "scenario": "crowded40",
+      "spellF1": 0.6624242424242424,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9035773089587603,
+      "model": "v8_w1",
+      "scenario": "crowded40",
+      "spellF1": 0.6846625766871165,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9028107081331883,
+      "model": "v8_w3",
+      "scenario": "crowded40",
+      "spellF1": 0.6855403348554032,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8544042019197905,
+      "model": "v7",
+      "scenario": "crowded40",
+      "spellF1": 0.6238532110091743,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.865199933801116,
+      "model": "v8_w1",
+      "scenario": "crowded40",
+      "spellF1": 0.624048706240487,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8585047756721514,
+      "model": "v8_w3",
+      "scenario": "crowded40",
+      "spellF1": 0.6106221547799696,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.876121143893546,
+      "model": "v7",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6604938271604939,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8869197630176181,
+      "model": "v8_w1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.69009009009009,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8903688864809421,
+      "model": "v8_w3",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6971428571428572,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8377273342125897,
+      "model": "v7",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6186830015313937,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8499002927876783,
+      "model": "v8_w1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6323922734026747,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8332757023425841,
+      "model": "v8_w3",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6289940828402367,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8905820304349262,
+      "model": "v7",
+      "scenario": "slow40",
+      "spellF1": 0.6921212121212121,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8999697274262278,
+      "model": "v8_w1",
+      "scenario": "slow40",
+      "spellF1": 0.7197568389057751,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.9051660411747,
+      "model": "v8_w3",
+      "scenario": "slow40",
+      "spellF1": 0.7355223880597015,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.860834511008723,
+      "model": "v7",
+      "scenario": "slow40",
+      "spellF1": 0.6690582959641256,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.864929723528174,
+      "model": "v8_w1",
+      "scenario": "slow40",
+      "spellF1": 0.6676737160120846,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8593691955318311,
+      "model": "v8_w3",
+      "scenario": "slow40",
+      "spellF1": 0.656515373352855,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8831635155731211,
+      "model": "v7",
+      "scenario": "target_like40",
+      "spellF1": 0.6774390243902438,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.894448830518777,
+      "model": "v8_w1",
+      "scenario": "target_like40",
+      "spellF1": 0.6898021308980213,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "held",
+      "macroF1": 0.8982486596275665,
+      "model": "v8_w3",
+      "scenario": "target_like40",
+      "spellF1": 0.7047040971168437,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8541690047320701,
+      "model": "v7",
+      "scenario": "target_like40",
+      "spellF1": 0.6530120481927711,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.858812625718142,
+      "model": "v8_w1",
+      "scenario": "target_like40",
+      "spellF1": 0.6383107088989441,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "ball": "blank",
+      "macroF1": 0.8485628487655718,
+      "model": "v8_w3",
+      "scenario": "target_like40",
+      "spellF1": 0.629940119760479,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    }
+  ],
+  "costs": [
+    5.0,
+    30.0
+  ],
+  "filter": 25
+}

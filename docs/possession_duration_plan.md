@@ -1,0 +1,5 @@
+# Optional whole-possession duration layer
+
+Implement an experimental soft duration-aware decoder after the existing TCN emissions. Preserve the selected v2 exporter. Existing Viterbi already handles whole sequences; this extension makes the cost of ending a short H/A spell explicit. Use expanded states for class and capped age. Charge a fixed extra cost when leaving an H/A spell younger than 12 frames; do not impose a hard minimum, do not penalize D duration, and treat sequence-edge spells as censored. At zero extra cost, return the existing decoder exactly. Initial design: transition cost 10, short-spell exit cost 2. These are frozen design choices, not calibrated on the public five minutes.
+
+Tests: exact disabled equivalence; exhaustive optimum on tiny examples; sequence isolation; team exchange. Evaluate on external development only before any promotion. The public-sample score must not select this variant. No new neural training, match inference, or public-label tuning is part of implementation.

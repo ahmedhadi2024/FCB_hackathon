@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "purpose": "First external live/dead experiment; no competition inference",
+  "train": ["J03WMX", "J03WOH", "J03WOY", "J03WPY"],
+  "validation": ["J03WQQ"],
+  "sealed_test": ["J03WN1", "J03WR9"],
+  "test_policy": "Do not download, open, transform, train on or score sealed test matches in this experiment",
+  "development_match": "J03WMX",
+  "fps": 25,
+  "ownership_baseline_half_width": 50,
+  "model": {"kind": "numpy_logistic_regression", "l2": 0.01, "max_iterations": 40,
+            "max_sampled_frames_per_match": 10000, "seed": 20261108},
+  "selection": {"metric": "mean_validation_spellF1_across_predefined_scenarios",
+                "probability_thresholds": [0.35, 0.5, 0.65],
+                "probability_smoothing_half_widths": [0, 12],
+                "tie_break": "clean_spellF1_then_less_smoothing_then_threshold_nearest_0.5",
+                "test_release": "Separate explicit final evaluation after model selection"},
+  "robustness": [
+    {"name": "clean", "seed": 100},
+    {"name": "short_occlusion", "seed": 101, "ball_gap_frames": 25, "ball_gap_period_frames": 250},
+    {"name": "long_occlusion", "seed": 102, "ball_gap_frames": 125, "ball_gap_period_frames": 500},
+    {"name": "mixed_noise", "seed": 103, "ball_gap_frames": 50, "ball_gap_period_frames": 250,
+     "player_drop_probability": 0.1, "coordinate_noise_std_m": 0.5, "permute_slots_within_team": true}
+  ],
+  "training_scenarios": ["clean", "short_occlusion", "long_occlusion", "mixed_noise"],
+  "features": "geometry, symmetric team distances, ball/player motion, observed fractions and explicit missingness; no IDs, ownership/status, events, team names, period clock or ball height",
+  "temporal_policy": "Offline centred context; reset at observation sequence boundaries",
+  "limitations": "Tiny seven-match collection; repeated teams; DFL label conventions and clean tracking may not transfer to Metrica"
+}

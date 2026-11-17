@@ -1,0 +1,31 @@
+metrica3 clean
+metrica3 irregular40
+metrica3 crowded40
+metrica3 mixed_stress
+metrica3 slow40
+metrica3 target_like40
+natural 2017461
+natural 2016236
+natural 2015213
+natural 2013725
+natural 2011166
+natural 2010085
+natural 2007721
+natural 2007448
+natural 2006363
+natural 2006229
+natural 1996435
+natural 1996436
+natural 1986691
+natural 1959846
+natural 1953632
+natural 1927964
+natural 1925299
+natural 1899585
+natural 1886347
+natural 1874553
+
+model           M3 held+faults  M3 held+all  M3 blank+faults  M3 blank+all  M3 clean h+f  natural  nat pred/true nat D rec
+temporal_v9             0.7074       0.7128           0.6325        0.6452        0.8598   0.5342        342/254      0.80
+temporal_v9e            0.7080       0.7165           0.6371        0.6469        0.8515   0.5396        343/254      0.79
+natural matches: 20

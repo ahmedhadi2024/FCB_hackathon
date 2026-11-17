@@ -1,0 +1,653 @@
+{
+  "cells": [
+    {
+      "macroF1": 0.9592905492397182,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "clean",
+      "spellF1": 0.7976119402985075,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9719762381539173,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "clean",
+      "spellF1": 0.8270588235294116,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.970205088481994,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "clean",
+      "spellF1": 0.8239520958083834,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.950551933748812,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "clean",
+      "spellF1": 0.7533527696793003,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9640628764493435,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "clean",
+      "spellF1": 0.7982658959537572,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9664175376920007,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "clean",
+      "spellF1": 0.8071641791044776,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9258921812002591,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "irregular40",
+      "spellF1": 0.6662399999999999,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.938357272690958,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "irregular40",
+      "spellF1": 0.7153605015673982,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9331180210243737,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "irregular40",
+      "spellF1": 0.690909090909091,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9109408934073207,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "irregular40",
+      "spellF1": 0.6222222222222221,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9202367494945257,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "irregular40",
+      "spellF1": 0.6672619047619048,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9299509019593591,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "irregular40",
+      "spellF1": 0.6838509316770185,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9237122830383679,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "crowded40",
+      "spellF1": 0.6370607028753994,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9343405720467302,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "crowded40",
+      "spellF1": 0.6889235569422777,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9326873340179661,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "crowded40",
+      "spellF1": 0.682574568288854,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9195219071718203,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "crowded40",
+      "spellF1": 0.6236220472440945,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9289778332623491,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "crowded40",
+      "spellF1": 0.6575851393188855,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9323237376090532,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "crowded40",
+      "spellF1": 0.6717219589257504,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9044683991234704,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "mixed_stress",
+      "spellF1": 0.596103896103896,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9093064664525619,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6172143974960876,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9095453041832197,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "mixed_stress",
+      "spellF1": 0.629665071770335,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.8964793432069045,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5811802232854865,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9012053021225741,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6018404907975461,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.906342317674467,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "mixed_stress",
+      "spellF1": 0.61283255086072,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.930347031333724,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "slow40",
+      "spellF1": 0.6892307692307692,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9387212636957155,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "slow40",
+      "spellF1": 0.7335384615384615,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9424755450627708,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "slow40",
+      "spellF1": 0.72875,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9213574260525427,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "slow40",
+      "spellF1": 0.65565749235474,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9285378175851459,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "slow40",
+      "spellF1": 0.6881203007518797,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9386072955279422,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "slow40",
+      "spellF1": 0.7031055900621117,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9215021224206975,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "target_like40",
+      "spellF1": 0.6666666666666666,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9352368098163927,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "target_like40",
+      "spellF1": 0.7029548989113531,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9321607520215255,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "target_like40",
+      "spellF1": 0.6846394984326019,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9111515220100997,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "target_like40",
+      "spellF1": 0.6409861325115561,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9198739642059738,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "target_like40",
+      "spellF1": 0.6470046082949309,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9220937131238033,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "target_like40",
+      "spellF1": 0.6674999999999999,
+      "test_game": "Sample_Game_2",
+      "train_game": "Sample_Game_1"
+    },
+    {
+      "macroF1": 0.9282206685615441,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "clean",
+      "spellF1": 0.8171428571428571,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9463248508197308,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "clean",
+      "spellF1": 0.8605042016806722,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.942487812253197,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "clean",
+      "spellF1": 0.8493758668515952,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9198586851104374,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "clean",
+      "spellF1": 0.7897289586305278,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.935668077145249,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "clean",
+      "spellF1": 0.8277008310249307,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.938370725110072,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "clean",
+      "spellF1": 0.8324621733149933,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8896230594381459,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "irregular40",
+      "spellF1": 0.6998473282442749,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9020479842873351,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "irregular40",
+      "spellF1": 0.7195195195195195,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9007353242131725,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "irregular40",
+      "spellF1": 0.7167664670658682,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8824073292277252,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "irregular40",
+      "spellF1": 0.6721893491124261,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8918028261576411,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "irregular40",
+      "spellF1": 0.6714285714285715,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8967347988894966,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "irregular40",
+      "spellF1": 0.6988023952095809,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8898365687645514,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "crowded40",
+      "spellF1": 0.6624242424242424,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9028107081331883,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "crowded40",
+      "spellF1": 0.6855403348554032,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9030981949504424,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "crowded40",
+      "spellF1": 0.6869955156950672,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8855236731311905,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "crowded40",
+      "spellF1": 0.6414523449319214,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8993917068148782,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "crowded40",
+      "spellF1": 0.6763744427934621,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9013978609282146,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "crowded40",
+      "spellF1": 0.6774289985052316,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.876121143893546,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6604938271604939,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8903688864809421,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6971428571428572,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8879530824612586,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6975903614457831,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8749385428442668,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6542113323124042,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8855042787510535,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6818991097922849,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8830850942889987,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6905263157894737,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8905820304349262,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "slow40",
+      "spellF1": 0.6921212121212121,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9051660411747,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "slow40",
+      "spellF1": 0.7355223880597015,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.9036803243658486,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "slow40",
+      "spellF1": 0.7291666666666666,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.880150700059243,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "slow40",
+      "spellF1": 0.6507374631268437,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8882929372868239,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "slow40",
+      "spellF1": 0.6903225806451612,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.89020017187809,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "slow40",
+      "spellF1": 0.700595238095238,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8831635155731211,
+      "model": "v7",
+      "players": "all_players",
+      "scenario": "target_like40",
+      "spellF1": 0.6774390243902438,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8982486596275665,
+      "model": "v8",
+      "players": "all_players",
+      "scenario": "target_like40",
+      "spellF1": 0.7047040971168437,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8931584093929813,
+      "model": "v9",
+      "players": "all_players",
+      "scenario": "target_like40",
+      "spellF1": 0.6905775075987841,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8747802077320234,
+      "model": "v7",
+      "players": "player_faults",
+      "scenario": "target_like40",
+      "spellF1": 0.6208144796380091,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8840762543834179,
+      "model": "v8",
+      "players": "player_faults",
+      "scenario": "target_like40",
+      "spellF1": 0.6455505279034691,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    },
+    {
+      "macroF1": 0.8909754454717259,
+      "model": "v9",
+      "players": "player_faults",
+      "scenario": "target_like40",
+      "spellF1": 0.6693374422187983,
+      "test_game": "Sample_Game_1",
+      "train_game": "Sample_Game_2"
+    }
+  ],
+  "weight": 3
+}

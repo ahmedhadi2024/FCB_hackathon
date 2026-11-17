@@ -1,0 +1,17 @@
+external-data/
+artifacts/
+__pycache__/
+*.pyc
+*.log
+.venv/
+data/
+dataset/
+local-reports/
+*.mp4
+*.mkv
+*.avi
+*.crdownload
+*.partial
+.env
+.env.*
+docs/pilot_reproduction_before.json

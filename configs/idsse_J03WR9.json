@@ -1,0 +1,18 @@
+{
+  "coordinate_system": "dfl-centred-metres",
+  "events": "external-data/J03WR9/DFL_03_02_events_raw_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+  "expected_sha256": {
+    "events": "31735a2d7b9008c44cae9b6ac43ab38ddeaa435d0416265ec0ebfebf53b3c982",
+    "metadata": "429b584e89df3e3e8b81f4bd0d004b38bd0b4298bb390b8fb43efccb60963e01",
+    "positions": "70b63069189019066fb7e3d9db891122edfe787f3a43ba522ebe45ed89ea0269"
+  },
+  "match_id": "J03WR9",
+  "metadata": "external-data/J03WR9/DFL_02_01_matchinformation_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+  "output": "artifacts/J03WR9",
+  "positions": "external-data/J03WR9/DFL_04_03_positions_raw_observed_DFL-COM-000002_DFL-MAT-J03WR9.xml",
+  "project_root": "..",
+  "source_revision": "a715a38dfbaf5f58e431727c2b78d174101a703c",
+  "source_urls": [
+    "https://huggingface.co/api/datasets/pysport/idsse-data/tree/a715a38dfbaf5f58e431727c2b78d174101a703c?recursive=false&expand=false"
+  ]
+}

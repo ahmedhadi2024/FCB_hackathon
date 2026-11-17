@@ -1,0 +1,12 @@
+{
+  "match_id": "BAR-ATH",
+  "source": "tactical",
+  "stem": "BAR-ATH_tactical",
+  "n_frames": 199319,
+  "pitch_m": [105.3, 68.0],
+  "active_blocks": [[1, 11185, 90651], [2, 110808, 190197]],
+  "model": "../models/temporal_v1.pt",
+  "model_kind": "pytorch_temporal_conv_v1",
+  "model_sha256": "7e485627fc8d672147fc62c8407be81fc581bc7b27ec3ec090b5fb60a683fdf5",
+  "metadata_team_policy": "epts_first_team_is_home"
+}

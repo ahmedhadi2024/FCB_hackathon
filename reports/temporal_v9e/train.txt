@@ -1,0 +1,228 @@
+features final J03WMX clean
+features final J03WMX irregular40
+features final J03WMX crowded40
+features final J03WMX mixed_stress
+features final J03WMX slow40
+features final J03WMX slow60
+features final J03WMX target_like40
+features final J03WOH clean
+features final J03WOH irregular40
+features final J03WOH crowded40
+features final J03WOH mixed_stress
+features final J03WOH slow40
+features final J03WOH slow60
+features final J03WOH target_like40
+features final J03WOY clean
+features final J03WOY irregular40
+features final J03WOY crowded40
+features final J03WOY mixed_stress
+features final J03WOY slow40
+features final J03WOY slow60
+features final J03WOY target_like40
+features final J03WPY clean
+features final J03WPY irregular40
+features final J03WPY crowded40
+features final J03WPY mixed_stress
+features final J03WPY slow40
+features final J03WPY slow60
+features final J03WPY target_like40
+features final J03WQQ clean
+features final J03WQQ irregular40
+features final J03WQQ crowded40
+features final J03WQQ mixed_stress
+features final J03WQQ slow40
+features final J03WQQ slow60
+features final J03WQQ target_like40
+features final J03WN1 clean
+features final J03WN1 irregular40
+features final J03WN1 crowded40
+features final J03WN1 mixed_stress
+features final J03WN1 slow40
+features final J03WN1 slow60
+features final J03WN1 target_like40
+features final J03WR9 clean
+features final J03WR9 irregular40
+features final J03WR9 crowded40
+features final J03WR9 mixed_stress
+features final J03WR9 slow40
+features final J03WR9 slow60
+features final J03WR9 target_like40
+features final Sample_Game_1 clean
+features final Sample_Game_1 irregular40
+features final Sample_Game_1 crowded40
+features final Sample_Game_1 mixed_stress
+features final Sample_Game_1 slow40
+features final Sample_Game_1 slow60
+features final Sample_Game_1 target_like40
+features final Sample_Game_2 clean
+features final Sample_Game_2 irregular40
+features final Sample_Game_2 crowded40
+features final Sample_Game_2 mixed_stress
+features final Sample_Game_2 slow40
+features final Sample_Game_2 slow60
+features final Sample_Game_2 target_like40
+epoch 1 of 40 loss 0.48082 elapsed_s 11.3
+epoch 2 of 40 loss 0.39147 elapsed_s 20.1
+epoch 3 of 40 loss 0.33215 elapsed_s 29.1
+epoch 4 of 40 loss 0.30724 elapsed_s 38.3
+epoch 5 of 40 loss 0.31238 elapsed_s 47.1
+epoch 6 of 40 loss 0.29916 elapsed_s 55.8
+epoch 7 of 40 loss 0.27047 elapsed_s 64.7
+epoch 8 of 40 loss 0.28714 elapsed_s 73.5
+epoch 9 of 40 loss 0.26889 elapsed_s 82.0
+epoch 10 of 40 loss 0.26301 elapsed_s 90.5
+epoch 11 of 40 loss 0.25731 elapsed_s 99.5
+epoch 12 of 40 loss 0.24878 elapsed_s 108.1
+epoch 13 of 40 loss 0.24947 elapsed_s 116.8
+epoch 14 of 40 loss 0.23444 elapsed_s 125.5
+epoch 15 of 40 loss 0.23058 elapsed_s 133.9
+epoch 16 of 40 loss 0.2328 elapsed_s 142.4
+epoch 17 of 40 loss 0.22672 elapsed_s 151.0
+epoch 18 of 40 loss 0.22189 elapsed_s 159.7
+epoch 19 of 40 loss 0.21926 elapsed_s 168.3
+epoch 20 of 40 loss 0.21586 elapsed_s 176.9
+epoch 21 of 40 loss 0.20697 elapsed_s 186.4
+epoch 22 of 40 loss 0.20753 elapsed_s 195.4
+epoch 23 of 40 loss 0.19752 elapsed_s 204.1
+epoch 24 of 40 loss 0.19017 elapsed_s 212.7
+epoch 25 of 40 loss 0.19221 elapsed_s 221.3
+epoch 26 of 40 loss 0.19196 elapsed_s 230.0
+epoch 27 of 40 loss 0.19104 elapsed_s 238.6
+epoch 28 of 40 loss 0.18379 elapsed_s 247.6
+epoch 29 of 40 loss 0.17865 elapsed_s 256.2
+epoch 30 of 40 loss 0.18601 elapsed_s 264.6
+epoch 31 of 40 loss 0.18643 elapsed_s 273.2
+epoch 32 of 40 loss 0.16957 elapsed_s 281.8
+epoch 33 of 40 loss 0.17759 elapsed_s 290.1
+epoch 34 of 40 loss 0.16701 elapsed_s 298.6
+epoch 35 of 40 loss 0.18045 elapsed_s 307.2
+epoch 36 of 40 loss 0.17272 elapsed_s 315.8
+epoch 37 of 40 loss 0.17838 elapsed_s 324.3
+epoch 38 of 40 loss 0.17918 elapsed_s 332.9
+epoch 39 of 40 loss 0.16116 elapsed_s 341.4
+epoch 40 of 40 loss 0.16985 elapsed_s 349.9
+member saved 9106
+epoch 1 of 40 loss 0.49114 elapsed_s 8.7
+epoch 2 of 40 loss 0.37956 elapsed_s 17.4
+epoch 3 of 40 loss 0.34228 elapsed_s 25.9
+epoch 4 of 40 loss 0.32473 elapsed_s 34.4
+epoch 5 of 40 loss 0.29832 elapsed_s 43.1
+epoch 6 of 40 loss 0.29306 elapsed_s 51.5
+epoch 7 of 40 loss 0.28159 elapsed_s 59.9
+epoch 8 of 40 loss 0.28228 elapsed_s 68.6
+epoch 9 of 40 loss 0.26819 elapsed_s 77.2
+epoch 10 of 40 loss 0.26921 elapsed_s 85.7
+epoch 11 of 40 loss 0.24833 elapsed_s 94.3
+epoch 12 of 40 loss 0.25306 elapsed_s 102.8
+epoch 13 of 40 loss 0.24076 elapsed_s 111.1
+epoch 14 of 40 loss 0.24442 elapsed_s 119.6
+epoch 15 of 40 loss 0.23367 elapsed_s 128.1
+epoch 16 of 40 loss 0.23628 elapsed_s 137.0
+epoch 17 of 40 loss 0.22802 elapsed_s 145.5
+epoch 18 of 40 loss 0.22263 elapsed_s 154.0
+epoch 19 of 40 loss 0.22946 elapsed_s 162.5
+epoch 20 of 40 loss 0.21585 elapsed_s 170.9
+epoch 21 of 40 loss 0.2076 elapsed_s 179.5
+epoch 22 of 40 loss 0.20434 elapsed_s 188.1
+epoch 23 of 40 loss 0.19106 elapsed_s 196.7
+epoch 24 of 40 loss 0.20123 elapsed_s 205.1
+epoch 25 of 40 loss 0.20794 elapsed_s 213.6
+epoch 26 of 40 loss 0.19948 elapsed_s 222.2
+epoch 27 of 40 loss 0.19176 elapsed_s 230.6
+epoch 28 of 40 loss 0.19793 elapsed_s 239.1
+epoch 29 of 40 loss 0.1819 elapsed_s 247.4
+epoch 30 of 40 loss 0.18585 elapsed_s 256.0
+epoch 31 of 40 loss 0.18178 elapsed_s 264.4
+epoch 32 of 40 loss 0.17533 elapsed_s 272.7
+epoch 33 of 40 loss 0.17762 elapsed_s 281.1
+epoch 34 of 40 loss 0.16742 elapsed_s 289.6
+epoch 35 of 40 loss 0.17737 elapsed_s 298.1
+epoch 36 of 40 loss 0.17372 elapsed_s 306.6
+epoch 37 of 40 loss 0.17056 elapsed_s 315.3
+epoch 38 of 40 loss 0.17092 elapsed_s 323.9
+epoch 39 of 40 loss 0.167 elapsed_s 332.6
+epoch 40 of 40 loss 0.15794 elapsed_s 341.2
+member saved 9107
+epoch 1 of 40 loss 0.48392 elapsed_s 9.6
+epoch 2 of 40 loss 0.38005 elapsed_s 18.6
+epoch 3 of 40 loss 0.33693 elapsed_s 27.1
+epoch 4 of 40 loss 0.30998 elapsed_s 36.6
+epoch 5 of 40 loss 0.29592 elapsed_s 45.8
+epoch 6 of 40 loss 0.30552 elapsed_s 55.1
+epoch 7 of 40 loss 0.28315 elapsed_s 64.0
+epoch 8 of 40 loss 0.2726 elapsed_s 72.7
+epoch 9 of 40 loss 0.27357 elapsed_s 81.5
+epoch 10 of 40 loss 0.26205 elapsed_s 90.8
+epoch 11 of 40 loss 0.25329 elapsed_s 99.3
+epoch 12 of 40 loss 0.25933 elapsed_s 106.7
+epoch 13 of 40 loss 0.23848 elapsed_s 114.4
+epoch 14 of 40 loss 0.24683 elapsed_s 121.9
+epoch 15 of 40 loss 0.23624 elapsed_s 129.4
+epoch 16 of 40 loss 0.23078 elapsed_s 136.8
+epoch 17 of 40 loss 0.22736 elapsed_s 144.2
+epoch 18 of 40 loss 0.23772 elapsed_s 151.7
+epoch 19 of 40 loss 0.22813 elapsed_s 159.2
+epoch 20 of 40 loss 0.2194 elapsed_s 166.8
+epoch 21 of 40 loss 0.21243 elapsed_s 174.1
+epoch 22 of 40 loss 0.21456 elapsed_s 181.4
+epoch 23 of 40 loss 0.21032 elapsed_s 188.8
+epoch 24 of 40 loss 0.1974 elapsed_s 196.5
+epoch 25 of 40 loss 0.19832 elapsed_s 204.1
+epoch 26 of 40 loss 0.20031 elapsed_s 211.3
+epoch 27 of 40 loss 0.18778 elapsed_s 218.6
+epoch 28 of 40 loss 0.19268 elapsed_s 225.9
+epoch 29 of 40 loss 0.18676 elapsed_s 233.2
+epoch 30 of 40 loss 0.18606 elapsed_s 240.6
+epoch 31 of 40 loss 0.17987 elapsed_s 247.9
+epoch 32 of 40 loss 0.19232 elapsed_s 255.2
+epoch 33 of 40 loss 0.18105 elapsed_s 262.8
+epoch 34 of 40 loss 0.17357 elapsed_s 270.2
+epoch 35 of 40 loss 0.1776 elapsed_s 277.8
+epoch 36 of 40 loss 0.173 elapsed_s 285.3
+epoch 37 of 40 loss 0.17256 elapsed_s 292.9
+epoch 38 of 40 loss 0.16977 elapsed_s 300.4
+epoch 39 of 40 loss 0.16592 elapsed_s 308.0
+epoch 40 of 40 loss 0.17795 elapsed_s 315.6
+member saved 9108
+epoch 1 of 40 loss 0.48537 elapsed_s 7.7
+epoch 2 of 40 loss 0.38221 elapsed_s 15.3
+epoch 3 of 40 loss 0.32626 elapsed_s 22.9
+epoch 4 of 40 loss 0.31997 elapsed_s 30.6
+epoch 5 of 40 loss 0.29888 elapsed_s 38.2
+epoch 6 of 40 loss 0.29191 elapsed_s 45.8
+epoch 7 of 40 loss 0.27148 elapsed_s 53.5
+epoch 8 of 40 loss 0.26577 elapsed_s 61.1
+epoch 9 of 40 loss 0.27258 elapsed_s 68.7
+epoch 10 of 40 loss 0.27213 elapsed_s 76.2
+epoch 11 of 40 loss 0.24773 elapsed_s 83.7
+epoch 12 of 40 loss 0.2384 elapsed_s 91.2
+epoch 13 of 40 loss 0.24825 elapsed_s 98.6
+epoch 14 of 40 loss 0.24005 elapsed_s 106.2
+epoch 15 of 40 loss 0.22884 elapsed_s 113.7
+epoch 16 of 40 loss 0.24226 elapsed_s 121.2
+epoch 17 of 40 loss 0.22997 elapsed_s 128.6
+epoch 18 of 40 loss 0.22697 elapsed_s 135.9
+epoch 19 of 40 loss 0.2264 elapsed_s 143.3
+epoch 20 of 40 loss 0.21724 elapsed_s 150.7
+epoch 21 of 40 loss 0.21651 elapsed_s 158.3
+epoch 22 of 40 loss 0.20768 elapsed_s 165.7
+epoch 23 of 40 loss 0.19383 elapsed_s 173.2
+epoch 24 of 40 loss 0.18939 elapsed_s 180.7
+epoch 25 of 40 loss 0.20354 elapsed_s 188.2
+epoch 26 of 40 loss 0.19925 elapsed_s 195.7
+epoch 27 of 40 loss 0.18968 elapsed_s 203.4
+epoch 28 of 40 loss 0.18734 elapsed_s 210.8
+epoch 29 of 40 loss 0.18035 elapsed_s 218.1
+epoch 30 of 40 loss 0.19302 elapsed_s 225.5
+epoch 31 of 40 loss 0.17882 elapsed_s 232.9
+epoch 32 of 40 loss 0.17299 elapsed_s 240.6
+epoch 33 of 40 loss 0.18162 elapsed_s 248.1
+epoch 34 of 40 loss 0.17356 elapsed_s 255.5
+epoch 35 of 40 loss 0.17139 elapsed_s 263.0
+epoch 36 of 40 loss 0.17546 elapsed_s 270.4
+epoch 37 of 40 loss 0.17533 elapsed_s 277.8
+epoch 38 of 40 loss 0.16643 elapsed_s 285.0
+epoch 39 of 40 loss 0.17287 elapsed_s 292.4
+epoch 40 of 40 loss 0.16548 elapsed_s 299.8
+member saved 9109
+Ensemble bundle written with 5 members

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "purpose": "Predeclared external development stress tests; not independent final testing",
+  "scenarios": [
+    {"name":"clean","seed":100},
+    {"name":"short_occlusion","seed":101,"ball_gap_frames":25,"ball_gap_period_frames":250},
+    {"name":"long_occlusion","seed":102,"ball_gap_frames":125,"ball_gap_period_frames":500},
+    {"name":"mixed_noise","seed":103,"ball_gap_frames":50,"ball_gap_period_frames":250,"player_drop_probability":0.1,"coordinate_noise_std_m":0.5,"permute_slots_within_team":true},
+    {"name":"irregular40","seed":201,"missing_fraction":0.4,"gap_min_frames":25,"gap_max_frames":375},
+    {"name":"irregular60","seed":202,"missing_fraction":0.6,"gap_min_frames":25,"gap_max_frames":375},
+    {"name":"crowded40","seed":203,"missing_fraction":0.4,"gap_min_frames":25,"gap_max_frames":125,"crowd_weight":9,"crowd_radius_m":10,"crowd_min_players":4},
+    {"name":"duplicates","seed":204,"duplicate_fraction":0.25},
+    {"name":"mixed_stress","seed":205,"missing_fraction":0.4,"gap_min_frames":25,"gap_max_frames":375,"duplicate_fraction":0.25,"player_drop_probability":0.1,"coordinate_noise_std_m":0.5}
+  ],
+  "mask_policy":"Per sequence seeded contiguous intervals until ceil(fraction*length) rows are masked; final interval can be truncated. Existing missingness is preserved. Report actual missing fraction.",
+  "crowd_policy":"Start probability proportional to 1+crowd_weight when at least crowd_min_players observed within crowd_radius_m of observed ball; proxy only, never target-conditioned.",
+  "duplicate_policy":"Append ceil(fraction*roster_slots) sampled slots independently per team; copies share source coordinates and missingness before optional dropout/noise.",
+  "control":"Logistic dead probability plus smoothed/propagated reference owner converted to H/A/D emissions, then neural decoder penalty 5. This is a decoding control, not identical or calibrated neural emissions."
+}

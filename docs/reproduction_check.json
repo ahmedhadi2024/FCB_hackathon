@@ -1,0 +1,6 @@
+{
+  "checked_files": 17,
+  "all_identical": true,
+  "mismatches": [],
+  "scope": "All canonical arrays, target arrays, baseline prediction arrays, and external report files; prep manifest source hashes intentionally changed after code-review fixes."
+}

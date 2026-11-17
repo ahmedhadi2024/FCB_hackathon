@@ -1,0 +1,27 @@
+{
+  "active_blocks": [
+    [
+      1,
+      11185,
+      90651
+    ],
+    [
+      2,
+      110808,
+      190197
+    ]
+  ],
+  "match_id": "BAR-ATH",
+  "metadata_team_policy": "epts_first_team_is_home",
+  "model": "../models/temporal_v2.pt",
+  "model_kind": "pytorch_temporal_conv_v1",
+  "model_sha256": "85f2006b010672063758259d367428f8e4a73706251e8842ac0f993f0b7782d7",
+  "n_frames": 199319,
+  "pitch_m": [
+    105.3,
+    68.0
+  ],
+  "source": "tactical",
+  "stem": "BAR-ATH_tactical",
+  "smart_tag_candidate": "smart_tag_candidate.json"
+}

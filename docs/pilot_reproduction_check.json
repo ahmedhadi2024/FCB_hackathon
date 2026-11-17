@@ -1,0 +1,10 @@
+{
+  "fit_code_commit": "07ced3079662b6a94850165adbae2827b741841d",
+  "identical_all_validation_metrics": true,
+  "identical_model_parameters": true,
+  "identical_selected_decoder": true,
+  "metadata_fingerprint_present": true,
+  "model_release_sha256": "42cd1665b01d1e1d4028e83f3ad283b666099901896d7f90f473680a0ac66589",
+  "sealed_tests_absent": true,
+  "test_matches_evaluated": []
+}

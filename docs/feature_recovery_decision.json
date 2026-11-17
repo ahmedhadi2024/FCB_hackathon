@@ -1,0 +1,1345 @@
+{
+  "cells": [
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "clean",
+      "spellF1": 0.47989556135770234,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "short_occlusion",
+      "spellF1": 0.488657105606258,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "long_occlusion",
+      "spellF1": 0.43464566929133863,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "mixed_noise",
+      "spellF1": 0.4,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular40",
+      "spellF1": 0.3274151436031331,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular60",
+      "spellF1": 0.24807436918990708,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "crowded40",
+      "spellF1": 0.3735751295336788,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "duplicates",
+      "spellF1": 0.5060913705583756,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "mixed_stress",
+      "spellF1": 0.31003811944091486,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.36678362573099416,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.2449826989619377,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.5037037037037038,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.41395348837209306,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.2897832817337461,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.32798948751642576,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.3319480519480519,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.23293172690763053,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.2900255754475703,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "clean",
+      "spellF1": 0.5683881064162755,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5507064364207221,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "long_occlusion",
+      "spellF1": 0.4855813953488372,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "mixed_noise",
+      "spellF1": 0.4891603053435114,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular40",
+      "spellF1": 0.37059724349157736,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular60",
+      "spellF1": 0.25927099841521395,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "crowded40",
+      "spellF1": 0.4101265822784811,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "duplicates",
+      "spellF1": 0.5563358778625954,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "mixed_stress",
+      "spellF1": 0.3866666666666666,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.426265389876881,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.33937677053824367,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.586910197869102,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.48299531981279253,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.312156862745098,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.37480314960629924,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.383177570093458,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.26540284360189575,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.3488721804511278,
+      "variant": "baseline"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "clean",
+      "spellF1": 0.48769230769230765,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "short_occlusion",
+      "spellF1": 0.4552258064516129,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "long_occlusion",
+      "spellF1": 0.4110381077529566,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "mixed_noise",
+      "spellF1": 0.4,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular40",
+      "spellF1": 0.3675816993464053,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular60",
+      "spellF1": 0.3087533156498673,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "crowded40",
+      "spellF1": 0.3741935483870968,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "duplicates",
+      "spellF1": 0.49405815423514543,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "mixed_stress",
+      "spellF1": 0.33612167300380225,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.37422324510932103,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.2505694760820045,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.4851282051282051,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.39948652118100125,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.343013698630137,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.36947368421052634,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.3895424836601307,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.3197860962566844,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WMX",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.3244613434727503,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "clean",
+      "spellF1": 0.5393468118195957,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5097178683385579,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "long_occlusion",
+      "spellF1": 0.4731182795698925,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "mixed_noise",
+      "spellF1": 0.44954128440366975,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular40",
+      "spellF1": 0.4341772151898734,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular60",
+      "spellF1": 0.33576158940397355,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "crowded40",
+      "spellF1": 0.40647249190938506,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "duplicates",
+      "spellF1": 0.5203053435114503,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "mixed_stress",
+      "spellF1": 0.38776758409785933,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.4114285714285715,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.31478260869565217,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.5588697017268445,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.44331210191082804,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.35382003395585737,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.4313599999999999,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.43349436392914653,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.40634920634920635,
+      "variant": "geometry"
+    },
+    {
+      "fold": "A",
+      "match": "J03WOH",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.3541984732824428,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "clean",
+      "spellF1": 0.5207756232686981,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5289795918367346,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "long_occlusion",
+      "spellF1": 0.48335664335664336,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "mixed_noise",
+      "spellF1": 0.48907330567081597,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular40",
+      "spellF1": 0.36695156695156694,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular60",
+      "spellF1": 0.30271903323262844,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "crowded40",
+      "spellF1": 0.42036775106082036,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "duplicates",
+      "spellF1": 0.5258366800535474,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "mixed_stress",
+      "spellF1": 0.3790368271954674,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.4,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.26803594351732996,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.49647696476964764,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.4411682892906815,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.33714285714285713,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.4068767908309455,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.41414427157001416,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.3190476190476191,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.35048678720445064,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "clean",
+      "spellF1": 0.5315476190476192,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5378497790868925,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "long_occlusion",
+      "spellF1": 0.48814589665653496,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "mixed_noise",
+      "spellF1": 0.4811851851851852,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular40",
+      "spellF1": 0.42809160305343513,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular60",
+      "spellF1": 0.31900311526479747,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "crowded40",
+      "spellF1": 0.456203288490284,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "duplicates",
+      "spellF1": 0.5274336283185841,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "mixed_stress",
+      "spellF1": 0.3876160990712075,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.38150594451783354,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.2682795698924731,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.4890190336749634,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.42878560719640174,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.35387263339070574,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.39037593984962404,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.4140243902439025,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.33850931677018636,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.3488855869242199,
+      "variant": "baseline"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "clean",
+      "spellF1": 0.5381414701803051,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5355191256830601,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "long_occlusion",
+      "spellF1": 0.4818941504178273,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "mixed_noise",
+      "spellF1": 0.4865168539325843,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular40",
+      "spellF1": 0.42436260623229466,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular60",
+      "spellF1": 0.34992721979621544,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "crowded40",
+      "spellF1": 0.4202312138728323,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "duplicates",
+      "spellF1": 0.5253731343283582,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "mixed_stress",
+      "spellF1": 0.3623789764868603,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.4080604534005038,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.31476251604621314,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.5123287671232876,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.4296296296296296,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.38586156111929304,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.4160458452722063,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.4066666666666666,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.35114942528735626,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WOY",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.3714670255720054,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "clean",
+      "spellF1": 0.5371951219512195,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5257668711656442,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "long_occlusion",
+      "spellF1": 0.48,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "mixed_noise",
+      "spellF1": 0.47299703264094956,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular40",
+      "spellF1": 0.4447166921898928,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular60",
+      "spellF1": 0.3843260188087774,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "crowded40",
+      "spellF1": 0.46130500758725346,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "duplicates",
+      "spellF1": 0.5090361445783131,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "mixed_stress",
+      "spellF1": 0.39577039274924475,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.39364238410596025,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.3303191489361702,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.5172619047619047,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.40665658093797286,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.42762951334379906,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.41674418604651164,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.445,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.4081377151799687,
+      "variant": "geometry"
+    },
+    {
+      "fold": "B",
+      "match": "J03WPY",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.37581120943952806,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "clean",
+      "spellF1": 0.5803328290468986,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "short_occlusion",
+      "spellF1": 0.576911544227886,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "long_occlusion",
+      "spellF1": 0.5462365591397849,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "mixed_noise",
+      "spellF1": 0.5247437774524158,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular40",
+      "spellF1": 0.44353312302839115,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular60",
+      "spellF1": 0.35348837209302325,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "crowded40",
+      "spellF1": 0.4808575803981623,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "duplicates",
+      "spellF1": 0.574436090225564,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "mixed_stress",
+      "spellF1": 0.43968992248062017,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.4431999999999999,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.23368983957219253,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.5796661608497724,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.49408284023668647,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.35771230502599655,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.4385692068429238,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.44585218702865764,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.3351181102362205,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.430379746835443,
+      "variant": "baseline"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "clean",
+      "spellF1": 0.5770290964777948,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "short_occlusion",
+      "spellF1": 0.5592705167173253,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "long_occlusion",
+      "spellF1": 0.551219512195122,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "mixed_noise",
+      "spellF1": 0.5243647234678626,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular40",
+      "spellF1": 0.4610591900311526,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular60",
+      "spellF1": 0.4012326656394453,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "crowded40",
+      "spellF1": 0.4614916286149162,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "duplicates",
+      "spellF1": 0.573353751914242,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "mixed_stress",
+      "spellF1": 0.41607142857142854,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "false_stationary_ball",
+      "spellF1": 0.4417112299465241,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "ball_offset_3m",
+      "spellF1": 0.2751322751322751,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "home_extra_tracks",
+      "spellF1": 0.5667692307692308,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "home_visibility_loss",
+      "spellF1": 0.4597285067873303,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "no_ball_first_period",
+      "spellF1": 0.40065252854812405,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular40_seed301",
+      "spellF1": 0.4774803149606299,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular40_seed302",
+      "spellF1": 0.46322188449848023,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "irregular60_seed303",
+      "spellF1": 0.3710323574730354,
+      "variant": "geometry"
+    },
+    {
+      "fold": "C",
+      "match": "J03WQQ",
+      "scenario": "mixed_stress_seed304",
+      "spellF1": 0.41829268292682925,
+      "variant": "geometry"
+    }
+  ],
+  "evidence": "paired development CV; no fresh final confirmation",
+  "family_delta": {
+    "ball_offset_3m": 0.026240240482027645,
+    "clean": -0.0003069862031941928,
+    "crowded40": -0.0034872882779885426,
+    "duplicates": -0.013601423690231495,
+    "false_stationary_ball": 0.0022621847730344034,
+    "home_extra_tracks": -0.0030836502715433254,
+    "home_visibility_loss": -0.024434440892378662,
+    "irregular40": 0.039061744572303006,
+    "irregular40_seed301": 0.03449789116873116,
+    "irregular40_seed302": 0.029755785574067994,
+    "irregular60": 0.05948898422054176,
+    "irregular60_seed303": 0.07308903679653979,
+    "long_occlusion": -0.008139222771468124,
+    "mixed_noise": -0.010148535841372453,
+    "mixed_stress": -0.0009875159891362673,
+    "mixed_stress_seed304": 0.015116171566148839,
+    "no_ball_first_period": 0.05206187911176139,
+    "short_occlusion": -0.019520853764458546
+  },
+  "fold_delta": {
+    "A": -0.021419264219506524,
+    "B": -0.0003603772671917013,
+    "C": -0.004085215252220192
+  },
+  "gates": {
+    "cell_floor": true,
+    "family_floor": false,
+    "four_matches": false,
+    "match_floor": false,
+    "mean_gain": false,
+    "missing_four": true,
+    "missing_mean": true,
+    "three_folds": false,
+    "without_best": false
+  },
+  "match_delta": {
+    "J03WMX": -0.012310528589605449,
+    "J03WOH": -0.0305279998494076,
+    "J03WOY": 0.004971609020221215,
+    "J03WPY": -0.005692363554604618,
+    "J03WQQ": -0.004085215252220192
+  },
+  "matches": [
+    "J03WMX",
+    "J03WOH",
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ"
+  ],
+  "mean_delta": -0.009528899645123328,
+  "missing_delta": {
+    "J03WMX": 0.05666815280914276,
+    "J03WOH": 0.07159229014575247,
+    "J03WOY": 0.031188530933066838,
+    "J03WPY": 0.04711285449938307,
+    "J03WQQ": 0.03340093948260911
+  },
+  "passed": false,
+  "protocol_hash": "74a1f52b7962f61fa5c74dea882e9cdd25eef0347d213d7701a403106a742531",
+  "scenarios": [
+    "clean",
+    "short_occlusion",
+    "long_occlusion",
+    "mixed_noise",
+    "irregular40",
+    "irregular60",
+    "crowded40",
+    "duplicates",
+    "mixed_stress",
+    "false_stationary_ball",
+    "ball_offset_3m",
+    "home_extra_tracks",
+    "home_visibility_loss",
+    "no_ball_first_period",
+    "irregular40_seed301",
+    "irregular40_seed302",
+    "irregular60_seed303",
+    "mixed_stress_seed304"
+  ]
+}

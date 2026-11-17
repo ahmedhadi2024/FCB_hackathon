@@ -1,0 +1,2692 @@
+{
+  "cells": [
+    {
+      "end_later": 0,
+      "macroF1": 0.8854317751837316,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7836619718309858,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8867928230312211,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7847887323943661,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8870383788110318,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7819718309859155,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8862619746183554,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7785915492957746,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8871549394042372,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7876056338028169,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8885140774092047,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.788169014084507,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8887580508960461,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7870422535211268,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8879803300338343,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7825352112676056,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8882898898928158,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7864788732394367,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8896476570497779,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7876056338028169,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8898905575575199,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7864788732394367,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8891120017193587,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7819718309859155,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8890759383597876,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7847887323943661,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8904327223150955,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7859154929577465,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8906749123768334,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.783661971830986,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8898958610098333,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7791549295774647,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8893828250212317,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7814084507042254,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.890738719213049,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7819718309859154,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8909802649338675,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7785915492957746,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.890200758810045,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.775774647887324,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8895403872096054,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7791549295774648,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.89089540026818,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7797183098591549,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8911362884701578,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7769014084507042,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8903562945710431,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.771830985915493,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8884006671291452,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7783783783783784,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8897535982092958,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7778093883357041,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.889992722591011,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7755334281650071,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8892112114103853,
+      "match": "Sample_Game_1",
+      "scenario": "clean",
+      "spellF1": 0.7704125177809388,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8597063982577984,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6551617873651772,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8600399875052829,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6551617873651772,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8594325479058202,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6514637904468412,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8580853517297066,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6489984591679506,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8608456959908102,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.657010785824345,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8611780184327097,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6576271186440679,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8605694280083185,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6545454545454545,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8592211231635897,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.650231124807396,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8615851448154533,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6588597842835131,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8619166916144637,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6594761171032357,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.861307418190957,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6563944530046225,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8599584527139971,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6514637904468412,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8620046522715931,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6588597842835131,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8623356849975399,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6588597842835131,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8617259683696264,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6545454545454545,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8603765637920086,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.650231124807396,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8621124094199398,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.657010785824345,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8624429159850272,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6557781201848998,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8618327229158811,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6514637904468412,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8604828283301428,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6483821263482279,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8621708118988375,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.657010785824345,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8625007696539281,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6563944530046224,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8618900607972231,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6520801232665641,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8605396236112731,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.648382126348228,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8615492176366818,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6565217391304348,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.861877941757251,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6546583850931678,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8612659989957056,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6503105590062112,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8599142187116219,
+      "match": "Sample_Game_1",
+      "scenario": "irregular40",
+      "spellF1": 0.6472049689440993,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8558506538219102,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6224270353302612,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.856196764878419,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6224270353302612,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.85568068014029,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6162826420890937,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8543753300260173,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.61321044546851,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8569261408041312,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6267281105990784,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8572714735388455,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6248847926267282,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8567546692357336,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6181259600614439,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8554485542367495,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6162826420890937,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.857572546655181,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6261136712749615,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8579178141496363,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.624884792626728,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8574009788414242,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6193548387096774,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8560947642496561,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6138248847926266,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.857992255117073,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6261136712749615,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8583376959927893,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6267281105990783,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8578210485632559,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6193548387096773,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.856514934727365,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6132104454685099,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8582474076811941,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6267281105990783,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8585930718484929,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6242703533026114,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8580766433708358,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6175115207373272,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8567706436994884,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6132104454685099,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8583612146667661,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6230414746543779,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8587070114217835,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.620583717357911,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8581906939736053,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6132104454685099,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8568846844786474,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6089093701996927,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8578837971281289,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6219474497681607,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8582297086055014,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6207109737248842,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8577134563822733,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.613292117465224,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8564072780655171,
+      "match": "Sample_Game_1",
+      "scenario": "crowded40",
+      "spellF1": 0.6089644513137558,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8415010623417793,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6212389380530974,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8421577198542977,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6230088495575221,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8423297957322262,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.623008849557522,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8419761116603391,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6182890855457227,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8429818936191885,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6253687315634218,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8436365629963852,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6283185840707965,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8438067542081841,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6271386430678467,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8434513077096225,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6218289085545723,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8442924648701841,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6294985250737464,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8449453650378879,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6306784660766963,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8451138767867997,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6289085545722713,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8447568591277895,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6253687315634219,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8451666009022576,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6300884955752213,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8458181997630191,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6312684365781711,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8459854812283304,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6306784660766962,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8456273226846672,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6253687315634219,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8458069183812785,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6300884955752213,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.846457452891078,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6318584070796459,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.846623726267902,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6300884955752212,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8462646340689365,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6265486725663717,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8463671391935766,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6294985250737463,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8470166394181601,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6300884955752213,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8471819232253711,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6300884955752212,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8468219041196242,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.624778761061947,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.846371415894577,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6312035661218426,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8470194419030542,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6312035661218426,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8471833072904009,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6306092124814263,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8468219497126453,
+      "match": "Sample_Game_1",
+      "scenario": "mixed_stress",
+      "spellF1": 0.6276374442793461,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8668729404324566,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7030478955007257,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.867020467409537,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7013062409288824,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8664153003404133,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6960812772133527,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8651781031061999,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6925979680696661,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8683958919897424,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7047895500725689,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.868542140337459,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7018867924528301,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8679358574447181,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6984034833091437,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8666976633118318,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6937590711175616,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8694051178525207,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7047895500725689,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8695505384876471,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7030478955007256,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8689435664906556,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6989840348330916,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8677047806280008,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6949201741654571,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8699018741539759,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7024673439767779,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.870046839630734,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.7001451378809869,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8694395266430371,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6966618287373004,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.868200475348791,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6920174165457185,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8699812055945522,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6972423802612482,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8701257227859157,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6955007256894048,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8695180533687153,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6902757619738751,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8682787014737227,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6873730043541364,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8699360686522232,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6972423802612482,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8700801182648544,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6949201741654571,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8694720572172131,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6908563134978228,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.868232356170841,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6879535558780842,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.868784199201186,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6929824561403508,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.868927472947485,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6918128654970761,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.868318715067618,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6853801169590643,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8670783443121212,
+      "match": "Sample_Game_1",
+      "scenario": "slow40",
+      "spellF1": 0.6818713450292397,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8495021300469222,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.635958395245171,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8505259951617538,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6371471025260029,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8505019538084309,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6323922734026747,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8496043618026605,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.62704309063893,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8509773188515418,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6401188707280833,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8519999044235224,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6407132243684993,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8519747269560627,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.636552748885587,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8510760863432617,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6312035661218426,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8519294339881135,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6407132243684993,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8529511457575536,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6407132243684993,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8529252059338166,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6377414561664191,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8520258623201937,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6329866270430907,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8525509405592081,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6413075780089154,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8535721146154911,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6419019316493315,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.85354572097256,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6383358098068351,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8526459591435488,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6335809806835068,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8527656457970613,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6401188707280832,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8537863972019983,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6413075780089152,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8537596362984617,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6371471025260029,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8528595180813326,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6323922734026745,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8528284369367861,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6413075780089152,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8538488596687653,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6424962852897473,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8538218021433842,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6371471025260029,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8529213785808435,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6323922734026745,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8515543926301813,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6473053892215569,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.852573957789391,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6473053892215569,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8525460047504737,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.6425149700598802,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8516445811661004,
+      "match": "Sample_Game_1",
+      "scenario": "target_like40",
+      "spellF1": 0.637125748502994,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9153487400588934,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7125553914327918,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.9160994870905096,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7119645494830134,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9162307072296848,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7107828655834564,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.9156611961183575,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7060561299852288,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9169412547382397,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7161004431314624,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.9176906162326022,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7149187592319055,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9178206601758278,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7137370753323486,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.9172501795402642,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7084194977843428,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9180453567243595,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7184638109305761,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.918793766738233,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7178729689807977,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9189230513149734,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7166912850812407,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.9183519997290509,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7131462333825701,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9186740080868073,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7214180206794681,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.9194217604429525,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7214180206794684,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9195505630446598,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7214180206794684,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.9189792004346021,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7161004431314624,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9187434775077837,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7220088626292467,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.9194909544511535,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7214180206794684,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9196196396661097,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7202363367799114,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.9190483119387712,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7149187592319054,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9185851054626012,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7225997045790251,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.9193321882161771,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7225997045790251,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9194606253072989,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7208271787296898,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.918889188703457,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7172821270310192,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.9170217380126928,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7221396731054978,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.9177679733534673,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7227340267459138,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.9179102212140805,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7238095238095239,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.9173744490607495,
+      "match": "Sample_Game_2",
+      "scenario": "clean",
+      "spellF1": 0.7202380952380952,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8921022475941518,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.591601866251944,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8927764786994175,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5934681181959565,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8928705262622075,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5909797822706065,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8923488314357962,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5884914463452565,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8933583244498798,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5934681181959565,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8940312058755063,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5934681181959565,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8941240751269502,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5922239502332814,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8936014503888802,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5891135303265941,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8941803629816071,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5959564541213064,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8948522607343751,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5972006220839814,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8949443009874433,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5947122861586315,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8944210785061077,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5922239502332816,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8947610498973623,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5959564541213065,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8954324458681336,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5972006220839814,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8955241254598599,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5965785381026439,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8950007595699255,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.592846034214619,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8950861064775979,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5972006220839814,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8957571892789113,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5984447900466563,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8958486836107052,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5965785381026439,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8953253360432408,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5922239502332814,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.895223440785279,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5947122861586314,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8958943421901827,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5965785381026438,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8959857710203148,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5940902021772939,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8954625490579913,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5909797822706065,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8941370927535764,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5909233176838811,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8948080878173976,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5921752738654147,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8948997946628171,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5928012519561815,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8944063046740638,
+      "match": "Sample_Game_2",
+      "scenario": "irregular40",
+      "spellF1": 0.5905956112852665,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8803417000491215,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5652173913043479,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8811715170244335,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5664596273291926,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8814205554072151,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5645962732919254,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8810078354702271,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5608695652173913,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.881670504238663,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5658385093167703,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8824989721028701,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5683229813664596,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8827468654867969,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5645962732919254,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8823332157110757,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.562111801242236,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8825999506370485,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5695652173913043,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8834274242843958,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5701863354037268,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8836745115512628,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5683229813664596,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8832602541994762,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5664596273291925,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8834059095117985,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5664596273291925,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.884232631853728,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5683229813664596,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8844791442126194,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5670807453416149,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8840644981701008,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5658385093167702,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8839146474727723,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5689440993788819,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.884740723953905,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5720496894409938,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8849867528889582,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5714285714285714,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8845717950627486,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5683229813664596,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8840163723266304,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5704510108864697,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8848419203049479,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5735614307931571,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8850875677330118,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5710730948678071,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8846723839917487,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5685847589424573,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.883240058659236,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5721439749608763,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.884064824016888,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5746478873239437,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8843099499576942,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5721439749608764,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8838945059205315,
+      "match": "Sample_Game_2",
+      "scenario": "crowded40",
+      "spellF1": 0.5708920187793428,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8723426200022558,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5442834138486312,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8728890538261904,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5455716586151369,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8732289294032677,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5442834138486312,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8729896625075598,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5436392914653785,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8738362035027335,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5455716586151368,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.874381048859396,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5455716586151369,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8747194398617303,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5429951690821255,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8744788463385409,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.544927536231884,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8749311050562788,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.548792270531401,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.875474885334257,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5487922705314009,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8758123044361171,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.548148148148148,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8755708803175275,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5475040257648953,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8758191030335442,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.548792270531401,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8763620620275088,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5500805152979067,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8766987460218658,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5481481481481482,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8764567151681444,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5475040257648953,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8765169225166506,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5500805152979067,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8770591979689931,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5507246376811594,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8773952781373967,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5468599033816425,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8771527594521101,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5462157809983896,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8770142403885229,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5487922705314009,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8775560088340685,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5494363929146538,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8778916551268846,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5475040257648953,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8776488060810768,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5462157809983896,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8771669999054299,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5510534846029174,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8777077388131773,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.552998379254457,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8780424791133977,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5504051863857375,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8777988911672349,
+      "match": "Sample_Game_2",
+      "scenario": "mixed_stress",
+      "spellF1": 0.5491085899513777,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8939037013964354,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6325722983257228,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8940653279678313,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6331811263318111,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.89361638612317,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6307458143074582,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.892810426844138,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6277016742770167,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8951961185229406,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6362252663622526,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8953570637763049,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6368340943683409,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8949076424985715,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6343987823439879,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8941012848480524,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6301369863013699,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8959789279919429,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6386605783866057,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8961395090693198,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.639269406392694,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8956899072707736,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6368340943683409,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8948834361739316,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6331811263318112,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.896401227063925,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6410958904109589,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8965616150086116,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6417047184170472,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8961119885067993,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6404870624048706,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8953055487638859,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6362252663622525,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8963342064518555,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6398782343987823,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8964945866672411,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6410958904109588,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8960451041002243,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6380517503805174,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8952388517789968,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6337899543378996,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8960719830958833,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6420731707317073,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8962323155135677,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6408536585365854,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8957829246739952,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6384146341463415,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8949767995782669,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6353658536585366,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8947405483342225,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.641717791411043,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8949004462124398,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6429447852760737,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8944653398420432,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.642089093701997,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8936952780320514,
+      "match": "Sample_Game_2",
+      "scenario": "slow40",
+      "spellF1": 0.6384024577572964,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8818527148434964,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.5990639625585024,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8817901265669099,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.5978159126365055,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8812595396755065,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.5984399375975039,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8802189030461675,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.5934477379095163,
+      "start_earlier": 0
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8830727060944589,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6028081123244929,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8830090859776328,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6021840873634945,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8824776050877308,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6021840873634945,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8814361639617457,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.5959438377535102,
+      "start_earlier": 5
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8837544740777193,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6071762870514821,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8836902994191561,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6071762870514821,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8831583857392564,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6059282371294852,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8821165844348283,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6021840873634946,
+      "start_earlier": 10
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8840923748959929,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6065522620904836,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8840278270814731,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6065522620904836,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8834956495839128,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6071762870514822,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8824536438318719,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6021840873634947,
+      "start_earlier": 15
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8841424815418225,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6078003120124806,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8840777263887266,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6078003120124806,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8835454394514833,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6071762870514822,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8825033713553107,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6015600624024962,
+      "start_earlier": 20
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8839770409478734,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6090483619344774,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8839119171692165,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6090483619344774,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8833793498962579,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6078003120124806,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8823370380926643,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6034321372854915,
+      "start_earlier": 25
+    },
+    {
+      "end_later": 0,
+      "macroF1": 0.8827240587598553,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6075,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 5,
+      "macroF1": 0.8826581855811501,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6075,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 10,
+      "macroF1": 0.8821322491934235,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6090766823161189,
+      "start_earlier": 35
+    },
+    {
+      "end_later": 15,
+      "macroF1": 0.8811255723392559,
+      "match": "Sample_Game_2",
+      "scenario": "target_like40",
+      "spellF1": 0.6053208137715179,
+      "start_earlier": 35
+    }
+  ]
+}

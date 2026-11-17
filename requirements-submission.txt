@@ -1,0 +1,5 @@
+# Environment that generated the submitted v10e file (Windows 11 x64, Python 3.14.2 CPU).
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.4
+pandas==3.1.1
+torch==2.11.0+cpu

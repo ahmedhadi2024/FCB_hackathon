@@ -1,0 +1,39 @@
+{
+  "official_metric_sha256": "341bad48904b489d6e875397b27687f5d6a4d22a397f3dc8af3a00d48f16874d",
+  "previous_protocol_sha256": "562e8ef16f9dfaa2bfa739b56f8627aed3f1fbf074cb02faae71d060723e2e00",
+  "protocol_sha256": "74a1f52b7962f61fa5c74dea882e9cdd25eef0347d213d7701a403106a742531",
+  "review": "Fresh named_protocol_review: no material correctness blockers",
+  "selection": "Unchanged declared thresholds; explicitly named primary, missing-ball and all stress families",
+  "source_sha256": {
+    "__init__.py": "c254f549383ba9ed74abb88817a3bc3f2739f317a979335dff316c430f1aa819",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "atd.py": "1421c1d469039efeba6403a5469eaeb87cfd3a390bf40d14b4b0d612b24cbcfb",
+    "baseline.py": "de9cdeaccdbfd38e911540f25f524544fa1f1b1e5463d6be374a841f96b37abd",
+    "cli.py": "2913f67f35c8c3c919f15052bc17accfb28f08d8385141bc2a3c5779f01e6664",
+    "decoder_experiment.py": "4c877f63683af699db1f4f63c44e2b1ee13604ac7234b2714030cb22d79af038",
+    "diagnostics.py": "e6157943cd9d1f555a21b3d1c7ebdd913b90f3087674bacfa968372d079f99b1",
+    "error_analysis.py": "d91e38123a71c2f44e728b2f50ca6434529871556d1f47bebed7dad1e80d4c29",
+    "experiment.py": "483763d58e607e88a1ed6169037bf87f6876c23cf59a6bed92ca8463ca20ca71",
+    "feature_recovery_experiment.py": "9371fd4e7a32c7f19137b269c3b1e2857ffae90e977e53dbd26c8142998a3e07",
+    "features.py": "6b725491fdc451be7004b83614439933db7914f3ba8dc66d2231a93a9eb8da50",
+    "final_evaluation.py": "424837d930f16d92edcc37ae0adb942aa6ba1ac5a53e2c400f4950d1a6ae4d94",
+    "idsse.py": "b22217f91768829ff2e02d3281309de864a6bb32c18737b957c576c3090956b1",
+    "metrics.py": "850913ade36a8fccd0954a321f2f105ad9663e8e555bbe825f9817ab659feda0",
+    "model.py": "8031c0aa816d724d969473f9ccac93b2b310c42d8848e79906ab5bb8848a5802",
+    "robustness.py": "74761107a2a11481d650eeb5f90ad773518b38c48db51313c915257c9fb13484",
+    "schema.py": "6392e9f9cf5d49388471cfa759fb16a81380d1d8ef6e6733ffb4d36fbdd86048",
+    "state_decoder.py": "78fb61531b16a84fcaba96dab586ba831310f2cdcd45dbfde2edec6a3095c314",
+    "submission.py": "c27873951c8359dbd41d02c8ea546de15f1de690796492c36c46db0330d8fc2b",
+    "team_features.py": "2584cca64302507efc0bbdd3c4cda6d01aed7503b157a28830731841d60bb059",
+    "team_features_v3.py": "f94081c7aa6f8414632d8a8e510ebf372d5f368c6d95b81f612f47d331e767db",
+    "temporal.py": "33454abf6a7b16dcd23c38bab38f20f1dfeadeaa262d7e8414b2ff0115cdcadd",
+    "temporal_experiment.py": "ea0edc6c7fc4363138cdd854f59f480ce68c3bf85f8a1fe0e59de287c722f3b7",
+    "xmlio.py": "095932aaef702e84c279ee3a0b558d8f53934872dd83907bc85b6e932fc1029e"
+  },
+  "status": "frozen before numerical external results",
+  "tests": {
+    "diagnostics": 10,
+    "focused_runner": 15,
+    "main": 110
+  }
+}

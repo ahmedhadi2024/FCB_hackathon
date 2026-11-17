@@ -1,0 +1,224 @@
+{
+  "version": 7,
+  "output_name": "temporal_v7",
+  "purpose": "v6 features and training plus a ball-loss scenario shaped like the competition tracking's measured label-free gap profile (long gaps, slow-player and boundary biased). External matches only.",
+  "matches": [
+    "J03WMX",
+    "J03WOH",
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ",
+    "J03WN1",
+    "J03WR9"
+  ],
+  "match_policy": "J03WN1/J03WR9 were consumed as final tests for v2 and are development data here. No untouched external test remains.",
+  "folds": [
+    {
+      "name": "A",
+      "seed": 7101,
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ"
+      ],
+      "validation": [
+        "J03WN1",
+        "J03WR9"
+      ]
+    },
+    {
+      "name": "B",
+      "seed": 7102,
+      "train": [
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ",
+        "J03WN1",
+        "J03WR9"
+      ],
+      "validation": [
+        "J03WMX",
+        "J03WOH"
+      ]
+    },
+    {
+      "name": "C",
+      "seed": 7103,
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WQQ",
+        "J03WN1",
+        "J03WR9"
+      ],
+      "validation": [
+        "J03WOY",
+        "J03WPY"
+      ]
+    },
+    {
+      "name": "D",
+      "seed": 7104,
+      "train": [
+        "J03WMX",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY",
+        "J03WN1",
+        "J03WR9"
+      ],
+      "validation": [
+        "J03WQQ"
+      ]
+    }
+  ],
+  "final_refit_seed": 7105,
+  "network": {
+    "channels": 64,
+    "dilations": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "kernel_size": 3
+  },
+  "training": {
+    "epochs": 40,
+    "steps_per_epoch": 400,
+    "batch_size": 16,
+    "core_frames": 256,
+    "learning_rate": 0.002,
+    "final_lr_fraction": 0.05,
+    "weight_decay": 0.001,
+    "gradient_clip": 1.0,
+    "scaling_sample_frames_per_condition": 10000,
+    "cpu_threads": 4,
+    "team_exchange_probability": 0.5
+  },
+  "scenarios": [
+    {
+      "name": "clean"
+    },
+    {
+      "name": "irregular40",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375
+    },
+    {
+      "name": "irregular60",
+      "missing_fraction": 0.6,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375
+    },
+    {
+      "name": "crowded40",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 125,
+      "crowd_weight": 9,
+      "crowd_radius_m": 10,
+      "crowd_min_players": 4
+    },
+    {
+      "name": "mixed_stress",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375,
+      "duplicate_fraction": 0.25,
+      "player_drop_probability": 0.1,
+      "coordinate_noise_std_m": 0.5
+    },
+    {
+      "name": "slow40",
+      "missing_fraction": 0.4,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375,
+      "slow_weight": 9
+    },
+    {
+      "name": "slow60",
+      "missing_fraction": 0.6,
+      "gap_min_frames": 25,
+      "gap_max_frames": 375,
+      "slow_weight": 9
+    },
+    {
+      "name": "target_like40",
+      "kind": "target_like",
+      "missing_fraction": 0.41,
+      "slow_weight": 4,
+      "line_weight": 15
+    },
+    {
+      "name": "target_like55",
+      "kind": "target_like",
+      "missing_fraction": 0.55,
+      "slow_weight": 4,
+      "line_weight": 15
+    }
+  ],
+  "seed_policy": "Corruption seeds are derived per role/fold/match/scenario, so training and validation masks never share a seed.",
+  "training_scenarios": [
+    "clean",
+    "irregular40",
+    "irregular60",
+    "crowded40",
+    "mixed_stress",
+    "slow40",
+    "slow60",
+    "target_like40",
+    "target_like55"
+  ],
+  "evaluation_scenarios": [
+    "clean",
+    "irregular40",
+    "crowded40",
+    "mixed_stress",
+    "slow40",
+    "slow60",
+    "target_like40"
+  ],
+  "selection_scenarios": [
+    "target_like40",
+    "irregular40",
+    "crowded40",
+    "mixed_stress",
+    "slow40"
+  ],
+  "selection_reason": "Selection adds target_like40, whose gap length, pace and boundary bias were measured label-free on the competition tracking; the other four are retained so the gate also checks that earlier conditions do not regress.",
+  "decoder_grid": {
+    "owner": [
+      5,
+      10,
+      20
+    ],
+    "dead_live": [
+      5,
+      10,
+      30,
+      60
+    ]
+  },
+  "comparator": {
+    "model": "models/temporal_v2.pt",
+    "model_sha256": "85f2006b010672063758259d367428f8e4a73706251e8842ac0f993f0b7782d7",
+    "unseen_matches": [
+      "J03WN1",
+      "J03WR9"
+    ],
+    "minimum_mean_gain": 0.02,
+    "maximum_clean_loss": 0.02
+  },
+  "submission_template": "submission_selected.json",
+  "competition_policy": "No competition data, public answers or competition feedback are read by this experiment.",
+  "feature_module": "v6",
+  "kickoff_dead_rule": true,
+  "submission_min_controlled_frames": 25
+}

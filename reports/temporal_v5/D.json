@@ -1,0 +1,1374 @@
+{
+  "cells": [
+    {
+      "fold": "D",
+      "match": "J03WQQ",
+      "missing_ball_fraction": 0.0,
+      "scenario": "clean",
+      "v2": {
+        "gt_spells": 285,
+        "macroF1": 0.9207718255500964,
+        "pred_spells": 281,
+        "spellF1": 0.6833922261484099
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9549169057526313,
+          "pred_spells": 292,
+          "spellF1": 0.8263431542461005
+        },
+        "10/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9549169057526313,
+          "pred_spells": 292,
+          "spellF1": 0.8263431542461005
+        },
+        "10/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9549169057526313,
+          "pred_spells": 292,
+          "spellF1": 0.8263431542461005
+        },
+        "10/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9549169057526313,
+          "pred_spells": 292,
+          "spellF1": 0.8263431542461005
+        },
+        "10/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9549169057526313,
+          "pred_spells": 292,
+          "spellF1": 0.8263431542461005
+        },
+        "15/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9546324221502752,
+          "pred_spells": 291,
+          "spellF1": 0.8277777777777778
+        },
+        "15/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9546324221502752,
+          "pred_spells": 291,
+          "spellF1": 0.8277777777777778
+        },
+        "15/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9546324221502752,
+          "pred_spells": 291,
+          "spellF1": 0.8277777777777778
+        },
+        "15/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9546324221502752,
+          "pred_spells": 291,
+          "spellF1": 0.8277777777777778
+        },
+        "15/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9546324221502752,
+          "pred_spells": 291,
+          "spellF1": 0.8277777777777778
+        },
+        "2/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9552258175314128,
+          "pred_spells": 295,
+          "spellF1": 0.8227586206896552
+        },
+        "2/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9552258175314128,
+          "pred_spells": 295,
+          "spellF1": 0.8227586206896552
+        },
+        "2/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9552258175314128,
+          "pred_spells": 295,
+          "spellF1": 0.8227586206896552
+        },
+        "2/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9552258175314128,
+          "pred_spells": 295,
+          "spellF1": 0.8227586206896552
+        },
+        "2/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9552258175314128,
+          "pred_spells": 295,
+          "spellF1": 0.8227586206896552
+        },
+        "20/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9536498720701129,
+          "pred_spells": 288,
+          "spellF1": 0.8195462478184992
+        },
+        "20/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9536498720701129,
+          "pred_spells": 288,
+          "spellF1": 0.8195462478184992
+        },
+        "20/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9536498720701129,
+          "pred_spells": 288,
+          "spellF1": 0.8195462478184992
+        },
+        "20/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9536498720701129,
+          "pred_spells": 288,
+          "spellF1": 0.8195462478184992
+        },
+        "20/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9536498720701129,
+          "pred_spells": 288,
+          "spellF1": 0.8195462478184992
+        },
+        "30/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9528797094905168,
+          "pred_spells": 285,
+          "spellF1": 0.8112280701754386
+        },
+        "30/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9534925287488477,
+          "pred_spells": 284,
+          "spellF1": 0.8140597539543057
+        },
+        "30/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9534925287488477,
+          "pred_spells": 284,
+          "spellF1": 0.8140597539543057
+        },
+        "30/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9534925287488477,
+          "pred_spells": 284,
+          "spellF1": 0.8140597539543057
+        },
+        "30/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9534925287488477,
+          "pred_spells": 284,
+          "spellF1": 0.8140597539543057
+        },
+        "45/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9520564649686648,
+          "pred_spells": 286,
+          "spellF1": 0.8091068301225921
+        },
+        "45/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9534493028602378,
+          "pred_spells": 272,
+          "spellF1": 0.8021543985637342
+        },
+        "45/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9534558527758344,
+          "pred_spells": 272,
+          "spellF1": 0.8021543985637342
+        },
+        "45/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9534558527758344,
+          "pred_spells": 272,
+          "spellF1": 0.8021543985637342
+        },
+        "45/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9534558527758344,
+          "pred_spells": 272,
+          "spellF1": 0.8021543985637342
+        },
+        "5/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9545059999581604,
+          "pred_spells": 294,
+          "spellF1": 0.8221070811744386
+        },
+        "5/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9545059999581604,
+          "pred_spells": 294,
+          "spellF1": 0.8221070811744386
+        },
+        "5/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9545059999581604,
+          "pred_spells": 294,
+          "spellF1": 0.8221070811744386
+        },
+        "5/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9545059999581604,
+          "pred_spells": 294,
+          "spellF1": 0.8221070811744386
+        },
+        "5/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9545059999581604,
+          "pred_spells": 294,
+          "spellF1": 0.8221070811744386
+        }
+      }
+    },
+    {
+      "fold": "D",
+      "match": "J03WQQ",
+      "missing_ball_fraction": 0.40000702518528924,
+      "scenario": "irregular40",
+      "v2": {
+        "gt_spells": 285,
+        "macroF1": 0.8454491840433289,
+        "pred_spells": 262,
+        "spellF1": 0.5608775137111517
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9170664168898205,
+          "pred_spells": 256,
+          "spellF1": 0.7157116451016635
+        },
+        "10/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9170385302291834,
+          "pred_spells": 253,
+          "spellF1": 0.716728624535316
+        },
+        "10/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9169418146895804,
+          "pred_spells": 253,
+          "spellF1": 0.7159851301115243
+        },
+        "10/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9169418146895804,
+          "pred_spells": 253,
+          "spellF1": 0.7159851301115243
+        },
+        "10/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9170562534047481,
+          "pred_spells": 253,
+          "spellF1": 0.7159851301115243
+        },
+        "15/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9165998427347993,
+          "pred_spells": 251,
+          "spellF1": 0.7156716417910447
+        },
+        "15/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9165719774579442,
+          "pred_spells": 248,
+          "spellF1": 0.7166979362101313
+        },
+        "15/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9165719774579442,
+          "pred_spells": 248,
+          "spellF1": 0.7166979362101313
+        },
+        "15/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9164758803509659,
+          "pred_spells": 248,
+          "spellF1": 0.7159474671669793
+        },
+        "15/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9165904404651236,
+          "pred_spells": 248,
+          "spellF1": 0.7159474671669793
+        },
+        "2/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9175348906459226,
+          "pred_spells": 267,
+          "spellF1": 0.7217391304347827
+        },
+        "2/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9175069715707803,
+          "pred_spells": 264,
+          "spellF1": 0.7242258652094717
+        },
+        "2/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9174093645280071,
+          "pred_spells": 264,
+          "spellF1": 0.7234972677595628
+        },
+        "2/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9174093645280071,
+          "pred_spells": 264,
+          "spellF1": 0.7234972677595628
+        },
+        "2/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9175077009716315,
+          "pred_spells": 264,
+          "spellF1": 0.7234972677595628
+        },
+        "20/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9165543833936932,
+          "pred_spells": 247,
+          "spellF1": 0.7127819548872181
+        },
+        "20/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9165265215434294,
+          "pred_spells": 244,
+          "spellF1": 0.7137996219281664
+        },
+        "20/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9165265215434294,
+          "pred_spells": 244,
+          "spellF1": 0.7137996219281664
+        },
+        "20/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9164305239431894,
+          "pred_spells": 244,
+          "spellF1": 0.7130434782608696
+        },
+        "20/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9165450956902292,
+          "pred_spells": 244,
+          "spellF1": 0.7130434782608696
+        },
+        "30/10": {
+          "gt_spells": 285,
+          "macroF1": 0.915275271052615,
+          "pred_spells": 243,
+          "spellF1": 0.6992424242424243
+        },
+        "30/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9147333067145623,
+          "pred_spells": 237,
+          "spellF1": 0.6957854406130268
+        },
+        "30/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9147333067145623,
+          "pred_spells": 237,
+          "spellF1": 0.6957854406130268
+        },
+        "30/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9146405228551524,
+          "pred_spells": 237,
+          "spellF1": 0.6957854406130268
+        },
+        "30/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9147553093695469,
+          "pred_spells": 237,
+          "spellF1": 0.6957854406130268
+        },
+        "45/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9153493145522105,
+          "pred_spells": 243,
+          "spellF1": 0.7
+        },
+        "45/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9143319294321461,
+          "pred_spells": 224,
+          "spellF1": 0.6789783889980353
+        },
+        "45/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9143507828508799,
+          "pred_spells": 224,
+          "spellF1": 0.6789783889980353
+        },
+        "45/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9143507828508799,
+          "pred_spells": 224,
+          "spellF1": 0.6789783889980353
+        },
+        "45/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9142549315452463,
+          "pred_spells": 224,
+          "spellF1": 0.6789783889980353
+        },
+        "5/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9177082422729687,
+          "pred_spells": 263,
+          "spellF1": 0.7226277372262773
+        },
+        "5/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9176803390640592,
+          "pred_spells": 260,
+          "spellF1": 0.7236697247706422
+        },
+        "5/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9175831797966035,
+          "pred_spells": 260,
+          "spellF1": 0.7229357798165138
+        },
+        "5/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9175831797966035,
+          "pred_spells": 260,
+          "spellF1": 0.7229357798165138
+        },
+        "5/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9176975203788612,
+          "pred_spells": 260,
+          "spellF1": 0.7229357798165138
+        }
+      }
+    },
+    {
+      "fold": "D",
+      "match": "J03WQQ",
+      "missing_ball_fraction": 0.6000070251852893,
+      "scenario": "irregular60",
+      "v2": {
+        "gt_spells": 285,
+        "macroF1": 0.7874761370455611,
+        "pred_spells": 221,
+        "spellF1": 0.4347826086956522
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8929643664114204,
+          "pred_spells": 246,
+          "spellF1": 0.6561205273069679
+        },
+        "10/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8931838647278164,
+          "pred_spells": 243,
+          "spellF1": 0.6613636363636364
+        },
+        "10/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8927610599949173,
+          "pred_spells": 242,
+          "spellF1": 0.6595825426944971
+        },
+        "10/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8927610599949173,
+          "pred_spells": 242,
+          "spellF1": 0.6595825426944971
+        },
+        "10/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8916946727437581,
+          "pred_spells": 240,
+          "spellF1": 0.6582857142857143
+        },
+        "15/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8922705941256263,
+          "pred_spells": 239,
+          "spellF1": 0.6427480916030535
+        },
+        "15/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8924852596672488,
+          "pred_spells": 236,
+          "spellF1": 0.6479846449136277
+        },
+        "15/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8920605502993157,
+          "pred_spells": 235,
+          "spellF1": 0.6461538461538462
+        },
+        "15/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8920605502993157,
+          "pred_spells": 235,
+          "spellF1": 0.6461538461538462
+        },
+        "15/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8909893434528566,
+          "pred_spells": 233,
+          "spellF1": 0.6447876447876448
+        },
+        "2/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8935153337879863,
+          "pred_spells": 256,
+          "spellF1": 0.6639556377079483
+        },
+        "2/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8937345212397233,
+          "pred_spells": 253,
+          "spellF1": 0.6691449814126395
+        },
+        "2/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8933123156136958,
+          "pred_spells": 252,
+          "spellF1": 0.6674115456238361
+        },
+        "2/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8933123156136958,
+          "pred_spells": 252,
+          "spellF1": 0.6674115456238361
+        },
+        "2/60": {
+          "gt_spells": 285,
+          "macroF1": 0.892548185543518,
+          "pred_spells": 250,
+          "spellF1": 0.6646728971962617
+        },
+        "20/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8919209841898379,
+          "pred_spells": 230,
+          "spellF1": 0.6415533980582524
+        },
+        "20/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8921349066721355,
+          "pred_spells": 227,
+          "spellF1": 0.646875
+        },
+        "20/30": {
+          "gt_spells": 285,
+          "macroF1": 0.891711484882643,
+          "pred_spells": 226,
+          "spellF1": 0.645009784735812
+        },
+        "20/40": {
+          "gt_spells": 285,
+          "macroF1": 0.891711484882643,
+          "pred_spells": 226,
+          "spellF1": 0.645009784735812
+        },
+        "20/60": {
+          "gt_spells": 285,
+          "macroF1": 0.890643538766729,
+          "pred_spells": 224,
+          "spellF1": 0.643614931237721
+        },
+        "30/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8914789272410987,
+          "pred_spells": 226,
+          "spellF1": 0.6324853228962818
+        },
+        "30/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8927563906234427,
+          "pred_spells": 216,
+          "spellF1": 0.6443113772455089
+        },
+        "30/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8923338055932825,
+          "pred_spells": 215,
+          "spellF1": 0.6424000000000001
+        },
+        "30/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8923338055932825,
+          "pred_spells": 215,
+          "spellF1": 0.6424000000000001
+        },
+        "30/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8912679763933586,
+          "pred_spells": 213,
+          "spellF1": 0.6409638554216868
+        },
+        "45/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8913268290982458,
+          "pred_spells": 226,
+          "spellF1": 0.6324853228962818
+        },
+        "45/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8930025008456424,
+          "pred_spells": 207,
+          "spellF1": 0.6398373983739838
+        },
+        "45/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8927186647290739,
+          "pred_spells": 206,
+          "spellF1": 0.6370672097759675
+        },
+        "45/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8927186647290739,
+          "pred_spells": 206,
+          "spellF1": 0.6370672097759675
+        },
+        "45/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8916569025246602,
+          "pred_spells": 204,
+          "spellF1": 0.6355828220858897
+        },
+        "5/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8929591436192865,
+          "pred_spells": 258,
+          "spellF1": 0.6622467771639042
+        },
+        "5/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8931785975983191,
+          "pred_spells": 255,
+          "spellF1": 0.6674074074074073
+        },
+        "5/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8927558783690616,
+          "pred_spells": 254,
+          "spellF1": 0.6656771799628942
+        },
+        "5/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8927558783690616,
+          "pred_spells": 254,
+          "spellF1": 0.6656771799628942
+        },
+        "5/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8916897086160511,
+          "pred_spells": 252,
+          "spellF1": 0.6644320297951584
+        }
+      }
+    },
+    {
+      "fold": "D",
+      "match": "J03WQQ",
+      "missing_ball_fraction": 0.40000702518528924,
+      "scenario": "crowded40",
+      "v2": {
+        "gt_spells": 285,
+        "macroF1": 0.8776175921999033,
+        "pred_spells": 256,
+        "spellF1": 0.5870609981515712
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9289758662278619,
+          "pred_spells": 266,
+          "spellF1": 0.7578947368421053
+        },
+        "10/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9288225478785965,
+          "pred_spells": 265,
+          "spellF1": 0.7556363636363637
+        },
+        "10/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9293131441150857,
+          "pred_spells": 264,
+          "spellF1": 0.7577413479052824
+        },
+        "10/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9293131441150857,
+          "pred_spells": 264,
+          "spellF1": 0.7577413479052824
+        },
+        "10/60": {
+          "gt_spells": 285,
+          "macroF1": 0.929078312060886,
+          "pred_spells": 263,
+          "spellF1": 0.7562043795620438
+        },
+        "15/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9283268253796647,
+          "pred_spells": 259,
+          "spellF1": 0.7529411764705884
+        },
+        "15/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9281737740027219,
+          "pred_spells": 258,
+          "spellF1": 0.7506445672191528
+        },
+        "15/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9286639273039689,
+          "pred_spells": 257,
+          "spellF1": 0.7527675276752769
+        },
+        "15/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9286639273039689,
+          "pred_spells": 257,
+          "spellF1": 0.7527675276752769
+        },
+        "15/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9284292094482257,
+          "pred_spells": 256,
+          "spellF1": 0.7512014787430685
+        },
+        "2/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9277147014462828,
+          "pred_spells": 271,
+          "spellF1": 0.7517985611510791
+        },
+        "2/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9275526550806722,
+          "pred_spells": 271,
+          "spellF1": 0.748201438848921
+        },
+        "2/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9275526550806722,
+          "pred_spells": 271,
+          "spellF1": 0.748201438848921
+        },
+        "2/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9275526550806722,
+          "pred_spells": 271,
+          "spellF1": 0.748201438848921
+        },
+        "2/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9273172212008297,
+          "pred_spells": 270,
+          "spellF1": 0.7466666666666667
+        },
+        "20/10": {
+          "gt_spells": 285,
+          "macroF1": 0.928079141512885,
+          "pred_spells": 256,
+          "spellF1": 0.7548983364140481
+        },
+        "20/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9279260274310838,
+          "pred_spells": 255,
+          "spellF1": 0.7525925925925925
+        },
+        "20/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9284166663923578,
+          "pred_spells": 254,
+          "spellF1": 0.7547309833024118
+        },
+        "20/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9284166663923578,
+          "pred_spells": 254,
+          "spellF1": 0.7547309833024118
+        },
+        "20/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9281816485010377,
+          "pred_spells": 253,
+          "spellF1": 0.7531598513011152
+        },
+        "30/10": {
+          "gt_spells": 285,
+          "macroF1": 0.9258902465856783,
+          "pred_spells": 253,
+          "spellF1": 0.7405204460966542
+        },
+        "30/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9269254150974183,
+          "pred_spells": 251,
+          "spellF1": 0.7440298507462687
+        },
+        "30/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9274164855156478,
+          "pred_spells": 250,
+          "spellF1": 0.7461682242990655
+        },
+        "30/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9274164855156478,
+          "pred_spells": 250,
+          "spellF1": 0.7461682242990655
+        },
+        "30/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9271810165349987,
+          "pred_spells": 249,
+          "spellF1": 0.7445692883895131
+        },
+        "45/10": {
+          "gt_spells": 285,
+          "macroF1": 0.925799499854464,
+          "pred_spells": 253,
+          "spellF1": 0.7405204460966542
+        },
+        "45/20": {
+          "gt_spells": 285,
+          "macroF1": 0.928665659018353,
+          "pred_spells": 237,
+          "spellF1": 0.7325670498084291
+        },
+        "45/30": {
+          "gt_spells": 285,
+          "macroF1": 0.928978809415987,
+          "pred_spells": 236,
+          "spellF1": 0.7339731285988484
+        },
+        "45/40": {
+          "gt_spells": 285,
+          "macroF1": 0.928978809415987,
+          "pred_spells": 236,
+          "spellF1": 0.7339731285988484
+        },
+        "45/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9287447856252378,
+          "pred_spells": 235,
+          "spellF1": 0.7323076923076923
+        },
+        "5/10": {
+          "gt_spells": 285,
+          "macroF1": 0.928121163233819,
+          "pred_spells": 271,
+          "spellF1": 0.753956834532374
+        },
+        "5/20": {
+          "gt_spells": 285,
+          "macroF1": 0.9279680192671086,
+          "pred_spells": 270,
+          "spellF1": 0.7517117117117117
+        },
+        "5/30": {
+          "gt_spells": 285,
+          "macroF1": 0.9284585670521004,
+          "pred_spells": 269,
+          "spellF1": 0.7537906137184116
+        },
+        "5/40": {
+          "gt_spells": 285,
+          "macroF1": 0.9284585670521004,
+          "pred_spells": 269,
+          "spellF1": 0.7537906137184116
+        },
+        "5/60": {
+          "gt_spells": 285,
+          "macroF1": 0.9282236371491356,
+          "pred_spells": 268,
+          "spellF1": 0.7522603978300182
+        }
+      }
+    },
+    {
+      "fold": "D",
+      "match": "J03WQQ",
+      "missing_ball_fraction": 0.40000702518528924,
+      "scenario": "mixed_stress",
+      "v2": {
+        "gt_spells": 285,
+        "macroF1": 0.8021130768664587,
+        "pred_spells": 243,
+        "spellF1": 0.4901515151515151
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8766650316870767,
+          "pred_spells": 251,
+          "spellF1": 0.6574626865671641
+        },
+        "10/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8765971994524464,
+          "pred_spells": 250,
+          "spellF1": 0.6586915887850466
+        },
+        "10/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8765971994524464,
+          "pred_spells": 250,
+          "spellF1": 0.6586915887850466
+        },
+        "10/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8765971994524464,
+          "pred_spells": 250,
+          "spellF1": 0.6586915887850466
+        },
+        "10/60": {
+          "gt_spells": 285,
+          "macroF1": 0.877401681492843,
+          "pred_spells": 249,
+          "spellF1": 0.6591760299625469
+        },
+        "15/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8776199137683331,
+          "pred_spells": 244,
+          "spellF1": 0.6661625708884689
+        },
+        "15/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8774803005467698,
+          "pred_spells": 243,
+          "spellF1": 0.6674242424242424
+        },
+        "15/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8774803005467698,
+          "pred_spells": 243,
+          "spellF1": 0.6674242424242424
+        },
+        "15/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8774803005467698,
+          "pred_spells": 243,
+          "spellF1": 0.6674242424242424
+        },
+        "15/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8782849099611765,
+          "pred_spells": 242,
+          "spellF1": 0.6679316888045541
+        },
+        "2/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8774534622943952,
+          "pred_spells": 253,
+          "spellF1": 0.6594795539033458
+        },
+        "2/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8773853701667386,
+          "pred_spells": 252,
+          "spellF1": 0.6607076350093111
+        },
+        "2/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8773853701667386,
+          "pred_spells": 252,
+          "spellF1": 0.6607076350093111
+        },
+        "2/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8773853701667386,
+          "pred_spells": 252,
+          "spellF1": 0.6607076350093111
+        },
+        "2/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8781885142471717,
+          "pred_spells": 251,
+          "spellF1": 0.6611940298507463
+        },
+        "20/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8774696342641116,
+          "pred_spells": 230,
+          "spellF1": 0.6555339805825243
+        },
+        "20/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8774573039022712,
+          "pred_spells": 230,
+          "spellF1": 0.6555339805825243
+        },
+        "20/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8774573039022712,
+          "pred_spells": 230,
+          "spellF1": 0.6555339805825243
+        },
+        "20/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8774573039022712,
+          "pred_spells": 230,
+          "spellF1": 0.6555339805825243
+        },
+        "20/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8782610946252495,
+          "pred_spells": 229,
+          "spellF1": 0.6560311284046693
+        },
+        "30/10": {
+          "gt_spells": 285,
+          "macroF1": 0.877567493719506,
+          "pred_spells": 226,
+          "spellF1": 0.6544031311154599
+        },
+        "30/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8793483562212735,
+          "pred_spells": 218,
+          "spellF1": 0.6473161033797217
+        },
+        "30/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8794620026306273,
+          "pred_spells": 217,
+          "spellF1": 0.647011952191235
+        },
+        "30/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8794620026306273,
+          "pred_spells": 217,
+          "spellF1": 0.647011952191235
+        },
+        "30/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8802660726331822,
+          "pred_spells": 216,
+          "spellF1": 0.6475049900199601
+        },
+        "45/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8775930285438448,
+          "pred_spells": 226,
+          "spellF1": 0.6544031311154599
+        },
+        "45/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8790934063124466,
+          "pred_spells": 203,
+          "spellF1": 0.6360655737704917
+        },
+        "45/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8792925719860712,
+          "pred_spells": 202,
+          "spellF1": 0.6340862422997947
+        },
+        "45/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8792925719860712,
+          "pred_spells": 202,
+          "spellF1": 0.6340862422997947
+        },
+        "45/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8801014280607867,
+          "pred_spells": 201,
+          "spellF1": 0.6345679012345679
+        },
+        "5/10": {
+          "gt_spells": 285,
+          "macroF1": 0.8770856411386276,
+          "pred_spells": 253,
+          "spellF1": 0.6587360594795538
+        },
+        "5/20": {
+          "gt_spells": 285,
+          "macroF1": 0.8770176680137186,
+          "pred_spells": 252,
+          "spellF1": 0.6599627560521416
+        },
+        "5/30": {
+          "gt_spells": 285,
+          "macroF1": 0.8770176680137186,
+          "pred_spells": 252,
+          "spellF1": 0.6599627560521416
+        },
+        "5/40": {
+          "gt_spells": 285,
+          "macroF1": 0.8770176680137186,
+          "pred_spells": 252,
+          "spellF1": 0.6599627560521416
+        },
+        "5/60": {
+          "gt_spells": 285,
+          "macroF1": 0.8778214253570775,
+          "pred_spells": 251,
+          "spellF1": 0.6604477611940298
+        }
+      }
+    }
+  ],
+  "config_sha256": "f46b1ffff7982272afbabbb2af53bd11ac7377362957821469068ef9e2663f29",
+  "elapsed_seconds": 503.1229400001466,
+  "fold": {
+    "name": "D",
+    "seed": 5104,
+    "train": [
+      "J03WMX",
+      "J03WOH",
+      "J03WOY",
+      "J03WPY",
+      "J03WN1",
+      "J03WR9"
+    ],
+    "validation": [
+      "J03WQQ"
+    ]
+  },
+  "model_sha256": "d1df6feeb5c4a6adb62c8223a594a63b35953acad9944f30a5572bde1618f222",
+  "parameter_count": 91075,
+  "runtime": {
+    "numpy": "2.4.4",
+    "python": "3.14.2",
+    "torch": "2.11.0+cpu"
+  },
+  "source_sha256": {
+    "__init__.py": "c254f549383ba9ed74abb88817a3bc3f2739f317a979335dff316c430f1aa819",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "atd.py": "1421c1d469039efeba6403a5469eaeb87cfd3a390bf40d14b4b0d612b24cbcfb",
+    "baseline.py": "de9cdeaccdbfd38e911540f25f524544fa1f1b1e5463d6be374a841f96b37abd",
+    "bounded_experiment.py": "6873f2c469460efeee7db87c06d41c7633ed006a4cbf444e946896a4f87237d0",
+    "cli.py": "2913f67f35c8c3c919f15052bc17accfb28f08d8385141bc2a3c5779f01e6664",
+    "decoder_experiment.py": "4c877f63683af699db1f4f63c44e2b1ee13604ac7234b2714030cb22d79af038",
+    "diagnostics.py": "e6157943cd9d1f555a21b3d1c7ebdd913b90f3087674bacfa968372d079f99b1",
+    "error_analysis.py": "d91e38123a71c2f44e728b2f50ca6434529871556d1f47bebed7dad1e80d4c29",
+    "experiment.py": "483763d58e607e88a1ed6169037bf87f6876c23cf59a6bed92ca8463ca20ca71",
+    "feature_recovery_experiment.py": "cc46a5acdf705cbd6155f91460452358a1cc76c5cdba237ee184ac2e111ada48",
+    "features.py": "6b725491fdc451be7004b83614439933db7914f3ba8dc66d2231a93a9eb8da50",
+    "final_evaluation.py": "424837d930f16d92edcc37ae0adb942aa6ba1ac5a53e2c400f4950d1a6ae4d94",
+    "gap_evidence.py": "547227c2f53b982c5897fa53b27517715aeff0653ed3d66e9a773de94f0c9d3b",
+    "idsse.py": "b22217f91768829ff2e02d3281309de864a6bb32c18737b957c576c3090956b1",
+    "metrics.py": "850913ade36a8fccd0954a321f2f105ad9663e8e555bbe825f9817ab659feda0",
+    "model.py": "8031c0aa816d724d969473f9ccac93b2b310c42d8848e79906ab5bb8848a5802",
+    "possession_convention.py": "1bfb7e9db64e4700a8b7217c17cf20499acfe10ca81d056d92e08f004ae9b85e",
+    "possession_duration.py": "540f942cd2fbbb78a92ab5aba47c5ac621ea48cf285b93b57a5492f412f6619d",
+    "retrain_v4.py": "496b77cee7e9dfff298800e10c8cdf666a8bfd4472247d29f8eb531d0eabe8b5",
+    "robustness.py": "74761107a2a11481d650eeb5f90ad773518b38c48db51313c915257c9fb13484",
+    "schema.py": "6392e9f9cf5d49388471cfa759fb16a81380d1d8ef6e6733ffb4d36fbdd86048",
+    "smart_tagging.py": "cc61fc1103471e628fc808f0ad5c00b938563b6c607dfe5685ca9c0eeed44c84",
+    "state_decoder.py": "78fb61531b16a84fcaba96dab586ba831310f2cdcd45dbfde2edec6a3095c314",
+    "submission.py": "baf4352b31ad0f3873925f6a748747ac64824ba423df6b73899dd93550af68da",
+    "team_features.py": "2584cca64302507efc0bbdd3c4cda6d01aed7503b157a28830731841d60bb059",
+    "team_features_v3.py": "9a0d0ad40ac8a6db4ebc1fcfd469dd8eebee67841a920569d6bd9203eb450204",
+    "team_features_v4.py": "2e16e3441ee668f1a2bdb3082b1253ea00d6dc631d7b4c4bf6f394e14fe0c87e",
+    "temporal.py": "33454abf6a7b16dcd23c38bab38f20f1dfeadeaa262d7e8414b2ff0115cdcadd",
+    "temporal_experiment.py": "ea0edc6c7fc4363138cdd854f59f480ce68c3bf85f8a1fe0e59de287c722f3b7",
+    "xmlio.py": "095932aaef702e84c279ee3a0b558d8f53934872dd83907bc85b6e932fc1029e"
+  },
+  "training_inputs": {
+    "J03WMX": {
+      "observations": {
+        "../manifest.json": "d7cdeec4ea23a4118c29504888041e282f9bcd2293339564d5baabe6090c2183",
+        "ball_observed.npy": "611e24e9ee1db4bce4c87696c21a2e1d9df45e234fc4f85b95a172115485eb8a",
+        "ball_xy_m.npy": "fae2fd7e55f9f6a801f95f9c71c18ddcc55844ee2991a39479ae14c546a2a00c",
+        "frame_id.npy": "a6db3fc352ea00164ba8e0f614e5ba29919c545691917bdaf5a74155a4ccea82",
+        "metadata.json": "69cbe7b45e167e491a1bde3888d3229ea38f5380973f304e6aa7172616bb7199",
+        "period.npy": "742ad617f164c56a7257dfb5ec4a6ed0ece274934cb18974af0f4043a5cffd52",
+        "player_observed.npy": "85bef5c27ae08d27516a305530c0db033376495a9fdd5f582b7c7da18168e0e2",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "72f5e87b425bdea5effd149846f69135498af5d31897fe1d41fcb574b9c83b90",
+        "sequence_id.npy": "198060bf38bb4b3d183cffaed966acdc860fbb079b8ac047f0aa50bd6163c7e6",
+        "time_s.npy": "92efa50449f01f7cd7b8b6309b97d4dc4b0739fc36a29726302dfa6b1212906a"
+      },
+      "targets": {
+        "../manifest.json": "d7cdeec4ea23a4118c29504888041e282f9bcd2293339564d5baabe6090c2183",
+        "label.npy": "cbe47859918c3734600f593e6efdc9157b894442228fbfa1dc74ecb3a347fc3d",
+        "metadata.json": "1086275fb21a2d05ba320a5f0584d50a29324b03c025385fca4653791158047d",
+        "valid.npy": "611e24e9ee1db4bce4c87696c21a2e1d9df45e234fc4f85b95a172115485eb8a"
+      }
+    },
+    "J03WN1": {
+      "observations": {
+        "../manifest.json": "fda235738414e70074203ac82217255cf3bb10654baeed9ed90f89911c30d11a",
+        "ball_observed.npy": "89b4dca39a296ffee78caa40a4392ab529695b44081e70ebdc6521a140a70d38",
+        "ball_xy_m.npy": "7fbbae0b471a8f21ef9a8e9d91ee001ffc697165baa3130d4c32897b1a975c2a",
+        "frame_id.npy": "210020997008c8482c16f1888c3c2f12c61607d35fac9701f16be1a8cabf23ad",
+        "metadata.json": "a72d68c1bc26b991409814d73ec5c0f3ac899e7e1c19611c32ce45732547fae9",
+        "period.npy": "4aa8078c8adc85050ec7d9f1480cef615f967bfef2bfca30f6c2b3a8ff81f7f9",
+        "player_observed.npy": "3690e363497f83d52ce71ad82cd4cbd8ef4d9cc750081e3a16b2bb177abee606",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "0838043014adfea930a13237eacf5e144079b5548c7be6ea60412b875b581b46",
+        "sequence_id.npy": "af66fc3ed7caa919c2db15644b246f2fa43825273a4b8098335b75bde0185465",
+        "time_s.npy": "504e762c9fc1d8d615d835e00be12a8a1389c6355596ccd3bf701de878aa217c"
+      },
+      "targets": {
+        "../manifest.json": "fda235738414e70074203ac82217255cf3bb10654baeed9ed90f89911c30d11a",
+        "label.npy": "166245d92bf7649c7c92862721f14dd355ec3a9d464f5279650dcc01c7e050b4",
+        "metadata.json": "3d7d07503d70e47e445bc24accbf6acc6b2dcd976c71861cfbf9c20f988b67ed",
+        "valid.npy": "89b4dca39a296ffee78caa40a4392ab529695b44081e70ebdc6521a140a70d38"
+      }
+    },
+    "J03WOH": {
+      "observations": {
+        "../manifest.json": "eebde8bd73037ae34bd0e5349e99b736279cc88c9dc49a718dfa86eae9ebcb35",
+        "ball_observed.npy": "51a81bf5f37739e418313e77ca75f00445aa7fd7829615b319455a3f7c92b545",
+        "ball_xy_m.npy": "59799172fb75e3cf3b00a6f3c25f92acd171eef12a184f9b83c71b3074c9329c",
+        "frame_id.npy": "211411bbdc71b9144ea047dddc19d0641010291e3caf966eb59ae9b67940cda7",
+        "metadata.json": "e4007cd9c62e202e11ace8ebc48b1f788dd2ca4b374ea63368af6e1e32acfe55",
+        "period.npy": "165e05a0b99ccf1e9317b60e5d4ca0a8de9adfe536389a57f5a15f912e25792d",
+        "player_observed.npy": "f2f4b42146d95fc459b74b37f14e557fba30081f4f768c4c1abf47ea752608a4",
+        "player_team.npy": "f8290ef8d81e702aea96fbf12817efd77b2aad9e5985fb976539ca15c656a1b4",
+        "player_xy_m.npy": "1d368335af9909d8e2b5c8ebaa1f86d05befa3f9973658469ea4cb0a881e5d88",
+        "sequence_id.npy": "b78bcf4cbe68c539f2a2ed52754bb94fde63bb16f2894bd44191887eb8624ec2",
+        "time_s.npy": "c3cce8c262ee687b133b2349badf818cf654b6cb537837bdc51f7448f5d1e82a"
+      },
+      "targets": {
+        "../manifest.json": "eebde8bd73037ae34bd0e5349e99b736279cc88c9dc49a718dfa86eae9ebcb35",
+        "label.npy": "89ef29267f8e3bdc7656c1337ab71ccf32172c425f3f1726f47a5c8336cef5c3",
+        "metadata.json": "0349b0a8234000192308342ae654ff823aeb4a49a83fae572f4bf870d52d4931",
+        "valid.npy": "51a81bf5f37739e418313e77ca75f00445aa7fd7829615b319455a3f7c92b545"
+      }
+    },
+    "J03WOY": {
+      "observations": {
+        "../manifest.json": "f1065cbb9eba12f4ee436c1cd40fe412d73540b9e7cea0ac577a68087dd0b291",
+        "ball_observed.npy": "7bf0bbec587a3f8603903d4d858d5cd45c9dab3568f9155b95bcecd69bc88366",
+        "ball_xy_m.npy": "adc21a1a648a3873632fe22c6be70d8120b900af0e69db9ecbdebf51a4eb4807",
+        "frame_id.npy": "292403fe3d84fdbc7bf594b08f344bcde52ba4ee1b112a401faff046a973bd91",
+        "metadata.json": "54647ed034f589d5fb6405419b0e4a29fb0a0a162fa8f091e0aebda17d3fdbfe",
+        "period.npy": "6c23a38033c78d6ebd8b99194c4fa377622772a8a8255e244542e5b1b757e631",
+        "player_observed.npy": "4ca84fa8903e7aaffaca79d205648734751f6f86b799f6425cebf2e4f8c4b80b",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "329d5844357daa9d5dbc5e2845e74554cb0e70ad73488a13fa15058c9145d32d",
+        "sequence_id.npy": "929ce7d3925d6b56fd6a2e4f34cca84f27bbdebc9595fe20316960c688dde621",
+        "time_s.npy": "9a6a6452bf5aac2330cf6ea7a5aca78966b2586e5148ea19b90aec71ee7fc9dd"
+      },
+      "targets": {
+        "../manifest.json": "f1065cbb9eba12f4ee436c1cd40fe412d73540b9e7cea0ac577a68087dd0b291",
+        "label.npy": "69d442e0d6ebe2aabc3d46a429e885eb79f86504fbbca2a673c455cb9e5a37ef",
+        "metadata.json": "47ee5941406ce139d936bcdf74a1a55bd5a695de4fe636807ebf10ea1a9b7f7c",
+        "valid.npy": "7bf0bbec587a3f8603903d4d858d5cd45c9dab3568f9155b95bcecd69bc88366"
+      }
+    },
+    "J03WPY": {
+      "observations": {
+        "../manifest.json": "0c758ac8e59a030ec1a33d436266cd5e3e610aa20711f0c1308036453c44e1b5",
+        "ball_observed.npy": "eec1a69e2065f96aa0a25fdaee010d35bd597e4d79807259eaf5c9285c018687",
+        "ball_xy_m.npy": "bfd439cadad72808f93066d03e7be6a4bb861ae490ce5e00102a3675811b77fa",
+        "frame_id.npy": "0846fe24a0ed025c5aaf7bc09615a3d1ba729cfbb39a73fc268e9dafcea4e66f",
+        "metadata.json": "998336c86eeb3eb429c7f6dc959323dc50bded7130c61d7dc19bebfe71ba2731",
+        "period.npy": "f3118befbd68d8443c4ffc79f1b4a94834a85b7a967eb33096af2e83b9bc4b1e",
+        "player_observed.npy": "60cf908c0b441e1fc7f9957315f8ea187efbaaffa76baa33424d933f6f590580",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "53cef1dbeb68eb675e7b0e8b2c2abaca4682f08a6a986a4f3ed1fcd5600dcea8",
+        "sequence_id.npy": "772095f71bf246f58766831219b8e1c1933b24c8264a3742e59b539a98dfd821",
+        "time_s.npy": "849b150d3d832f8f8d7ae3f12bba9c90584e48b978e79e19fd9ea802307f95ab"
+      },
+      "targets": {
+        "../manifest.json": "0c758ac8e59a030ec1a33d436266cd5e3e610aa20711f0c1308036453c44e1b5",
+        "label.npy": "8c85b1c17091c91eb41320ae54e3d9eec190393de7d5415069c542c293be3b8e",
+        "metadata.json": "9da13480c3f8753d0402f067cdcfa066dbb5be3740e147a2552a0229c79d3ebb",
+        "valid.npy": "eec1a69e2065f96aa0a25fdaee010d35bd597e4d79807259eaf5c9285c018687"
+      }
+    },
+    "J03WR9": {
+      "observations": {
+        "../manifest.json": "9b43e2d22fe45a498a8474ad82751881a92ba6b1661e72df127d19086ff0daf2",
+        "ball_observed.npy": "7611d70140c3abc8a0ea5180078021fdd47c3b9741d4fcd3721dab22d41bc7c5",
+        "ball_xy_m.npy": "bf120089dc8a6f56d0b8286d4892fc5c93a0861b06160cb02b1b5e9c89649a1d",
+        "frame_id.npy": "44d699153bb29e651fef205599ddb1787c941ca4346a53d9e7c5ffe39a7496b7",
+        "metadata.json": "350765c82e7a82db12424830de4f2f259e4629b2e95e702ad31595d52d4c8d27",
+        "period.npy": "dfacc56f12cf0d220db2716275506eeb23d43ffe67b0d124de0a0f7e573327f7",
+        "player_observed.npy": "3e05f26ddd94ed2b1a14b1a2ea526d461e239195ddb4623cb3d45f64a47f1223",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "34583d87aee641bb70504cfa07b679730a6c516ea17513d6c6288279a835ca36",
+        "sequence_id.npy": "2913c644d4c9f2c3701374600b6f264e25354762b1bf7825065611d69851e3b1",
+        "time_s.npy": "ce8ba8f0de8bf7e14fd39f588231bd5ee318f7121b8068cdf4c301a84cdbb3a9"
+      },
+      "targets": {
+        "../manifest.json": "9b43e2d22fe45a498a8474ad82751881a92ba6b1661e72df127d19086ff0daf2",
+        "label.npy": "550ecb0c8111215cda046d5fb8af3d1ea63917e47e9e938464d499febc0ab8c3",
+        "metadata.json": "4b36e5f599784062de9b04647b1ee30f64948c40ed6443d14dd70b3d0fbd40d0",
+        "valid.npy": "7611d70140c3abc8a0ea5180078021fdd47c3b9741d4fcd3721dab22d41bc7c5"
+      }
+    }
+  },
+  "training_loss": [
+    0.484107175078243,
+    0.34617918426170946,
+    0.30521082672290506,
+    0.28174587223678826,
+    0.2620754382014275,
+    0.2638811803422868,
+    0.23558922178577632,
+    0.23638555687386542,
+    0.23600286320317537,
+    0.23524083107244223,
+    0.22236634348984807,
+    0.22323025711579247,
+    0.21549721714574843,
+    0.20773510062834247,
+    0.2138194002234377,
+    0.2029807753348723,
+    0.20500533448997885,
+    0.20156313822139055,
+    0.1928645393869374,
+    0.19001241762947757,
+    0.18330089476425201,
+    0.19623442951589823,
+    0.18344346924917773,
+    0.18823196281678975,
+    0.19110069930087775,
+    0.1827880222746171,
+    0.16848383216769436,
+    0.16808423020411284,
+    0.18119612732203677,
+    0.16414106177398935,
+    0.15582037015235983,
+    0.15611653045809362,
+    0.1659298621758353,
+    0.16065110018476844,
+    0.1583596947020851,
+    0.15889446349348874,
+    0.14990238498954567,
+    0.15244851909461432,
+    0.14393912410887424,
+    0.14236735768441577
+  ],
+  "validation_inputs": {
+    "J03WQQ": {
+      "observations": {
+        "../manifest.json": "a3798770c95011c859afc27d55f0454d91058c090d170aebbc7f14f679dd7a9e",
+        "ball_observed.npy": "b272eda897336a1454633215bcfb955e510c36a06178853bd2c5416e9066435c",
+        "ball_xy_m.npy": "b215ecc16ad26cb427199d9cc0de2e9e51749fbdc4c1298c2e401f6eb3a17618",
+        "frame_id.npy": "f4ef4ff2e5bfbc0c96b540ea3df08da1c6843515e16f3790113b078e15cb26df",
+        "metadata.json": "ce2cc4f2d22e2eed7e9eafd7950fe33ae8ca7dc5ad8cc209620dd31c064e1f3d",
+        "period.npy": "1d76c4b379fe77d5983edab488bc66eeb7ef18f94286ec1f7287897f1757af89",
+        "player_observed.npy": "02aed1149a0ba5363c8dda6d40763927cc637cac531b5be70bee44c30a7ff3c2",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "cef11e5552d7159877763ce92a08dea8933c6d38e73ca2a4c8bf83ec9d272c5c",
+        "sequence_id.npy": "1e6a1fed2a7f7acfbae734b00fc3b3c63c52ccb2c7a5eb4f30e925dfd76bff5c",
+        "time_s.npy": "c573e52ba71e6db710aa31a2889784b39cc1903273037e3a254740d2bba273c8"
+      },
+      "targets": {
+        "../manifest.json": "a3798770c95011c859afc27d55f0454d91058c090d170aebbc7f14f679dd7a9e",
+        "label.npy": "421b49315cd4ef8665b39ee57bac68a80ef60f15b0c550f6b8f8dfca1b071c99",
+        "metadata.json": "725f1c41bf2e7199d569b66e32b05175574648dafa15544d6a4e4cac692cd3f3",
+        "valid.npy": "b272eda897336a1454633215bcfb955e510c36a06178853bd2c5416e9066435c"
+      }
+    }
+  }
+}

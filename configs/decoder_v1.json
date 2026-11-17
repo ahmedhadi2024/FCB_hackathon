@@ -1,0 +1,16 @@
+{
+  "version":1,
+  "model":"models/temporal_v2.pt",
+  "model_sha256":"85f2006b010672063758259d367428f8e4a73706251e8842ac0f993f0b7782d7",
+  "split_protocol":"configs/experiment_v1.json",
+  "scenario_config":"configs/robustness_v2.json",
+  "validation_match":"J03WQQ",
+  "owner_costs":[2,5,10],
+  "dead_live_costs":[5,10,15],
+  "baseline":{"owner":10,"dead_live":10},
+  "primary_scenarios":["clean","short_occlusion","long_occlusion","mixed_noise"],
+  "promotion":{"minimum_mean_spellF1_gain":0.01,"maximum_condition_drop":0.02,"minimum_short_recall_gain":0.02},
+  "selection":"Among eligible candidates: primary mean spellF1, worst condition delta, primary mean sub-2s IoU-.5 recall, proximity to baseline costs, lower owner/dead costs",
+  "test_policy":"Previously evaluated matches are regression-only; no new independent final-test claim",
+  "competition_policy":"No competition data or feedback in this experiment"
+}

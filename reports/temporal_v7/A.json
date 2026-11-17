@@ -1,0 +1,1461 @@
+{
+  "cells": [
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.0,
+      "scenario": "clean",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.888477554552841,
+        "pred_spells": 286,
+        "spellF1": 0.5104325699745547
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.941498161326504,
+          "pred_spells": 387,
+          "spellF1": 0.7359639233370914
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.9418607887776252,
+          "pred_spells": 385,
+          "spellF1": 0.7376271186440678
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.941498161326504,
+          "pred_spells": 387,
+          "spellF1": 0.7359639233370914
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.9418607887776252,
+          "pred_spells": 385,
+          "spellF1": 0.7376271186440678
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.9417163893898102,
+          "pred_spells": 370,
+          "spellF1": 0.7255172413793105
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.9420787094674293,
+          "pred_spells": 368,
+          "spellF1": 0.727188940092166
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.9416394514513575,
+          "pred_spells": 371,
+          "spellF1": 0.7260619977037888
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.9420787094674293,
+          "pred_spells": 368,
+          "spellF1": 0.727188940092166
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.9412439657546586,
+          "pred_spells": 414,
+          "spellF1": 0.7304157549234136
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.9416066872735364,
+          "pred_spells": 412,
+          "spellF1": 0.732017543859649
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.9412439657546586,
+          "pred_spells": 414,
+          "spellF1": 0.7304157549234136
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.9416066872735364,
+          "pred_spells": 412,
+          "spellF1": 0.732017543859649
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.40001130254801814,
+      "scenario": "irregular40",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.8058804138756582,
+        "pred_spells": 266,
+        "spellF1": 0.39112271540469973
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8867034099750288,
+          "pred_spells": 322,
+          "spellF1": 0.5712895377128954
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8875812664830912,
+          "pred_spells": 320,
+          "spellF1": 0.5741463414634146
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8871196003238432,
+          "pred_spells": 324,
+          "spellF1": 0.5733009708737864
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8876759383749349,
+          "pred_spells": 319,
+          "spellF1": 0.5748473748473749
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8863946795320622,
+          "pred_spells": 304,
+          "spellF1": 0.5587064676616916
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8866340439800101,
+          "pred_spells": 302,
+          "spellF1": 0.5600997506234413
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8869726598010262,
+          "pred_spells": 312,
+          "spellF1": 0.5694581280788178
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.886728471416848,
+          "pred_spells": 301,
+          "spellF1": 0.5607990012484395
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8861726831468667,
+          "pred_spells": 344,
+          "spellF1": 0.576303317535545
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8870518276647322,
+          "pred_spells": 342,
+          "spellF1": 0.5790973871733966
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8866455990163417,
+          "pred_spells": 346,
+          "spellF1": 0.5782505910165485
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.887177446319304,
+          "pred_spells": 340,
+          "spellF1": 0.5804761904761906
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.40001130254801814,
+      "scenario": "crowded40",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.8223042906583499,
+        "pred_spells": 247,
+        "spellF1": 0.39196787148594375
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.886252210588193,
+          "pred_spells": 292,
+          "spellF1": 0.5393939393939394
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.886559578310956,
+          "pred_spells": 291,
+          "spellF1": 0.538558786346397
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8861587178577177,
+          "pred_spells": 293,
+          "spellF1": 0.5387137452711224
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8866202084266469,
+          "pred_spells": 290,
+          "spellF1": 0.5392405063291139
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8855800742473822,
+          "pred_spells": 271,
+          "spellF1": 0.533852140077821
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8858879870727355,
+          "pred_spells": 270,
+          "spellF1": 0.532987012987013
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.885424066494076,
+          "pred_spells": 283,
+          "spellF1": 0.5256704980842912
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8859487192927576,
+          "pred_spells": 269,
+          "spellF1": 0.5336801040312094
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8862560890859484,
+          "pred_spells": 317,
+          "spellF1": 0.5395348837209302
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8865635335932884,
+          "pred_spells": 316,
+          "spellF1": 0.5387254901960784
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8861626051383267,
+          "pred_spells": 318,
+          "spellF1": 0.538875305623472
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8866241249842836,
+          "pred_spells": 315,
+          "spellF1": 0.5393865030674846
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.40001130254801814,
+      "scenario": "mixed_stress",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.7054969352746481,
+        "pred_spells": 294,
+        "spellF1": 0.3249370277078086
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8653455273484175,
+          "pred_spells": 327,
+          "spellF1": 0.527690447400242
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8659469279496096,
+          "pred_spells": 321,
+          "spellF1": 0.5286236297198539
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.86587221439183,
+          "pred_spells": 329,
+          "spellF1": 0.5307599517490953
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8678266486513069,
+          "pred_spells": 318,
+          "spellF1": 0.5315403422982885
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8650814538834485,
+          "pred_spells": 303,
+          "spellF1": 0.5240348692403487
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8659133930417529,
+          "pred_spells": 294,
+          "spellF1": 0.5269521410579345
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8664647531242332,
+          "pred_spells": 314,
+          "spellF1": 0.5326781326781326
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8677996576955774,
+          "pred_spells": 291,
+          "spellF1": 0.5299620733249052
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8656221903846473,
+          "pred_spells": 353,
+          "spellF1": 0.5280187573270809
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8662235620101327,
+          "pred_spells": 347,
+          "spellF1": 0.5289256198347108
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8661052726982815,
+          "pred_spells": 355,
+          "spellF1": 0.5309941520467836
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8681034111324054,
+          "pred_spells": 344,
+          "spellF1": 0.5317535545023697
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.40001130254801814,
+      "scenario": "slow40",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.8112570294023934,
+        "pred_spells": 255,
+        "spellF1": 0.3920529801324503
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8979309762897683,
+          "pred_spells": 316,
+          "spellF1": 0.6004901960784313
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8979309762897683,
+          "pred_spells": 316,
+          "spellF1": 0.6004901960784313
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8976944582593895,
+          "pred_spells": 317,
+          "spellF1": 0.6017135862913097
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8995755971318328,
+          "pred_spells": 314,
+          "spellF1": 0.6029484029484029
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8982683681090661,
+          "pred_spells": 303,
+          "spellF1": 0.591282689912827
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8982683681090661,
+          "pred_spells": 303,
+          "spellF1": 0.591282689912827
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8984332943854868,
+          "pred_spells": 305,
+          "spellF1": 0.59527950310559
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.899913394275957,
+          "pred_spells": 301,
+          "spellF1": 0.5937578027465669
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8990724564882098,
+          "pred_spells": 338,
+          "spellF1": 0.6019093078758949
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8990724564882098,
+          "pred_spells": 338,
+          "spellF1": 0.6019093078758949
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8988360359033228,
+          "pred_spells": 339,
+          "spellF1": 0.6030989272943981
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.9007159063660732,
+          "pred_spells": 336,
+          "spellF1": 0.6043062200956937
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.6000028256370046,
+      "scenario": "slow60",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.7385520219016853,
+        "pred_spells": 230,
+        "spellF1": 0.3123287671232876
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8604178336794225,
+          "pred_spells": 311,
+          "spellF1": 0.530209617755857
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8603375083055959,
+          "pred_spells": 307,
+          "spellF1": 0.5283767038413878
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8597427450867406,
+          "pred_spells": 315,
+          "spellF1": 0.5285889570552147
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8602080906451649,
+          "pred_spells": 302,
+          "spellF1": 0.5266832917705735
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8582564659574118,
+          "pred_spells": 290,
+          "spellF1": 0.5108860759493672
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8588617279606238,
+          "pred_spells": 287,
+          "spellF1": 0.5092757306226174
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8576982545328935,
+          "pred_spells": 298,
+          "spellF1": 0.5097744360902257
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8587352449041471,
+          "pred_spells": 282,
+          "spellF1": 0.5074168797953965
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8600541861998304,
+          "pred_spells": 345,
+          "spellF1": 0.5311242603550295
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8599740492236444,
+          "pred_spells": 341,
+          "spellF1": 0.5293697978596908
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.859379379872904,
+          "pred_spells": 349,
+          "spellF1": 0.5295641931684335
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8598453244187718,
+          "pred_spells": 336,
+          "spellF1": 0.5277511961722489
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WN1",
+      "missing_ball_fraction": 0.41000699345158625,
+      "scenario": "target_like40",
+      "v2": {
+        "gt_spells": 500,
+        "macroF1": 0.7696670254642543,
+        "pred_spells": 259,
+        "spellF1": 0.38735177865612647
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8773894081543397,
+          "pred_spells": 345,
+          "spellF1": 0.6002366863905325
+        },
+        "10/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8784154981294012,
+          "pred_spells": 340,
+          "spellF1": 0.6057142857142856
+        },
+        "10/5": {
+          "gt_spells": 500,
+          "macroF1": 0.876942697216383,
+          "pred_spells": 347,
+          "spellF1": 0.6016528925619835
+        },
+        "10/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8790356360723596,
+          "pred_spells": 338,
+          "spellF1": 0.6062052505966588
+        },
+        "20/10": {
+          "gt_spells": 500,
+          "macroF1": 0.8778123050191683,
+          "pred_spells": 322,
+          "spellF1": 0.5878345498783455
+        },
+        "20/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8791432115432035,
+          "pred_spells": 317,
+          "spellF1": 0.593390452876377
+        },
+        "20/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8765380520911275,
+          "pred_spells": 327,
+          "spellF1": 0.5876662636033857
+        },
+        "20/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8797629398257523,
+          "pred_spells": 315,
+          "spellF1": 0.5938650306748465
+        },
+        "5/10": {
+          "gt_spells": 500,
+          "macroF1": 0.876025192171635,
+          "pred_spells": 368,
+          "spellF1": 0.5972350230414746
+        },
+        "5/30": {
+          "gt_spells": 500,
+          "macroF1": 0.8771993860814143,
+          "pred_spells": 364,
+          "spellF1": 0.600925925925926
+        },
+        "5/5": {
+          "gt_spells": 500,
+          "macroF1": 0.8761517002209834,
+          "pred_spells": 370,
+          "spellF1": 0.5990804597701149
+        },
+        "5/60": {
+          "gt_spells": 500,
+          "macroF1": 0.8778201118463848,
+          "pred_spells": 362,
+          "spellF1": 0.6013921113689095
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.0,
+      "scenario": "clean",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.9188884322874659,
+        "pred_spells": 253,
+        "spellF1": 0.565008025682183
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.967314782071874,
+          "pred_spells": 321,
+          "spellF1": 0.7803183791606367
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9677896350653707,
+          "pred_spells": 320,
+          "spellF1": 0.7831884057971015
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.967314782071874,
+          "pred_spells": 321,
+          "spellF1": 0.7803183791606367
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9676914244374464,
+          "pred_spells": 319,
+          "spellF1": 0.7814223512336719
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9668531343376142,
+          "pred_spells": 300,
+          "spellF1": 0.7683582089552239
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9673284694055256,
+          "pred_spells": 299,
+          "spellF1": 0.7713004484304932
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9669016888526597,
+          "pred_spells": 308,
+          "spellF1": 0.7752212389380531
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9672301591613953,
+          "pred_spells": 298,
+          "spellF1": 0.7694610778443114
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9659106037807899,
+          "pred_spells": 341,
+          "spellF1": 0.7741209563994375
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9663865717161074,
+          "pred_spells": 340,
+          "spellF1": 0.7769014084507042
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9659106037807899,
+          "pred_spells": 341,
+          "spellF1": 0.7741209563994375
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9662881306184475,
+          "pred_spells": 339,
+          "spellF1": 0.7751763046544429
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.4000068115251005,
+      "scenario": "irregular40",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.8330440900180464,
+        "pred_spells": 239,
+        "spellF1": 0.3921182266009852
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9339341488785284,
+          "pred_spells": 281,
+          "spellF1": 0.6605222734254992
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9338116358141684,
+          "pred_spells": 278,
+          "spellF1": 0.6623456790123456
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9334834709001109,
+          "pred_spells": 282,
+          "spellF1": 0.6588957055214724
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9338116358141684,
+          "pred_spells": 278,
+          "spellF1": 0.6623456790123456
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9337592142657515,
+          "pred_spells": 267,
+          "spellF1": 0.6524332810047094
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9350552695739577,
+          "pred_spells": 263,
+          "spellF1": 0.6559241706161139
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9330937892724055,
+          "pred_spells": 270,
+          "spellF1": 0.653125
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9338284493282822,
+          "pred_spells": 264,
+          "spellF1": 0.6548895899053628
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.932792728115531,
+          "pred_spells": 302,
+          "spellF1": 0.6630952380952381
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.932672932291904,
+          "pred_spells": 299,
+          "spellF1": 0.6648729446935725
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.932357330956724,
+          "pred_spells": 304,
+          "spellF1": 0.6611275964391691
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.932672932291904,
+          "pred_spells": 299,
+          "spellF1": 0.6648729446935725
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.4000068115251005,
+      "scenario": "crowded40",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.8675417002963582,
+        "pred_spells": 222,
+        "spellF1": 0.44459459459459455
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9281360097751348,
+          "pred_spells": 260,
+          "spellF1": 0.6165079365079364
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.928525289570775,
+          "pred_spells": 258,
+          "spellF1": 0.6171974522292994
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.927986962845088,
+          "pred_spells": 261,
+          "spellF1": 0.6161648177496037
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.928340406816198,
+          "pred_spells": 256,
+          "spellF1": 0.6166134185303516
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9286812218762597,
+          "pred_spells": 234,
+          "spellF1": 0.6119205298013245
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9290697518341787,
+          "pred_spells": 232,
+          "spellF1": 0.6126245847176081
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9290900713175981,
+          "pred_spells": 246,
+          "spellF1": 0.6246753246753246
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9289991600919704,
+          "pred_spells": 230,
+          "spellF1": 0.6133333333333334
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9287747899193094,
+          "pred_spells": 285,
+          "spellF1": 0.6314503816793894
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9291645339369579,
+          "pred_spells": 283,
+          "spellF1": 0.6321592649310872
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9286152181755088,
+          "pred_spells": 286,
+          "spellF1": 0.6304878048780489
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.92898049632893,
+          "pred_spells": 281,
+          "spellF1": 0.6316436251920123
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.4000068115251005,
+      "scenario": "mixed_stress",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.7942965687348665,
+        "pred_spells": 252,
+        "spellF1": 0.42315112540192923
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.917743466953524,
+          "pred_spells": 257,
+          "spellF1": 0.6290271132376394
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9177294386165453,
+          "pred_spells": 256,
+          "spellF1": 0.6255591054313099
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9172205108428773,
+          "pred_spells": 262,
+          "spellF1": 0.6246835443037975
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9179388635087345,
+          "pred_spells": 254,
+          "spellF1": 0.6256410256410256
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9150342335777708,
+          "pred_spells": 245,
+          "spellF1": 0.6042276422764227
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9150955937742863,
+          "pred_spells": 244,
+          "spellF1": 0.6006514657980456
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9160127146624042,
+          "pred_spells": 257,
+          "spellF1": 0.6137161084529505
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9153060321894161,
+          "pred_spells": 242,
+          "spellF1": 0.6006535947712418
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9190078202436224,
+          "pred_spells": 277,
+          "spellF1": 0.6312210200927357
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9189709309862701,
+          "pred_spells": 276,
+          "spellF1": 0.6278637770897832
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9184691578816732,
+          "pred_spells": 282,
+          "spellF1": 0.6263803680981594
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9192019825670353,
+          "pred_spells": 274,
+          "spellF1": 0.6279503105590062
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.4000068115251005,
+      "scenario": "slow40",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.8515046097152462,
+        "pred_spells": 244,
+        "spellF1": 0.41563517915309445
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9391769914332341,
+          "pred_spells": 288,
+          "spellF1": 0.6832826747720364
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.940076549247816,
+          "pred_spells": 286,
+          "spellF1": 0.6871951219512196
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9390108868878508,
+          "pred_spells": 289,
+          "spellF1": 0.6816388467374811
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9404870030479024,
+          "pred_spells": 285,
+          "spellF1": 0.688854961832061
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9383013860699853,
+          "pred_spells": 271,
+          "spellF1": 0.6776911076443056
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9392012399522618,
+          "pred_spells": 269,
+          "spellF1": 0.6816901408450703
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9385825295054957,
+          "pred_spells": 279,
+          "spellF1": 0.6841294298921416
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9396116509214112,
+          "pred_spells": 268,
+          "spellF1": 0.6833855799373041
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9386545863912433,
+          "pred_spells": 316,
+          "spellF1": 0.6781341107871721
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9395542827715554,
+          "pred_spells": 314,
+          "spellF1": 0.6818713450292397
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9384883575592373,
+          "pred_spells": 317,
+          "spellF1": 0.6765647743813682
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9399647708343669,
+          "pred_spells": 313,
+          "spellF1": 0.6834553440702782
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.6000068115251005,
+      "scenario": "slow60",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.7966188687165047,
+        "pred_spells": 232,
+        "spellF1": 0.35282392026578074
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.927781285974163,
+          "pred_spells": 283,
+          "spellF1": 0.6499234303215926
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9282842252365048,
+          "pred_spells": 282,
+          "spellF1": 0.6521472392638037
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9281553071792513,
+          "pred_spells": 284,
+          "spellF1": 0.6513761467889909
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.92862087134035,
+          "pred_spells": 276,
+          "spellF1": 0.6507739938080496
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9288497209505945,
+          "pred_spells": 256,
+          "spellF1": 0.6523961661341853
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9293536300210649,
+          "pred_spells": 255,
+          "spellF1": 0.65472
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.929470544862797,
+          "pred_spells": 261,
+          "spellF1": 0.6446909667194929
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9296844596466377,
+          "pred_spells": 249,
+          "spellF1": 0.6533117932148627
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9291623979461141,
+          "pred_spells": 308,
+          "spellF1": 0.656047197640118
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9296646135574226,
+          "pred_spells": 307,
+          "spellF1": 0.6581979320531758
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9295361119413958,
+          "pred_spells": 309,
+          "spellF1": 0.657437407952872
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.929999891744643,
+          "pred_spells": 301,
+          "spellF1": 0.656929955290611
+        }
+      }
+    },
+    {
+      "fold": "A",
+      "match": "J03WR9",
+      "missing_ball_fraction": 0.4100061303725904,
+      "scenario": "target_like40",
+      "v2": {
+        "gt_spells": 370,
+        "macroF1": 0.8166155780923647,
+        "pred_spells": 226,
+        "spellF1": 0.4429530201342282
+      },
+      "v4": {
+        "10/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9282146372659398,
+          "pred_spells": 292,
+          "spellF1": 0.6791540785498489
+        },
+        "10/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9285415575245338,
+          "pred_spells": 292,
+          "spellF1": 0.6785498489425981
+        },
+        "10/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9279477127537374,
+          "pred_spells": 294,
+          "spellF1": 0.6759036144578314
+        },
+        "10/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9283113814936815,
+          "pred_spells": 290,
+          "spellF1": 0.6763636363636364
+        },
+        "20/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9276511164684346,
+          "pred_spells": 272,
+          "spellF1": 0.6791277258566978
+        },
+        "20/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9273930281225465,
+          "pred_spells": 271,
+          "spellF1": 0.679563182527301
+        },
+        "20/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9277860726550183,
+          "pred_spells": 280,
+          "spellF1": 0.6781538461538462
+        },
+        "20/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9284399399352062,
+          "pred_spells": 268,
+          "spellF1": 0.6802507836990596
+        },
+        "5/10": {
+          "gt_spells": 370,
+          "macroF1": 0.9287369082951301,
+          "pred_spells": 309,
+          "spellF1": 0.6910162002945508
+        },
+        "5/30": {
+          "gt_spells": 370,
+          "macroF1": 0.9290633053880585,
+          "pred_spells": 309,
+          "spellF1": 0.6904270986745213
+        },
+        "5/5": {
+          "gt_spells": 370,
+          "macroF1": 0.9284698575696564,
+          "pred_spells": 311,
+          "spellF1": 0.6878120411160059
+        },
+        "5/60": {
+          "gt_spells": 370,
+          "macroF1": 0.9288328919213756,
+          "pred_spells": 307,
+          "spellF1": 0.6883308714918759
+        }
+      }
+    }
+  ],
+  "config_sha256": "adbb0c07224545f2599d1cc7111d277f12761c1bc562fda0478e31d982e127f4",
+  "elapsed_seconds": 1546.1955053000001,
+  "fold": {
+    "name": "A",
+    "seed": 7101,
+    "train": [
+      "J03WMX",
+      "J03WOH",
+      "J03WOY",
+      "J03WPY",
+      "J03WQQ"
+    ],
+    "validation": [
+      "J03WN1",
+      "J03WR9"
+    ]
+  },
+  "model_sha256": "5c7f2ed7d635ee36b015298e081921b8acc87d07322e1f2eae91130131e97c0e",
+  "parameter_count": 91715,
+  "runtime": {
+    "numpy": "2.4.4",
+    "python": "3.13.13",
+    "torch": "2.11.0+cpu"
+  },
+  "source_sha256": {
+    "__init__.py": "c254f549383ba9ed74abb88817a3bc3f2739f317a979335dff316c430f1aa819",
+    "__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "atd.py": "1421c1d469039efeba6403a5469eaeb87cfd3a390bf40d14b4b0d612b24cbcfb",
+    "baseline.py": "de9cdeaccdbfd38e911540f25f524544fa1f1b1e5463d6be374a841f96b37abd",
+    "bounded_experiment.py": "6873f2c469460efeee7db87c06d41c7633ed006a4cbf444e946896a4f87237d0",
+    "cli.py": "2913f67f35c8c3c919f15052bc17accfb28f08d8385141bc2a3c5779f01e6664",
+    "decoder_experiment.py": "4c877f63683af699db1f4f63c44e2b1ee13604ac7234b2714030cb22d79af038",
+    "diagnostics.py": "e6157943cd9d1f555a21b3d1c7ebdd913b90f3087674bacfa968372d079f99b1",
+    "error_analysis.py": "d91e38123a71c2f44e728b2f50ca6434529871556d1f47bebed7dad1e80d4c29",
+    "experiment.py": "483763d58e607e88a1ed6169037bf87f6876c23cf59a6bed92ca8463ca20ca71",
+    "feature_recovery_experiment.py": "cc46a5acdf705cbd6155f91460452358a1cc76c5cdba237ee184ac2e111ada48",
+    "features.py": "6b725491fdc451be7004b83614439933db7914f3ba8dc66d2231a93a9eb8da50",
+    "final_evaluation.py": "424837d930f16d92edcc37ae0adb942aa6ba1ac5a53e2c400f4950d1a6ae4d94",
+    "gap_evidence.py": "547227c2f53b982c5897fa53b27517715aeff0653ed3d66e9a773de94f0c9d3b",
+    "idsse.py": "b22217f91768829ff2e02d3281309de864a6bb32c18737b957c576c3090956b1",
+    "metrica_sample.py": "b4f2323cae68fc519735ef4d3aaa2faa651544a9b8df43c74a4b93c193ee6899",
+    "metrics.py": "850913ade36a8fccd0954a321f2f105ad9663e8e555bbe825f9817ab659feda0",
+    "model.py": "8031c0aa816d724d969473f9ccac93b2b310c42d8848e79906ab5bb8848a5802",
+    "possession_convention.py": "1bfb7e9db64e4700a8b7217c17cf20499acfe10ca81d056d92e08f004ae9b85e",
+    "possession_duration.py": "540f942cd2fbbb78a92ab5aba47c5ac621ea48cf285b93b57a5492f412f6619d",
+    "retrain_v4.py": "1b35e4aa2cfc1caffa591812ddab28d1fc65575bfcc83532c9b80f70597b4ff2",
+    "robustness.py": "74761107a2a11481d650eeb5f90ad773518b38c48db51313c915257c9fb13484",
+    "schema.py": "6392e9f9cf5d49388471cfa759fb16a81380d1d8ef6e6733ffb4d36fbdd86048",
+    "smart_tagging.py": "cc61fc1103471e628fc808f0ad5c00b938563b6c607dfe5685ca9c0eeed44c84",
+    "state_decoder.py": "78fb61531b16a84fcaba96dab586ba831310f2cdcd45dbfde2edec6a3095c314",
+    "submission.py": "e2d8098d3bf70ed668c2265fcca54a9d31a471f45f5d01ff58c0b0e84a6b308c",
+    "target_like.py": "f68d0d0743c6ddde25aa7beca199f4c5866fa231fc37aba914843f1940561182",
+    "team_features.py": "2584cca64302507efc0bbdd3c4cda6d01aed7503b157a28830731841d60bb059",
+    "team_features_v3.py": "9a0d0ad40ac8a6db4ebc1fcfd469dd8eebee67841a920569d6bd9203eb450204",
+    "team_features_v4.py": "2e16e3441ee668f1a2bdb3082b1253ea00d6dc631d7b4c4bf6f394e14fe0c87e",
+    "team_features_v6.py": "8f1be4474f1871a6fcb3fce5db2ef43ecebcf674ebc56189a691ce6e00f1d2fc",
+    "temporal.py": "33454abf6a7b16dcd23c38bab38f20f1dfeadeaa262d7e8414b2ff0115cdcadd",
+    "temporal_experiment.py": "ea0edc6c7fc4363138cdd854f59f480ce68c3bf85f8a1fe0e59de287c722f3b7",
+    "xmlio.py": "095932aaef702e84c279ee3a0b558d8f53934872dd83907bc85b6e932fc1029e"
+  },
+  "training_inputs": {
+    "J03WMX": {
+      "observations": {
+        "../manifest.json": "d7cdeec4ea23a4118c29504888041e282f9bcd2293339564d5baabe6090c2183",
+        "ball_observed.npy": "611e24e9ee1db4bce4c87696c21a2e1d9df45e234fc4f85b95a172115485eb8a",
+        "ball_xy_m.npy": "fae2fd7e55f9f6a801f95f9c71c18ddcc55844ee2991a39479ae14c546a2a00c",
+        "frame_id.npy": "a6db3fc352ea00164ba8e0f614e5ba29919c545691917bdaf5a74155a4ccea82",
+        "metadata.json": "69cbe7b45e167e491a1bde3888d3229ea38f5380973f304e6aa7172616bb7199",
+        "period.npy": "742ad617f164c56a7257dfb5ec4a6ed0ece274934cb18974af0f4043a5cffd52",
+        "player_observed.npy": "85bef5c27ae08d27516a305530c0db033376495a9fdd5f582b7c7da18168e0e2",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "72f5e87b425bdea5effd149846f69135498af5d31897fe1d41fcb574b9c83b90",
+        "sequence_id.npy": "198060bf38bb4b3d183cffaed966acdc860fbb079b8ac047f0aa50bd6163c7e6",
+        "time_s.npy": "92efa50449f01f7cd7b8b6309b97d4dc4b0739fc36a29726302dfa6b1212906a"
+      },
+      "targets": {
+        "../manifest.json": "d7cdeec4ea23a4118c29504888041e282f9bcd2293339564d5baabe6090c2183",
+        "label.npy": "cbe47859918c3734600f593e6efdc9157b894442228fbfa1dc74ecb3a347fc3d",
+        "metadata.json": "1086275fb21a2d05ba320a5f0584d50a29324b03c025385fca4653791158047d",
+        "valid.npy": "611e24e9ee1db4bce4c87696c21a2e1d9df45e234fc4f85b95a172115485eb8a"
+      }
+    },
+    "J03WOH": {
+      "observations": {
+        "../manifest.json": "eebde8bd73037ae34bd0e5349e99b736279cc88c9dc49a718dfa86eae9ebcb35",
+        "ball_observed.npy": "51a81bf5f37739e418313e77ca75f00445aa7fd7829615b319455a3f7c92b545",
+        "ball_xy_m.npy": "59799172fb75e3cf3b00a6f3c25f92acd171eef12a184f9b83c71b3074c9329c",
+        "frame_id.npy": "211411bbdc71b9144ea047dddc19d0641010291e3caf966eb59ae9b67940cda7",
+        "metadata.json": "e4007cd9c62e202e11ace8ebc48b1f788dd2ca4b374ea63368af6e1e32acfe55",
+        "period.npy": "165e05a0b99ccf1e9317b60e5d4ca0a8de9adfe536389a57f5a15f912e25792d",
+        "player_observed.npy": "f2f4b42146d95fc459b74b37f14e557fba30081f4f768c4c1abf47ea752608a4",
+        "player_team.npy": "f8290ef8d81e702aea96fbf12817efd77b2aad9e5985fb976539ca15c656a1b4",
+        "player_xy_m.npy": "1d368335af9909d8e2b5c8ebaa1f86d05befa3f9973658469ea4cb0a881e5d88",
+        "sequence_id.npy": "b78bcf4cbe68c539f2a2ed52754bb94fde63bb16f2894bd44191887eb8624ec2",
+        "time_s.npy": "c3cce8c262ee687b133b2349badf818cf654b6cb537837bdc51f7448f5d1e82a"
+      },
+      "targets": {
+        "../manifest.json": "eebde8bd73037ae34bd0e5349e99b736279cc88c9dc49a718dfa86eae9ebcb35",
+        "label.npy": "89ef29267f8e3bdc7656c1337ab71ccf32172c425f3f1726f47a5c8336cef5c3",
+        "metadata.json": "0349b0a8234000192308342ae654ff823aeb4a49a83fae572f4bf870d52d4931",
+        "valid.npy": "51a81bf5f37739e418313e77ca75f00445aa7fd7829615b319455a3f7c92b545"
+      }
+    },
+    "J03WOY": {
+      "observations": {
+        "../manifest.json": "f1065cbb9eba12f4ee436c1cd40fe412d73540b9e7cea0ac577a68087dd0b291",
+        "ball_observed.npy": "7bf0bbec587a3f8603903d4d858d5cd45c9dab3568f9155b95bcecd69bc88366",
+        "ball_xy_m.npy": "adc21a1a648a3873632fe22c6be70d8120b900af0e69db9ecbdebf51a4eb4807",
+        "frame_id.npy": "292403fe3d84fdbc7bf594b08f344bcde52ba4ee1b112a401faff046a973bd91",
+        "metadata.json": "54647ed034f589d5fb6405419b0e4a29fb0a0a162fa8f091e0aebda17d3fdbfe",
+        "period.npy": "6c23a38033c78d6ebd8b99194c4fa377622772a8a8255e244542e5b1b757e631",
+        "player_observed.npy": "4ca84fa8903e7aaffaca79d205648734751f6f86b799f6425cebf2e4f8c4b80b",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "329d5844357daa9d5dbc5e2845e74554cb0e70ad73488a13fa15058c9145d32d",
+        "sequence_id.npy": "929ce7d3925d6b56fd6a2e4f34cca84f27bbdebc9595fe20316960c688dde621",
+        "time_s.npy": "9a6a6452bf5aac2330cf6ea7a5aca78966b2586e5148ea19b90aec71ee7fc9dd"
+      },
+      "targets": {
+        "../manifest.json": "f1065cbb9eba12f4ee436c1cd40fe412d73540b9e7cea0ac577a68087dd0b291",
+        "label.npy": "69d442e0d6ebe2aabc3d46a429e885eb79f86504fbbca2a673c455cb9e5a37ef",
+        "metadata.json": "47ee5941406ce139d936bcdf74a1a55bd5a695de4fe636807ebf10ea1a9b7f7c",
+        "valid.npy": "7bf0bbec587a3f8603903d4d858d5cd45c9dab3568f9155b95bcecd69bc88366"
+      }
+    },
+    "J03WPY": {
+      "observations": {
+        "../manifest.json": "0c758ac8e59a030ec1a33d436266cd5e3e610aa20711f0c1308036453c44e1b5",
+        "ball_observed.npy": "eec1a69e2065f96aa0a25fdaee010d35bd597e4d79807259eaf5c9285c018687",
+        "ball_xy_m.npy": "bfd439cadad72808f93066d03e7be6a4bb861ae490ce5e00102a3675811b77fa",
+        "frame_id.npy": "0846fe24a0ed025c5aaf7bc09615a3d1ba729cfbb39a73fc268e9dafcea4e66f",
+        "metadata.json": "998336c86eeb3eb429c7f6dc959323dc50bded7130c61d7dc19bebfe71ba2731",
+        "period.npy": "f3118befbd68d8443c4ffc79f1b4a94834a85b7a967eb33096af2e83b9bc4b1e",
+        "player_observed.npy": "60cf908c0b441e1fc7f9957315f8ea187efbaaffa76baa33424d933f6f590580",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "53cef1dbeb68eb675e7b0e8b2c2abaca4682f08a6a986a4f3ed1fcd5600dcea8",
+        "sequence_id.npy": "772095f71bf246f58766831219b8e1c1933b24c8264a3742e59b539a98dfd821",
+        "time_s.npy": "849b150d3d832f8f8d7ae3f12bba9c90584e48b978e79e19fd9ea802307f95ab"
+      },
+      "targets": {
+        "../manifest.json": "0c758ac8e59a030ec1a33d436266cd5e3e610aa20711f0c1308036453c44e1b5",
+        "label.npy": "8c85b1c17091c91eb41320ae54e3d9eec190393de7d5415069c542c293be3b8e",
+        "metadata.json": "9da13480c3f8753d0402f067cdcfa066dbb5be3740e147a2552a0229c79d3ebb",
+        "valid.npy": "eec1a69e2065f96aa0a25fdaee010d35bd597e4d79807259eaf5c9285c018687"
+      }
+    },
+    "J03WQQ": {
+      "observations": {
+        "../manifest.json": "a3798770c95011c859afc27d55f0454d91058c090d170aebbc7f14f679dd7a9e",
+        "ball_observed.npy": "b272eda897336a1454633215bcfb955e510c36a06178853bd2c5416e9066435c",
+        "ball_xy_m.npy": "b215ecc16ad26cb427199d9cc0de2e9e51749fbdc4c1298c2e401f6eb3a17618",
+        "frame_id.npy": "f4ef4ff2e5bfbc0c96b540ea3df08da1c6843515e16f3790113b078e15cb26df",
+        "metadata.json": "ce2cc4f2d22e2eed7e9eafd7950fe33ae8ca7dc5ad8cc209620dd31c064e1f3d",
+        "period.npy": "1d76c4b379fe77d5983edab488bc66eeb7ef18f94286ec1f7287897f1757af89",
+        "player_observed.npy": "02aed1149a0ba5363c8dda6d40763927cc637cac531b5be70bee44c30a7ff3c2",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "cef11e5552d7159877763ce92a08dea8933c6d38e73ca2a4c8bf83ec9d272c5c",
+        "sequence_id.npy": "1e6a1fed2a7f7acfbae734b00fc3b3c63c52ccb2c7a5eb4f30e925dfd76bff5c",
+        "time_s.npy": "c573e52ba71e6db710aa31a2889784b39cc1903273037e3a254740d2bba273c8"
+      },
+      "targets": {
+        "../manifest.json": "a3798770c95011c859afc27d55f0454d91058c090d170aebbc7f14f679dd7a9e",
+        "label.npy": "421b49315cd4ef8665b39ee57bac68a80ef60f15b0c550f6b8f8dfca1b071c99",
+        "metadata.json": "725f1c41bf2e7199d569b66e32b05175574648dafa15544d6a4e4cac692cd3f3",
+        "valid.npy": "b272eda897336a1454633215bcfb955e510c36a06178853bd2c5416e9066435c"
+      }
+    }
+  },
+  "training_loss": [
+    0.44929753540083767,
+    0.332942062895745,
+    0.30434402214363215,
+    0.2833983469288796,
+    0.2816735591925681,
+    0.2543442167714238,
+    0.2507033082609996,
+    0.2454968579672277,
+    0.24680766297969967,
+    0.24384159372188152,
+    0.2359022038662806,
+    0.23164365853182972,
+    0.23170799541287124,
+    0.22344014883972704,
+    0.2181145229516551,
+    0.2113312243204564,
+    0.20877207262441516,
+    0.20857361840549857,
+    0.19406093522906304,
+    0.19679684228263794,
+    0.1909271141188219,
+    0.18867950313491746,
+    0.18094881856814027,
+    0.18543652751483022,
+    0.18024161630310118,
+    0.17875600125757046,
+    0.1765724464552477,
+    0.1738896099361591,
+    0.1662256017816253,
+    0.1672208868712187,
+    0.1676029681088403,
+    0.1631349570141174,
+    0.15797108448809014,
+    0.15861875053029506,
+    0.16150064980145543,
+    0.15062562429113313,
+    0.14496720829978585,
+    0.15491439331439325,
+    0.1533088204730302,
+    0.16384565129410475
+  ],
+  "validation_inputs": {
+    "J03WN1": {
+      "observations": {
+        "../manifest.json": "fda235738414e70074203ac82217255cf3bb10654baeed9ed90f89911c30d11a",
+        "ball_observed.npy": "89b4dca39a296ffee78caa40a4392ab529695b44081e70ebdc6521a140a70d38",
+        "ball_xy_m.npy": "7fbbae0b471a8f21ef9a8e9d91ee001ffc697165baa3130d4c32897b1a975c2a",
+        "frame_id.npy": "210020997008c8482c16f1888c3c2f12c61607d35fac9701f16be1a8cabf23ad",
+        "metadata.json": "a72d68c1bc26b991409814d73ec5c0f3ac899e7e1c19611c32ce45732547fae9",
+        "period.npy": "4aa8078c8adc85050ec7d9f1480cef615f967bfef2bfca30f6c2b3a8ff81f7f9",
+        "player_observed.npy": "3690e363497f83d52ce71ad82cd4cbd8ef4d9cc750081e3a16b2bb177abee606",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "0838043014adfea930a13237eacf5e144079b5548c7be6ea60412b875b581b46",
+        "sequence_id.npy": "af66fc3ed7caa919c2db15644b246f2fa43825273a4b8098335b75bde0185465",
+        "time_s.npy": "504e762c9fc1d8d615d835e00be12a8a1389c6355596ccd3bf701de878aa217c"
+      },
+      "targets": {
+        "../manifest.json": "fda235738414e70074203ac82217255cf3bb10654baeed9ed90f89911c30d11a",
+        "label.npy": "166245d92bf7649c7c92862721f14dd355ec3a9d464f5279650dcc01c7e050b4",
+        "metadata.json": "3d7d07503d70e47e445bc24accbf6acc6b2dcd976c71861cfbf9c20f988b67ed",
+        "valid.npy": "89b4dca39a296ffee78caa40a4392ab529695b44081e70ebdc6521a140a70d38"
+      }
+    },
+    "J03WR9": {
+      "observations": {
+        "../manifest.json": "9b43e2d22fe45a498a8474ad82751881a92ba6b1661e72df127d19086ff0daf2",
+        "ball_observed.npy": "7611d70140c3abc8a0ea5180078021fdd47c3b9741d4fcd3721dab22d41bc7c5",
+        "ball_xy_m.npy": "bf120089dc8a6f56d0b8286d4892fc5c93a0861b06160cb02b1b5e9c89649a1d",
+        "frame_id.npy": "44d699153bb29e651fef205599ddb1787c941ca4346a53d9e7c5ffe39a7496b7",
+        "metadata.json": "350765c82e7a82db12424830de4f2f259e4629b2e95e702ad31595d52d4c8d27",
+        "period.npy": "dfacc56f12cf0d220db2716275506eeb23d43ffe67b0d124de0a0f7e573327f7",
+        "player_observed.npy": "3e05f26ddd94ed2b1a14b1a2ea526d461e239195ddb4623cb3d45f64a47f1223",
+        "player_team.npy": "57c153ed16e9dd196a770a5fe5c186e59734f9aab6e1aa6df2fca2762c9c883a",
+        "player_xy_m.npy": "34583d87aee641bb70504cfa07b679730a6c516ea17513d6c6288279a835ca36",
+        "sequence_id.npy": "2913c644d4c9f2c3701374600b6f264e25354762b1bf7825065611d69851e3b1",
+        "time_s.npy": "ce8ba8f0de8bf7e14fd39f588231bd5ee318f7121b8068cdf4c301a84cdbb3a9"
+      },
+      "targets": {
+        "../manifest.json": "9b43e2d22fe45a498a8474ad82751881a92ba6b1661e72df127d19086ff0daf2",
+        "label.npy": "550ecb0c8111215cda046d5fb8af3d1ea63917e47e9e938464d499febc0ab8c3",
+        "metadata.json": "4b36e5f599784062de9b04647b1ee30f64948c40ed6443d14dd70b3d0fbd40d0",
+        "valid.npy": "7611d70140c3abc8a0ea5180078021fdd47c3b9741d4fcd3721dab22d41bc7c5"
+      }
+    }
+  }
+}
